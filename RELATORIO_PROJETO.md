@@ -14,7 +14,7 @@ O repositório reúne automação e resultados preliminares para comparar worklo
   - **Redis:** `redis-benchmark`, operações SET e GET, 100.000 requisições e concorrência de 1, 2, 4 e 8 clientes.
 - Cada configuração é repetida dez vezes. Os scripts gravam saídas em arquivos separados por repetição e nível de concorrência/thread.
 - O diretório `resultados_preliminares/PC_16gb` contém **260 logs**: 130 para Docker VMM e 130 para WSL2. Para cada plataforma há 40 arquivos de CPU, 40 de memória, 10 de I/O e 40 de Redis.
-- O diretório `resultados_preliminares/PC_8gb/WSL2` contém **130 logs**: 40 de CPU, 40 de memória, 10 de I/O e 40 de Redis.
+- O diretório `resultados_preliminares/PC_8gb` contém **260 logs**: 130 para Docker VMM e 130 para WSL2. Para cada plataforma há 40 arquivos de CPU, 40 de memória, 10 de I/O e 40 de Redis.
 - Os quatro scripts da pasta WSL2 foram ajustados para definir `CENARIO="wsl2"`, identificando corretamente o ambiente nos diretórios de saída.
 
 ## 3. Histórico registrado
@@ -28,7 +28,9 @@ O histórico Git mostra esta sequência:
 
 ## 4. Síntese quantitativa dos resultados
 
-Os valores de PC_16gb abaixo são médias aritméticas extraídas dos logs versionados. CPU e memória foram agrupadas por número de threads; I/O corresponde à largura de banda média registrada para leitura e escrita; Redis usa a taxa final de requisições por segundo de cada log. Há dez repetições por configuração.
+Os valores abaixo são médias aritméticas extraídas dos logs. CPU e memória foram agrupadas por número de threads; I/O corresponde à largura de banda média registrada para leitura e escrita; Redis usa a taxa final de requisições por segundo de cada log. Há dez repetições por configuração.
+
+### PC_16gb
 
 ### CPU — eventos por segundo
 
@@ -76,47 +78,47 @@ Nos logs analisados, o Docker VMM registra aproximadamente 12 vezes a largura de
 
 O WSL2 apresenta taxas maiores com um e dois clientes. Com quatro clientes, os resultados são próximos; com oito, o Docker VMM apresenta taxas maiores. O aumento de concorrência eleva o throughput observado, embora não de forma proporcional.
 
-### PC_8gb — WSL2
+### PC_8gb — Docker VMM e WSL2
 
-Os resultados seguintes são médias aritméticas dos dez logs de cada configuração WSL2 no PC_8gb.
+Os resultados seguintes são médias aritméticas dos dez logs de cada configuração no PC_8gb.
 
 #### CPU — eventos por segundo
 
-| Threads | WSL2 |
-|---:|---:|
-| 1 | 786,9 |
-| 2 | 1.372,9 |
-| 4 | 2.405,8 |
-| 8 | 2.412,8 |
+| Threads | Docker VMM | WSL2 |
+|---:|---:|---:|
+| 1 | 787,9 | 786,9 |
+| 2 | 1.532,9 | 1.372,9 |
+| 4 | 2.875,7 | 2.405,8 |
+| 8 | 2.905,3 | 2.412,8 |
 
 #### Memória — MiB/s
 
-| Threads | WSL2 |
-|---:|---:|
-| 1 | 23.424,5 |
-| 2 | 36.273,3 |
-| 4 | 53.124,7 |
-| 8 | 51.425,8 |
+| Threads | Docker VMM | WSL2 |
+|---:|---:|---:|
+| 1 | 23.574,7 | 23.424,5 |
+| 2 | 39.504,8 | 36.273,3 |
+| 4 | 63.650,7 | 53.124,7 |
+| 8 | 64.348,5 | 51.425,8 |
 
 #### I/O — largura de banda
 
-| Operação | WSL2 |
-|---|---:|
-| Leitura | 8,83 MiB/s |
-| Escrita | 8,83 MiB/s |
+| Operação | Docker VMM | WSL2 |
+|---|---:|---:|
+| Leitura | 129,8 MiB/s | 8,83 MiB/s |
+| Escrita | 130,0 MiB/s | 8,83 MiB/s |
 
 #### Redis — requisições por segundo
 
-| Clientes | Operação | WSL2 |
-|---:|:---|---:|
-| 1 | SET | 8.474 |
-| 1 | GET | 8.530 |
-| 2 | SET | 24.271 |
-| 2 | GET | 27.995 |
-| 4 | SET | 42.510 |
-| 4 | GET | 45.943 |
-| 8 | SET | 53.299 |
-| 8 | GET | 53.376 |
+| Clientes | Operação | Docker VMM | WSL2 |
+|---:|:---|---:|---:|
+| 1 | SET | 12.808 | 8.474 |
+| 1 | GET | 12.888 | 8.530 |
+| 2 | SET | 30.323 | 24.271 |
+| 2 | GET | 30.472 | 27.995 |
+| 4 | SET | 80.330 | 42.510 |
+| 4 | GET | 91.916 | 45.943 |
+| 8 | SET | 114.654 | 53.299 |
+| 8 | GET | 114.354 | 53.376 |
 
 ## 5. Leitura geral
 
@@ -124,8 +126,8 @@ Os resultados seguintes são médias aritméticas dos dez logs de cada configura
 - **Memória:** WSL2 tem vantagem nas configurações de maior concorrência, enquanto Docker VMM lidera em uma thread.
 - **I/O:** Docker VMM aparece muito à frente nos dados coletados.
 - **Redis:** resultados mistos conforme a concorrência, sem uma plataforma vencedora em todas as configurações.
-- **PC_8gb:** os logs adicionados registram os quatro workloads em WSL2, com dez repetições por configuração.
+- **PC_8gb:** os dados agora cobrem os quatro workloads nos dois ambientes. O Docker VMM apresenta médias superiores na maioria das configurações de CPU, memória e Redis; no I/O, a largura de banda registrada também é maior.
 
 ## 6. Conclusão
 
-O projeto reúne scripts de automação para executar quatro workloads em WSL2 e Docker VMM. Os resultados incluem 260 logs do PC de 16 GB, cobrindo WSL2 e Docker VMM, e 130 logs dos quatro workloads WSL2 no PC de 8 GB. No PC de 16 GB, CPU e Redis variam conforme a concorrência; memória favorece o WSL2 em várias configurações, e I/O favorece o Docker VMM. Os scripts WSL2 identificam corretamente o cenário como `wsl2`.
+O projeto reúne scripts de automação para executar quatro workloads em WSL2 e Docker VMM. Os resultados incluem 260 logs no PC de 16 GB e 260 logs no PC de 8 GB, com os quatro workloads nos dois ambientes para cada máquina. No PC de 16 GB, CPU e Redis variam conforme a concorrência; memória favorece o WSL2 em várias configurações, e I/O favorece o Docker VMM. No PC de 8 GB, Docker VMM apresenta médias maiores na maior parte das configurações. Os scripts WSL2 identificam corretamente o cenário como `wsl2`.

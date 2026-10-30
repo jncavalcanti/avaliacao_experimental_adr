@@ -1,0 +1,32 @@
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 8
+Initializing random number generator from current time
+
+
+Prime numbers limit: 20000
+
+Initializing worker threads...
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+Threads started!
+
+CPU speed:
+    events per second:  4974.20
+
+General statistics:
+    total time:                          10.0014s
+    total number of events:              49756
+
+Latency (ms):
+         min:                                    0.67
+         avg:                                    1.61
+         max:                                   13.32
+         95th percentile:                        4.91
+         sum:                                79948.93
+
+Threads fairness:
+    events (avg/stddev):           6219.5000/158.27
+    execution time (avg/stddev):   9.9936/0.00
+

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CENARIO="docker_vmm_4gb"
+CENARIO="wsl2"
 PASTA_RESULTADOS="resultados_${CENARIO}_redis"
 mkdir -p "$PASTA_RESULTADOS"
 

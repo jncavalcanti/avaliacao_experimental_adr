@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Defina o cenário atual: wsl2, docker_vmm_4gb, docker_vmm_6gb
-CENARIO="docker_vmm_4gb"
+CENARIO="wsl2"
 PASTA_RESULTADOS="resultados_${CENARIO}_io"
 mkdir -p "$PASTA_RESULTADOS"
 

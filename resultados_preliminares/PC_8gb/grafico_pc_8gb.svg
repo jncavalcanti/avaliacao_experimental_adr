@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+<rect width="100%" height="100%" fill="#f3f6fa"/>
+<text x="720.0" y="43.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="bold" fill="#172b4d">Resultados dos benchmarks — PC_8gb</text>
+<text x="720.0" y="70.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#526175">Média de 10 repetições por configuração; barras de erro = desvio-padrão</text>
+<rect x="45" y="100" width="660" height="385" rx="12" fill="white" stroke="#dce3eb"/>
+<text x="65.0" y="129.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#273449">CPU — sysbench</text>
+<line x1="121.0" y1="427.0" x2="680.0" y2="427.0" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="431.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">0.00</text>
+<line x1="121.0" y1="375.2" x2="680.0" y2="375.2" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="379.2" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">800</text>
+<line x1="121.0" y1="323.4" x2="680.0" y2="323.4" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="327.4" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">1.6k</text>
+<line x1="121.0" y1="271.6" x2="680.0" y2="271.6" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="275.6" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">2.4k</text>
+<line x1="121.0" y1="219.8" x2="680.0" y2="219.8" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="223.8" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">3.2k</text>
+<line x1="121.0" y1="168.0" x2="680.0" y2="168.0" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="172.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">4.0k</text>
+<line x1="121.0" y1="168.0" x2="121.0" y2="427.0" stroke="#8795a5" stroke-width="1"/>
+<line x1="121.0" y1="427.0" x2="680.0" y2="427.0" stroke="#8795a5" stroke-width="1"/>
+<text x="63" y="297.5" transform="rotate(-90 63 297.5)" font-family="Arial, sans-serif" font-size="12" fill="#475569">eventos/s</text>
+<text x="400.5" y="471.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#475569">Threads</text>
+<line x1="121.0" y1="427.0" x2="121.0" y2="431.0" stroke="#8795a5" stroke-width="1"/>
+<text x="121.0" y="446.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">1</text>
+<line x1="307.3" y1="427.0" x2="307.3" y2="431.0" stroke="#8795a5" stroke-width="1"/>
+<text x="307.3" y="446.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">2</text>
+<line x1="493.7" y1="427.0" x2="493.7" y2="431.0" stroke="#8795a5" stroke-width="1"/>
+<text x="493.7" y="446.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">4</text>
+<line x1="680.0" y1="427.0" x2="680.0" y2="431.0" stroke="#8795a5" stroke-width="1"/>
+<text x="680.0" y="446.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">8</text>
+<line x1="121.0" y1="375.7" x2="121.0" y2="376.2" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="117.0" y1="375.7" x2="125.0" y2="375.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="117.0" y1="376.2" x2="125.0" y2="376.2" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="307.3" y1="324.8" x2="307.3" y2="330.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="303.3" y1="324.8" x2="311.3" y2="324.8" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="303.3" y1="330.7" x2="311.3" y2="330.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="493.7" y1="234.1" x2="493.7" y2="247.5" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="489.7" y1="234.1" x2="497.7" y2="234.1" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="489.7" y1="247.5" x2="497.7" y2="247.5" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="680.0" y1="232.4" x2="680.0" y2="245.4" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="676.0" y1="232.4" x2="684.0" y2="232.4" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="676.0" y1="245.4" x2="684.0" y2="245.4" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="121.0" y1="376.0" x2="307.3" y2="327.7" stroke="#2563a6" stroke-width="2.5"/>
+<line x1="307.3" y1="327.7" x2="493.7" y2="240.8" stroke="#2563a6" stroke-width="2.5"/>
+<line x1="493.7" y1="240.8" x2="680.0" y2="238.9" stroke="#2563a6" stroke-width="2.5"/>
+<circle cx="121.0" cy="376.0" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="307.3" cy="327.7" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="493.7" cy="240.8" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="680.0" cy="238.9" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<line x1="121.0" y1="375.8" x2="121.0" y2="376.3" stroke="#e87524" stroke-width="1.5"/>
+<line x1="117.0" y1="375.8" x2="125.0" y2="375.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="117.0" y1="376.3" x2="125.0" y2="376.3" stroke="#e87524" stroke-width="1.5"/>
+<line x1="307.3" y1="335.6" x2="307.3" y2="340.6" stroke="#e87524" stroke-width="1.5"/>
+<line x1="303.3" y1="335.6" x2="311.3" y2="335.6" stroke="#e87524" stroke-width="1.5"/>
+<line x1="303.3" y1="340.6" x2="311.3" y2="340.6" stroke="#e87524" stroke-width="1.5"/>
+<line x1="493.7" y1="268.7" x2="493.7" y2="273.7" stroke="#e87524" stroke-width="1.5"/>
+<line x1="489.7" y1="268.7" x2="497.7" y2="268.7" stroke="#e87524" stroke-width="1.5"/>
+<line x1="489.7" y1="273.7" x2="497.7" y2="273.7" stroke="#e87524" stroke-width="1.5"/>
+<line x1="680.0" y1="268.8" x2="680.0" y2="272.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="676.0" y1="268.8" x2="684.0" y2="268.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="676.0" y1="272.8" x2="684.0" y2="272.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="121.0" y1="376.0" x2="307.3" y2="338.1" stroke="#e87524" stroke-width="2.5"/>
+<line x1="307.3" y1="338.1" x2="493.7" y2="271.2" stroke="#e87524" stroke-width="2.5"/>
+<line x1="493.7" y1="271.2" x2="680.0" y2="270.8" stroke="#e87524" stroke-width="2.5"/>
+<circle cx="121.0" cy="376.0" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="307.3" cy="338.1" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="493.7" cy="271.2" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="680.0" cy="270.8" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<line x1="160.0" y1="150.0" x2="180.0" y2="150.0" stroke="#2563a6" stroke-width="2.5"/>
+<text x="187.0" y="154.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">Docker VMM</text>
+<line x1="320.0" y1="150.0" x2="340.0" y2="150.0" stroke="#e87524" stroke-width="2.5"/>
+<text x="347.0" y="154.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">WSL2</text>
+<rect x="735" y="100" width="660" height="385" rx="12" fill="white" stroke="#dce3eb"/>
+<text x="755.0" y="129.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#273449">Memória — sysbench</text>
+<line x1="811.0" y1="427.0" x2="1370.0" y2="427.0" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="431.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">0.00</text>
+<line x1="811.0" y1="375.2" x2="1370.0" y2="375.2" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="379.2" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">18k</text>
+<line x1="811.0" y1="323.4" x2="1370.0" y2="323.4" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="327.4" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">36k</text>
+<line x1="811.0" y1="271.6" x2="1370.0" y2="271.6" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="275.6" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">54k</text>
+<line x1="811.0" y1="219.8" x2="1370.0" y2="219.8" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="223.8" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">72k</text>
+<line x1="811.0" y1="168.0" x2="1370.0" y2="168.0" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="172.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">90k</text>
+<line x1="811.0" y1="168.0" x2="811.0" y2="427.0" stroke="#8795a5" stroke-width="1"/>
+<line x1="811.0" y1="427.0" x2="1370.0" y2="427.0" stroke="#8795a5" stroke-width="1"/>
+<text x="753" y="297.5" transform="rotate(-90 753 297.5)" font-family="Arial, sans-serif" font-size="12" fill="#475569">MiB/s</text>
+<text x="1090.5" y="471.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#475569">Threads</text>
+<line x1="811.0" y1="427.0" x2="811.0" y2="431.0" stroke="#8795a5" stroke-width="1"/>
+<text x="811.0" y="446.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">1</text>
+<line x1="997.3" y1="427.0" x2="997.3" y2="431.0" stroke="#8795a5" stroke-width="1"/>
+<text x="997.3" y="446.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">2</text>
+<line x1="1183.7" y1="427.0" x2="1183.7" y2="431.0" stroke="#8795a5" stroke-width="1"/>
+<text x="1183.7" y="446.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">4</text>
+<line x1="1370.0" y1="427.0" x2="1370.0" y2="431.0" stroke="#8795a5" stroke-width="1"/>
+<text x="1370.0" y="446.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">8</text>
+<line x1="811.0" y1="352.7" x2="811.0" y2="365.6" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="807.0" y1="352.7" x2="815.0" y2="352.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="807.0" y1="365.6" x2="815.0" y2="365.6" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="997.3" y1="290.6" x2="997.3" y2="336.1" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="993.3" y1="290.6" x2="1001.3" y2="290.6" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="993.3" y1="336.1" x2="1001.3" y2="336.1" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1183.7" y1="213.7" x2="1183.7" y2="273.9" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1179.7" y1="213.7" x2="1187.7" y2="213.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1179.7" y1="273.9" x2="1187.7" y2="273.9" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1370.0" y1="218.2" x2="1370.0" y2="265.5" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1366.0" y1="218.2" x2="1374.0" y2="218.2" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1366.0" y1="265.5" x2="1374.0" y2="265.5" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="811.0" y1="359.2" x2="997.3" y2="313.3" stroke="#2563a6" stroke-width="2.5"/>
+<line x1="997.3" y1="313.3" x2="1183.7" y2="243.8" stroke="#2563a6" stroke-width="2.5"/>
+<line x1="1183.7" y1="243.8" x2="1370.0" y2="241.8" stroke="#2563a6" stroke-width="2.5"/>
+<circle cx="811.0" cy="359.2" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="997.3" cy="313.3" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="1183.7" cy="243.8" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="1370.0" cy="241.8" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<line x1="811.0" y1="354.6" x2="811.0" y2="364.5" stroke="#e87524" stroke-width="1.5"/>
+<line x1="807.0" y1="354.6" x2="815.0" y2="354.6" stroke="#e87524" stroke-width="1.5"/>
+<line x1="807.0" y1="364.5" x2="815.0" y2="364.5" stroke="#e87524" stroke-width="1.5"/>
+<line x1="997.3" y1="308.1" x2="997.3" y2="337.2" stroke="#e87524" stroke-width="1.5"/>
+<line x1="993.3" y1="308.1" x2="1001.3" y2="308.1" stroke="#e87524" stroke-width="1.5"/>
+<line x1="993.3" y1="337.2" x2="1001.3" y2="337.2" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1183.7" y1="244.9" x2="1183.7" y2="303.4" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1179.7" y1="244.9" x2="1187.7" y2="244.9" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1179.7" y1="303.4" x2="1187.7" y2="303.4" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1370.0" y1="269.4" x2="1370.0" y2="288.6" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1366.0" y1="269.4" x2="1374.0" y2="269.4" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1366.0" y1="288.6" x2="1374.0" y2="288.6" stroke="#e87524" stroke-width="1.5"/>
+<line x1="811.0" y1="359.6" x2="997.3" y2="322.6" stroke="#e87524" stroke-width="2.5"/>
+<line x1="997.3" y1="322.6" x2="1183.7" y2="274.1" stroke="#e87524" stroke-width="2.5"/>
+<line x1="1183.7" y1="274.1" x2="1370.0" y2="279.0" stroke="#e87524" stroke-width="2.5"/>
+<circle cx="811.0" cy="359.6" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="997.3" cy="322.6" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="1183.7" cy="274.1" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="1370.0" cy="279.0" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<line x1="850.0" y1="150.0" x2="870.0" y2="150.0" stroke="#2563a6" stroke-width="2.5"/>
+<text x="877.0" y="154.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">Docker VMM</text>
+<line x1="1010.0" y1="150.0" x2="1030.0" y2="150.0" stroke="#e87524" stroke-width="2.5"/>
+<text x="1037.0" y="154.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">WSL2</text>
+<rect x="45" y="510" width="660" height="385" rx="12" fill="white" stroke="#dce3eb"/>
+<text x="65.0" y="539.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#273449">I/O — largura de banda</text>
+<line x1="121.0" y1="837.0" x2="680.0" y2="837.0" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="841.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">0.00</text>
+<line x1="121.0" y1="785.2" x2="680.0" y2="785.2" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="789.2" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">40.0</text>
+<line x1="121.0" y1="733.4" x2="680.0" y2="733.4" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="737.4" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">80.0</text>
+<line x1="121.0" y1="681.6" x2="680.0" y2="681.6" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="685.6" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">120</text>
+<line x1="121.0" y1="629.8" x2="680.0" y2="629.8" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="633.8" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">160</text>
+<line x1="121.0" y1="578.0" x2="680.0" y2="578.0" stroke="#e8edf2" stroke-width="1"/>
+<text x="111.0" y="582.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">200</text>
+<line x1="121.0" y1="578.0" x2="121.0" y2="837.0" stroke="#8795a5" stroke-width="1"/>
+<line x1="121.0" y1="837.0" x2="680.0" y2="837.0" stroke="#8795a5" stroke-width="1"/>
+<text x="63" y="707.5" transform="rotate(-90 63 707.5)" font-family="Arial, sans-serif" font-size="12" fill="#475569">MiB/s</text>
+<text x="400.5" y="881.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#475569">Operação</text>
+<text x="260.8" y="857.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">Leitura</text>
+<rect x="214.8" y="668.9" width="42" height="168.1" rx="3" fill="#2563a6"/>
+<line x1="235.8" y1="654.2" x2="235.8" y2="683.6" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="231.8" y1="654.2" x2="239.8" y2="654.2" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="231.8" y1="683.6" x2="239.8" y2="683.6" stroke="#2563a6" stroke-width="1.5"/>
+<rect x="215.8" y="632.2" width="40" height="15" rx="3" fill="white"/>
+<text x="235.8" y="643.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2563a6">130</text>
+<rect x="264.8" y="825.6" width="42" height="11.4" rx="3" fill="#e87524"/>
+<line x1="285.8" y1="824.8" x2="285.8" y2="826.4" stroke="#e87524" stroke-width="1.5"/>
+<line x1="281.8" y1="824.8" x2="289.8" y2="824.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="281.8" y1="826.4" x2="289.8" y2="826.4" stroke="#e87524" stroke-width="1.5"/>
+<rect x="265.8" y="802.8" width="40" height="15" rx="3" fill="white"/>
+<text x="285.8" y="813.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#e87524">8.83</text>
+<text x="540.2" y="857.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">Escrita</text>
+<rect x="494.2" y="668.6" width="42" height="168.4" rx="3" fill="#2563a6"/>
+<line x1="515.2" y1="653.7" x2="515.2" y2="683.6" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="511.2" y1="653.7" x2="519.2" y2="653.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="511.2" y1="683.6" x2="519.2" y2="683.6" stroke="#2563a6" stroke-width="1.5"/>
+<rect x="495.2" y="631.7" width="40" height="15" rx="3" fill="white"/>
+<text x="515.2" y="642.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2563a6">130</text>
+<rect x="544.2" y="825.6" width="42" height="11.4" rx="3" fill="#e87524"/>
+<line x1="565.2" y1="824.8" x2="565.2" y2="826.3" stroke="#e87524" stroke-width="1.5"/>
+<line x1="561.2" y1="824.8" x2="569.2" y2="824.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="561.2" y1="826.3" x2="569.2" y2="826.3" stroke="#e87524" stroke-width="1.5"/>
+<rect x="545.2" y="802.8" width="40" height="15" rx="3" fill="white"/>
+<text x="565.2" y="813.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#e87524">8.83</text>
+<line x1="240.0" y1="560.0" x2="260.0" y2="560.0" stroke="#2563a6" stroke-width="2.5"/>
+<text x="267.0" y="564.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">Docker VMM</text>
+<line x1="400.0" y1="560.0" x2="420.0" y2="560.0" stroke="#e87524" stroke-width="2.5"/>
+<text x="427.0" y="564.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">WSL2</text>
+<rect x="735" y="510" width="660" height="385" rx="12" fill="white" stroke="#dce3eb"/>
+<text x="755.0" y="539.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#273449">Redis — redis-benchmark</text>
+<line x1="811.0" y1="837.0" x2="1370.0" y2="837.0" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="841.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">0.00</text>
+<line x1="811.0" y1="785.2" x2="1370.0" y2="785.2" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="789.2" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">40k</text>
+<line x1="811.0" y1="733.4" x2="1370.0" y2="733.4" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="737.4" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">80k</text>
+<line x1="811.0" y1="681.6" x2="1370.0" y2="681.6" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="685.6" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">120k</text>
+<line x1="811.0" y1="629.8" x2="1370.0" y2="629.8" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="633.8" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">160k</text>
+<line x1="811.0" y1="578.0" x2="1370.0" y2="578.0" stroke="#e8edf2" stroke-width="1"/>
+<text x="801.0" y="582.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#64748b">200k</text>
+<line x1="811.0" y1="578.0" x2="811.0" y2="837.0" stroke="#8795a5" stroke-width="1"/>
+<line x1="811.0" y1="837.0" x2="1370.0" y2="837.0" stroke="#8795a5" stroke-width="1"/>
+<text x="753" y="707.5" transform="rotate(-90 753 707.5)" font-family="Arial, sans-serif" font-size="12" fill="#475569">requisições/s</text>
+<text x="1090.5" y="881.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#475569">Clientes</text>
+<line x1="811.0" y1="837.0" x2="811.0" y2="841.0" stroke="#8795a5" stroke-width="1"/>
+<text x="811.0" y="856.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">1</text>
+<line x1="997.3" y1="837.0" x2="997.3" y2="841.0" stroke="#8795a5" stroke-width="1"/>
+<text x="997.3" y="856.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">2</text>
+<line x1="1183.7" y1="837.0" x2="1183.7" y2="841.0" stroke="#8795a5" stroke-width="1"/>
+<text x="1183.7" y="856.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">4</text>
+<line x1="1370.0" y1="837.0" x2="1370.0" y2="841.0" stroke="#8795a5" stroke-width="1"/>
+<text x="1370.0" y="856.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#475569">8</text>
+<line x1="811.0" y1="819.7" x2="811.0" y2="821.1" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="807.0" y1="819.7" x2="815.0" y2="819.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="807.0" y1="821.1" x2="815.0" y2="821.1" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="997.3" y1="796.2" x2="997.3" y2="799.3" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="993.3" y1="796.2" x2="1001.3" y2="796.2" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="993.3" y1="799.3" x2="1001.3" y2="799.3" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1183.7" y1="726.3" x2="1183.7" y2="739.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1179.7" y1="726.3" x2="1187.7" y2="726.3" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1179.7" y1="739.7" x2="1187.7" y2="739.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1370.0" y1="684.7" x2="1370.0" y2="692.3" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1366.0" y1="684.7" x2="1374.0" y2="684.7" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="1366.0" y1="692.3" x2="1374.0" y2="692.3" stroke="#2563a6" stroke-width="1.5"/>
+<line x1="811.0" y1="820.4" x2="997.3" y2="797.7" stroke="#2563a6" stroke-width="2.5"/>
+<line x1="997.3" y1="797.7" x2="1183.7" y2="733.0" stroke="#2563a6" stroke-width="2.5"/>
+<line x1="1183.7" y1="733.0" x2="1370.0" y2="688.5" stroke="#2563a6" stroke-width="2.5"/>
+<circle cx="811.0" cy="820.4" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="997.3" cy="797.7" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="1183.7" cy="733.0" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<circle cx="1370.0" cy="688.5" r="4" fill="#2563a6" stroke="white" stroke-width="1.5"/>
+<line x1="811.0" y1="819.9" x2="811.0" y2="820.7" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="807.0" y1="819.9" x2="815.0" y2="819.9" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="807.0" y1="820.7" x2="815.0" y2="820.7" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="997.3" y1="795.9" x2="997.3" y2="799.2" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="993.3" y1="795.9" x2="1001.3" y2="795.9" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="993.3" y1="799.2" x2="1001.3" y2="799.2" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="1183.7" y1="710.1" x2="1183.7" y2="725.9" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="1179.7" y1="710.1" x2="1187.7" y2="710.1" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="1179.7" y1="725.9" x2="1187.7" y2="725.9" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="1370.0" y1="682.7" x2="1370.0" y2="695.1" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="1366.0" y1="682.7" x2="1374.0" y2="682.7" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="1366.0" y1="695.1" x2="1374.0" y2="695.1" stroke="#57a0d3" stroke-width="1.5"/>
+<line x1="811.0" y1="820.3" x2="997.3" y2="797.5" stroke="#57a0d3" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="997.3" y1="797.5" x2="1183.7" y2="718.0" stroke="#57a0d3" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="1183.7" y1="718.0" x2="1370.0" y2="688.9" stroke="#57a0d3" stroke-width="2.5" stroke-dasharray="6 4"/>
+<circle cx="811.0" cy="820.3" r="4" fill="#57a0d3" stroke="white" stroke-width="1.5"/>
+<circle cx="997.3" cy="797.5" r="4" fill="#57a0d3" stroke="white" stroke-width="1.5"/>
+<circle cx="1183.7" cy="718.0" r="4" fill="#57a0d3" stroke="white" stroke-width="1.5"/>
+<circle cx="1370.0" cy="688.9" r="4" fill="#57a0d3" stroke="white" stroke-width="1.5"/>
+<line x1="811.0" y1="825.8" x2="811.0" y2="826.2" stroke="#e87524" stroke-width="1.5"/>
+<line x1="807.0" y1="825.8" x2="815.0" y2="825.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="807.0" y1="826.2" x2="815.0" y2="826.2" stroke="#e87524" stroke-width="1.5"/>
+<line x1="997.3" y1="803.1" x2="997.3" y2="808.0" stroke="#e87524" stroke-width="1.5"/>
+<line x1="993.3" y1="803.1" x2="1001.3" y2="803.1" stroke="#e87524" stroke-width="1.5"/>
+<line x1="993.3" y1="808.0" x2="1001.3" y2="808.0" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1183.7" y1="780.1" x2="1183.7" y2="783.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1179.7" y1="780.1" x2="1187.7" y2="780.1" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1179.7" y1="783.8" x2="1187.7" y2="783.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1370.0" y1="766.2" x2="1370.0" y2="769.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1366.0" y1="766.2" x2="1374.0" y2="766.2" stroke="#e87524" stroke-width="1.5"/>
+<line x1="1366.0" y1="769.8" x2="1374.0" y2="769.8" stroke="#e87524" stroke-width="1.5"/>
+<line x1="811.0" y1="826.0" x2="997.3" y2="805.6" stroke="#e87524" stroke-width="2.5"/>
+<line x1="997.3" y1="805.6" x2="1183.7" y2="781.9" stroke="#e87524" stroke-width="2.5"/>
+<line x1="1183.7" y1="781.9" x2="1370.0" y2="768.0" stroke="#e87524" stroke-width="2.5"/>
+<circle cx="811.0" cy="826.0" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="997.3" cy="805.6" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="1183.7" cy="781.9" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<circle cx="1370.0" cy="768.0" r="4" fill="#e87524" stroke="white" stroke-width="1.5"/>
+<line x1="811.0" y1="825.9" x2="811.0" y2="826.0" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="807.0" y1="825.9" x2="815.0" y2="825.9" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="807.0" y1="826.0" x2="815.0" y2="826.0" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="997.3" y1="795.7" x2="997.3" y2="805.8" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="993.3" y1="795.7" x2="1001.3" y2="795.7" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="993.3" y1="805.8" x2="1001.3" y2="805.8" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="1183.7" y1="773.8" x2="1183.7" y2="781.2" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="1179.7" y1="773.8" x2="1187.7" y2="773.8" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="1179.7" y1="781.2" x2="1187.7" y2="781.2" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="1370.0" y1="766.4" x2="1370.0" y2="769.4" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="1366.0" y1="766.4" x2="1374.0" y2="766.4" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="1366.0" y1="769.4" x2="1374.0" y2="769.4" stroke="#e7ae37" stroke-width="1.5"/>
+<line x1="811.0" y1="826.0" x2="997.3" y2="800.7" stroke="#e7ae37" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="997.3" y1="800.7" x2="1183.7" y2="777.5" stroke="#e7ae37" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="1183.7" y1="777.5" x2="1370.0" y2="767.9" stroke="#e7ae37" stroke-width="2.5" stroke-dasharray="6 4"/>
+<circle cx="811.0" cy="826.0" r="4" fill="#e7ae37" stroke="white" stroke-width="1.5"/>
+<circle cx="997.3" cy="800.7" r="4" fill="#e7ae37" stroke="white" stroke-width="1.5"/>
+<circle cx="1183.7" cy="777.5" r="4" fill="#e7ae37" stroke="white" stroke-width="1.5"/>
+<circle cx="1370.0" cy="767.9" r="4" fill="#e7ae37" stroke="white" stroke-width="1.5"/>
+<line x1="745.0" y1="560.0" x2="765.0" y2="560.0" stroke="#2563a6" stroke-width="2.5"/>
+<text x="772.0" y="564.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">Docker VMM SET</text>
+<line x1="905.0" y1="560.0" x2="925.0" y2="560.0" stroke="#57a0d3" stroke-width="2.5" stroke-dasharray="5 4"/>
+<text x="932.0" y="564.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">Docker VMM GET</text>
+<line x1="1065.0" y1="560.0" x2="1085.0" y2="560.0" stroke="#e87524" stroke-width="2.5"/>
+<text x="1092.0" y="564.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">WSL2 SET</text>
+<line x1="1225.0" y1="560.0" x2="1245.0" y2="560.0" stroke="#e7ae37" stroke-width="2.5" stroke-dasharray="5 4"/>
+<text x="1252.0" y="564.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="normal" fill="#273449">WSL2 GET</text>
+<text x="720.0" y="932.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#64748b">I/O mostra a largura de banda total (READ/WRITE) reportada pelo fio.</text>
+</svg>

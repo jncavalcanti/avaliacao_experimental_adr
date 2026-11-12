@@ -120,6 +120,19 @@ Os resultados seguintes são médias aritméticas dos dez logs de cada configura
 | 8 | SET | 114.654 | 53.299 |
 | 8 | GET | 114.354 | 53.376 |
 
+### Análise visual — PC_8gb
+
+O gráfico compara as médias das dez repetições; as barras de erro mostram o desvio-padrão entre repetições.
+
+![Gráfico comparativo dos benchmarks no PC_8gb](resultados_preliminares/PC_8gb/grafico_pc_8gb.svg)
+
+- **CPU:** os resultados são praticamente iguais com uma thread. Com duas a oito threads, Docker VMM fica aproximadamente 12% a 20% acima. O ganho de quatro para oito threads é pequeno em ambos os ambientes.
+- **Memória:** Docker VMM supera WSL2 em todas as configurações; a diferença aumenta de menos de 1% com uma thread para cerca de 25% com oito. O throughput quase estabiliza no Docker VMM de quatro para oito threads e cai ligeiramente no WSL2.
+- **I/O:** a largura de banda total reportada pelo fio é aproximadamente 14,7 vezes maior no Docker VMM, tanto para leitura quanto para escrita.
+- **Redis:** Docker VMM registra maior throughput em todas as quantidades de clientes. A vantagem é de cerca de 1,5 vez com um cliente e chega a pouco mais de 2,1 vezes com oito clientes.
+
+Esses resultados descrevem este PC e a configuração avaliada; não devem ser generalizados para outros hosts sem novas medições. O gráfico pode ser recriado a partir dos logs com [`Scripts/gerar_grafico_pc_8gb.py`](Scripts/gerar_grafico_pc_8gb.py).
+
 ## 5. Leitura geral
 
 - **CPU:** desempenho próximo entre as plataformas; o melhor resultado varia com o número de threads.

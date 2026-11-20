@@ -1,0 +1,7 @@
+# Arquivos gerados pelo fio nos testes de I/O
+*.dat
+test_file.dat
+
+# Logs ou arquivos temporários extras (se precisar)
+*.tmp
+*.log

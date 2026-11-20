@@ -1,3 +1,4 @@
+import argparse
 import html
 import math
 import re
@@ -6,25 +7,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "resultados_preliminares" / "PC_8gb"
-OUTPUT = RESULTS / "grafico_pc_8gb.svg"
 THREADS = (1, 2, 4, 8)
-PLATFORMS = {
-    "Docker VMM": {
-        "root": RESULTS / "Docker VMM",
-        "cpu": "resultados_docker_vmm_4gb_cpu",
-        "memory": "resultados_docker_vmm_4gb_memoria",
-        "io": "resultados_docker_vmm_4gb_io",
-        "redis": "resultados_docker_vmm_4gb_redis",
-    },
-    "WSL2": {
-        "root": RESULTS / "WSL2",
-        "cpu": "resultados_wsl2_cpu",
-        "memory": "resultados_wsl2_memoria",
-        "io": "resultados_wsl2_io",
-        "redis": "resultados_wsl2_redis",
-    },
-}
 COLORS = {
     "Docker VMM": "#2563a6",
     "WSL2": "#e87524",
@@ -33,6 +16,27 @@ COLORS = {
     "WSL2 SET": "#e87524",
     "WSL2 GET": "#e7ae37",
 }
+
+
+def platform_config(results, pc):
+    docker_prefix = "docker_vmm_4gb" if pc == "PC_16gb" else "resultados_docker_vmm_4gb"
+    wsl_prefix = "wsl2" if pc == "PC_16gb" else "resultados_wsl2"
+    return {
+        "Docker VMM": {
+            "root": results / "Docker VMM",
+            "cpu": f"{docker_prefix}_cpu",
+            "memory": f"{docker_prefix}_memoria",
+            "io": f"{docker_prefix}_io",
+            "redis": f"{docker_prefix}_redis",
+        },
+        "WSL2": {
+            "root": results / "WSL2",
+            "cpu": f"{wsl_prefix}_cpu",
+            "memory": f"{wsl_prefix}_memoria",
+            "io": f"{wsl_prefix}_io",
+            "redis": f"{wsl_prefix}_redis",
+        },
+    }
 
 
 def read_log(path):
@@ -73,9 +77,9 @@ def average(values):
     return statistics.mean(values), statistics.stdev(values)
 
 
-def collect_data():
+def collect_data(results, platforms):
     data = {"cpu": {}, "memory": {}, "io": {}, "redis": {}}
-    for platform, config in PLATFORMS.items():
+    for platform, config in platforms.items():
         root = config["root"]
         cpu_folder = root / config["cpu"]
         memory_folder = root / config["memory"]
@@ -255,10 +259,10 @@ def draw_lines(data, kind, title, ylabel, x_values, x_label, x, y, width, height
     return parts
 
 
-def draw_io(data, x, y, width, height):
+def draw_io(data, platforms, x, y, width, height):
     maximum = max(
         average(data["io"][platform][operation])[0] + average(data["io"][platform][operation])[1]
-        for platform in PLATFORMS
+        for platform in platforms
         for operation in ("READ", "WRITE")
     )
     maximum = math.ceil(maximum / (10 ** math.floor(math.log10(maximum)))) * (10 ** math.floor(math.log10(maximum)))
@@ -270,7 +274,7 @@ def draw_io(data, x, y, width, height):
     for index, operation in enumerate(("READ", "WRITE")):
         center = group_centers[index]
         parts.append(text(center, bottom + 20, "Leitura" if operation == "READ" else "Escrita", 11, color="#475569"))
-        for platform_index, platform in enumerate(PLATFORMS):
+        for platform_index, platform in enumerate(platforms):
             mean, sd = average(data["io"][platform][operation])
             px = center + (-bar_width / 2 - 4 if platform_index == 0 else bar_width / 2 + 4)
             py = bottom - mean * scale
@@ -285,16 +289,16 @@ def draw_io(data, x, y, width, height):
                 'rx="3" fill="white"/>'
             )
             parts.append(text(px, label_y, number(mean), 10, weight="bold", color=COLORS[platform]))
-    add_legend(parts, [(name, COLORS[name], False) for name in PLATFORMS], x + 195, y + 50)
+    add_legend(parts, [(name, COLORS[name], False) for name in platforms], x + 195, y + 50)
     return parts
 
 
-def render(data):
+def render(data, platforms, pc):
     width, height = 1440, 960
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
         '<rect width="100%" height="100%" fill="#f3f6fa"/>',
-        text(width / 2, 43, "Resultados dos benchmarks — PC_8gb", 27, weight="bold", color="#172b4d"),
+        text(width / 2, 43, f"Resultados dos benchmarks — {pc}", 27, weight="bold", color="#172b4d"),
         text(width / 2, 70, "Média de 10 repetições por configuração; barras de erro = desvio-padrão", 14, color="#526175"),
     ]
     panel_width, panel_height = 660, 385
@@ -312,7 +316,7 @@ def render(data):
             [("Docker VMM", None), ("WSL2", None)],
         )
     )
-    parts.extend(draw_io(data, 45, 510, panel_width, panel_height))
+    parts.extend(draw_io(data, platforms, 45, 510, panel_width, panel_height))
     parts.extend(
         draw_lines(
             data, "redis", "Redis — redis-benchmark", "requisições/s", THREADS, "Clientes",
@@ -334,20 +338,20 @@ def render(data):
     return "\n".join(parts)
 
 
-def print_summary(data):
+def print_summary(data, platforms):
     for kind in ("cpu", "memory"):
         print(f"\n{kind}:")
         for setting in THREADS:
             values = [
                 f"{platform}={average(data[kind][platform][setting])[0]:.2f}"
-                for platform in PLATFORMS
+                for platform in platforms
             ]
             print(f"  {setting}: " + ", ".join(values))
     print("\nI/O (MiB/s):")
     for operation in ("READ", "WRITE"):
         values = [
             f"{platform}={average(data['io'][platform][operation])[0]:.2f}"
-            for platform in PLATFORMS
+            for platform in platforms
         ]
         print(f"  {operation}: " + ", ".join(values))
     print("\nRedis (requisições/s):")
@@ -355,13 +359,19 @@ def print_summary(data):
         for operation in ("SET", "GET"):
             values = [
                 f"{platform}={average(data['redis'][platform][(clients, operation)])[0]:.2f}"
-                for platform in PLATFORMS
+                for platform in platforms
             ]
             print(f"  {clients} clientes {operation}: " + ", ".join(values))
 
 
 if __name__ == "__main__":
-    benchmark_data = collect_data()
-    OUTPUT.write_text(render(benchmark_data), encoding="utf-8")
-    print(f"Gráfico salvo em: {OUTPUT}")
-    print_summary(benchmark_data)
+    parser = argparse.ArgumentParser(description="Gera gráficos comparativos de benchmark para PC_8gb ou PC_16gb.")
+    parser.add_argument("pc", choices=("PC_8gb", "PC_16gb"), nargs="?", default="PC_8gb")
+    args = parser.parse_args()
+    results = ROOT / "resultados_preliminares" / args.pc
+    platforms = platform_config(results, args.pc)
+    output = results / f"grafico_{args.pc.lower()}.svg"
+    benchmark_data = collect_data(results, platforms)
+    output.write_text(render(benchmark_data, platforms, args.pc), encoding="utf-8")
+    print(f"Gráfico salvo em: {output}")
+    print_summary(benchmark_data, platforms)

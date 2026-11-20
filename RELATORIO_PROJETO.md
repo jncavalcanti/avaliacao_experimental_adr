@@ -6,7 +6,7 @@ O repositório reúne automação e resultados preliminares para comparar worklo
 
 ## 2. O que foi implementado e registrado
 
-- Oito scripts de benchmark: quatro em Bash para WSL2 e quatro em PowerShell para Docker VMM.
+- Oito scripts originais de benchmark: quatro em Bash e quatro em PowerShell, além dos scripts PowerShell compartilhados descritos abaixo.
 - Quatro workloads:
   - **W1 — CPU:** sysbench, limite de primos 20.000, 1, 2, 4 e 8 threads.
   - **W2 — Memória:** sysbench, blocos de 1.024 KiB, transferência total de 10.240 MiB, 1, 2, 4 e 8 threads.
@@ -16,6 +16,19 @@ O repositório reúne automação e resultados preliminares para comparar worklo
 - O diretório `resultados_preliminares/PC_16gb` contém **260 logs**: 130 para Docker VMM e 130 para WSL2. Para cada plataforma há 40 arquivos de CPU, 40 de memória, 10 de I/O e 40 de Redis.
 - O diretório `resultados_preliminares/PC_8gb` contém **260 logs**: 130 para Docker VMM e 130 para WSL2. Para cada plataforma há 40 arquivos de CPU, 40 de memória, 10 de I/O e 40 de Redis.
 - Os quatro scripts da pasta WSL2 foram ajustados para definir `CENARIO="wsl2"`, identificando corretamente o ambiente nos diretórios de saída.
+- A pasta `Scripts/Unificado` contém um script PowerShell por workload (CPU, memória, I/O e Redis). Eles usam o Docker CLI sem selecionar o hipervisor; essa seleção permanece no Docker Desktop.
+Os scripts compartilham `DockerBenchmark.ps1`, que registra `stdout` e `stderr` nos logs e usa o código de saída do Docker para identificar falhas. Assim, avisos do sysbench em `stderr` não interrompem a execução no Windows PowerShell.
+
+Para executar uma rodada, selecione o backend desejado no Docker Desktop, abra o PowerShell na pasta da máquina (`resultados_preliminares/PC_8gb` ou `resultados_preliminares/PC_16gb`) e chame o script com um rótulo para separar a saída. Por exemplo:
+
+```powershell
+& ..\..\Scripts\Unificado\executar_cpu_bound.ps1 -Cenario wsl2
+& ..\..\Scripts\Unificado\executar_memory_bound.ps1 -Cenario wsl2
+& ..\..\Scripts\Unificado\executar_io_bound.ps1 -Cenario wsl2
+& ..\..\Scripts\Unificado\executar_redis_cloud_native.ps1 -Cenario wsl2
+```
+
+Para a outra rodada, selecione o outro backend no Docker Desktop e use outro rótulo, como `docker_vmm_4gb`. O parâmetro `-Cenario` serve apenas para nomear as pastas de resultados; ele não escolhe nem verifica o hipervisor. Cada execução cria ou sobrescreve os logs daquela configuração no diretório de trabalho atual.
 
 ## 3. Histórico registrado
 
@@ -31,6 +44,10 @@ O histórico Git mostra esta sequência:
 Os valores abaixo são médias aritméticas extraídas dos logs. CPU e memória foram agrupadas por número de threads; I/O corresponde à largura de banda média registrada para leitura e escrita; Redis usa a taxa final de requisições por segundo de cada log. Há dez repetições por configuração.
 
 ### PC_16gb
+
+O gráfico abaixo compara as médias das dez repetições; as barras de erro mostram o desvio-padrão.
+
+![Gráfico comparativo dos benchmarks no PC_16gb](resultados_preliminares/PC_16gb/grafico_pc_16gb.svg)
 
 ### CPU — eventos por segundo
 
@@ -131,7 +148,7 @@ O gráfico compara as médias das dez repetições; as barras de erro mostram o 
 - **I/O:** a largura de banda total reportada pelo fio é aproximadamente 14,7 vezes maior no Docker VMM, tanto para leitura quanto para escrita.
 - **Redis:** Docker VMM registra maior throughput em todas as quantidades de clientes. A vantagem é de cerca de 1,5 vez com um cliente e chega a pouco mais de 2,1 vezes com oito clientes.
 
-Esses resultados descrevem este PC e a configuração avaliada; não devem ser generalizados para outros hosts sem novas medições. O gráfico pode ser recriado a partir dos logs com [`Scripts/gerar_grafico_pc_8gb.py`](Scripts/gerar_grafico_pc_8gb.py).
+Esses resultados descrevem cada PC e a configuração avaliada; não devem ser generalizados para outros hosts sem novas medições. Os gráficos podem ser recriados com `python Scripts/gerar_grafico_pc.py PC_8gb` ou `python Scripts/gerar_grafico_pc.py PC_16gb`.
 
 ## 5. Leitura geral
 

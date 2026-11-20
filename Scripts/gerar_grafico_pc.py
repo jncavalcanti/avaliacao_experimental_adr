@@ -11,30 +11,62 @@ THREADS = (1, 2, 4, 8)
 COLORS = {
     "Docker VMM": "#2563a6",
     "WSL2": "#e87524",
+    "WSL2 2GB": "#e87524",
+    "WSL2 4GB": "#218c55",
     "Docker VMM SET": "#2563a6",
     "Docker VMM GET": "#57a0d3",
     "WSL2 SET": "#e87524",
     "WSL2 GET": "#e7ae37",
+    "WSL2 2GB SET": "#e87524",
+    "WSL2 2GB GET": "#e7ae37",
+    "WSL2 4GB SET": "#218c55",
+    "WSL2 4GB GET": "#67bd88",
 }
 
 
 def platform_config(results, pc):
-    docker_prefix = "docker_vmm_4gb" if pc == "PC_16gb" else "resultados_docker_vmm_4gb"
-    wsl_prefix = "wsl2" if pc == "PC_16gb" else "resultados_wsl2"
+    if pc == "PC_16gb":
+        docker_prefix = "docker_vmm_4gb"
+        wsl_prefix = "wsl2"
+        return {
+            "Docker VMM": {
+                "root": results / "Docker VMM",
+                "cpu": f"{docker_prefix}_cpu",
+                "memory": f"{docker_prefix}_memoria",
+                "io": f"{docker_prefix}_io",
+                "redis": f"{docker_prefix}_redis",
+            },
+            "WSL2": {
+                "root": results / "WSL2",
+                "cpu": f"{wsl_prefix}_cpu",
+                "memory": f"{wsl_prefix}_memoria",
+                "io": f"{wsl_prefix}_io",
+                "redis": f"{wsl_prefix}_redis",
+            },
+        }
+
+    wsl_root = results / "WSL2"
     return {
         "Docker VMM": {
             "root": results / "Docker VMM",
-            "cpu": f"{docker_prefix}_cpu",
-            "memory": f"{docker_prefix}_memoria",
-            "io": f"{docker_prefix}_io",
-            "redis": f"{docker_prefix}_redis",
+            "cpu": "resultados_docker_vmm_4gb_cpu",
+            "memory": "resultados_docker_vmm_4gb_memoria",
+            "io": "resultados_docker_vmm_4gb_io",
+            "redis": "resultados_docker_vmm_4gb_redis",
         },
-        "WSL2": {
-            "root": results / "WSL2",
-            "cpu": f"{wsl_prefix}_cpu",
-            "memory": f"{wsl_prefix}_memoria",
-            "io": f"{wsl_prefix}_io",
-            "redis": f"{wsl_prefix}_redis",
+        "WSL2 2GB": {
+            "root": wsl_root,
+            "cpu": "resultados_wsl2_2gb_cpu",
+            "memory": "resultados_wsl2_2gb_memoria",
+            "io": "resultados_wsl2_2gb_io",
+            "redis": "resultados_wsl2_2gb_redis",
+        },
+        "WSL2 4GB": {
+            "root": wsl_root,
+            "cpu": "resultados_wsl2_4gb_cpu",
+            "memory": "resultados_wsl2_4gb_memoria",
+            "io": "resultados_wsl2_4gb_io",
+            "redis": "resultados_wsl2_4gb_redis",
         },
     }
 
@@ -159,7 +191,7 @@ def panel_base(x, y, width, height, title, ylabel, maximum, x_values, x_label):
         text(x + 20, y + 29, title, 18, "start", "bold"),
     ]
     left, right = x + 76, x + width - 25
-    top, bottom = y + 68, y + height - 58
+    top, bottom = y + 84, y + height - 58
     tick_count = 5
     for index in range(tick_count + 1):
         value = maximum * index / tick_count
@@ -270,13 +302,14 @@ def draw_io(data, platforms, x, y, width, height):
     left, top, right, bottom = bounds
     scale = (bottom - top) / maximum
     group_centers = [left + (right - left) * (index + 0.5) / 2 for index in range(2)]
-    bar_width = 42
+    bar_width = 42 if len(platforms) == 2 else 32
+    bar_gap = 8
     for index, operation in enumerate(("READ", "WRITE")):
         center = group_centers[index]
         parts.append(text(center, bottom + 20, "Leitura" if operation == "READ" else "Escrita", 11, color="#475569"))
         for platform_index, platform in enumerate(platforms):
             mean, sd = average(data["io"][platform][operation])
-            px = center + (-bar_width / 2 - 4 if platform_index == 0 else bar_width / 2 + 4)
+            px = center + (platform_index - (len(platforms) - 1) / 2) * (bar_width + bar_gap)
             py = bottom - mean * scale
             parts.append(
                 f'<rect x="{px - bar_width / 2:.1f}" y="{py:.1f}" width="{bar_width}" '
@@ -285,7 +318,7 @@ def draw_io(data, platforms, x, y, width, height):
             draw_error_bar(parts, px, py, sd, scale, COLORS[platform])
             label_y = py - sd * scale - 11
             parts.append(
-                f'<rect x="{px - 20:.1f}" y="{label_y - 11:.1f}" width="40" height="15" '
+                f'<rect x="{px - 19:.1f}" y="{label_y - 11:.1f}" width="38" height="15" '
                 'rx="3" fill="white"/>'
             )
             parts.append(text(px, label_y, number(mean), 10, weight="bold", color=COLORS[platform]))
@@ -306,14 +339,14 @@ def render(data, platforms, pc):
         draw_lines(
             data, "cpu", "CPU — sysbench", "eventos/s", THREADS, "Threads",
             45, 100, panel_width, panel_height,
-            [("Docker VMM", None), ("WSL2", None)],
+            [(platform, None) for platform in platforms],
         )
     )
     parts.extend(
         draw_lines(
             data, "memory", "Memória — sysbench", "MiB/s", THREADS, "Threads",
             735, 100, panel_width, panel_height,
-            [("Docker VMM", None), ("WSL2", None)],
+            [(platform, None) for platform in platforms],
         )
     )
     parts.extend(draw_io(data, platforms, 45, 510, panel_width, panel_height))
@@ -321,12 +354,7 @@ def render(data, platforms, pc):
         draw_lines(
             data, "redis", "Redis — redis-benchmark", "requisições/s", THREADS, "Clientes",
             735, 510, panel_width, panel_height,
-            [
-                ("Docker VMM", "SET"),
-                ("Docker VMM", "GET"),
-                ("WSL2", "SET"),
-                ("WSL2", "GET"),
-            ],
+            [(platform, operation) for platform in platforms for operation in ("SET", "GET")],
         )
     )
     parts.extend(

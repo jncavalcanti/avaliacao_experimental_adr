@@ -95,58 +95,59 @@ Nos logs analisados, o Docker VMM registra aproximadamente 12 vezes a largura de
 
 O WSL2 apresenta taxas maiores com um e dois clientes. Com quatro clientes, os resultados são próximos; com oito, o Docker VMM apresenta taxas maiores. O aumento de concorrência eleva o throughput observado, embora não de forma proporcional.
 
-### PC_8gb — Docker VMM e WSL2
+### PC_8gb — Docker VMM e WSL2 com 2 GB e 4 GB
 
-Os resultados seguintes são médias aritméticas dos dez logs de cada configuração no PC_8gb.
+Os resultados seguintes são médias aritméticas dos dez logs de cada configuração no PC_8gb. Para WSL2, a comparação usa os diretórios `resultados_wsl2_2gb_*` e `resultados_wsl2_4gb_*`.
 
 #### CPU — eventos por segundo
 
-| Threads | Docker VMM | WSL2 |
-|---:|---:|---:|
-| 1 | 787,9 | 786,9 |
-| 2 | 1.532,9 | 1.372,9 |
-| 4 | 2.875,7 | 2.405,8 |
-| 8 | 2.905,3 | 2.412,8 |
+| Threads | Docker VMM | WSL2 2 GB | WSL2 4 GB |
+|---:|---:|---:|---:|
+| 1 | 787,9 | 770,7 | 765,9 |
+| 2 | 1.532,9 | 1.369,7 | 1.353,4 |
+| 4 | 2.875,7 | 2.310,2 | 2.293,0 |
+| 8 | 2.905,3 | 2.313,7 | 2.257,4 |
 
 #### Memória — MiB/s
 
-| Threads | Docker VMM | WSL2 |
-|---:|---:|---:|
-| 1 | 23.574,7 | 23.424,5 |
-| 2 | 39.504,8 | 36.273,3 |
-| 4 | 63.650,7 | 53.124,7 |
-| 8 | 64.348,5 | 51.425,8 |
+| Threads | Docker VMM | WSL2 2 GB | WSL2 4 GB |
+|---:|---:|---:|---:|
+| 1 | 23.574,7 | 23.332,0 | 22.879,2 |
+| 2 | 39.504,8 | 39.788,4 | 36.187,0 |
+| 4 | 63.650,7 | 53.907,4 | 49.547,8 |
+| 8 | 64.348,5 | 53.280,0 | 50.266,7 |
 
 #### I/O — largura de banda
 
-| Operação | Docker VMM | WSL2 |
-|---|---:|---:|
-| Leitura | 129,8 MiB/s | 8,83 MiB/s |
-| Escrita | 130,0 MiB/s | 8,83 MiB/s |
+| Operação | Docker VMM | WSL2 2 GB | WSL2 4 GB |
+|---|---:|---:|---:|
+| Leitura | 129,8 MiB/s | 8,62 MiB/s | 8,54 MiB/s |
+| Escrita | 130,0 MiB/s | 8,61 MiB/s | 8,54 MiB/s |
 
 #### Redis — requisições por segundo
 
-| Clientes | Operação | Docker VMM | WSL2 |
-|---:|:---|---:|---:|
-| 1 | SET | 12.808 | 8.474 |
-| 1 | GET | 12.888 | 8.530 |
-| 2 | SET | 30.323 | 24.271 |
-| 2 | GET | 30.472 | 27.995 |
-| 4 | SET | 80.330 | 42.510 |
-| 4 | GET | 91.916 | 45.943 |
-| 8 | SET | 114.654 | 53.299 |
-| 8 | GET | 114.354 | 53.376 |
+| Clientes | Operação | Docker VMM | WSL2 2 GB | WSL2 4 GB |
+|---:|:---|---:|---:|---:|
+| 1 | SET | 12.808 | 7.158 | 7.570 |
+| 1 | GET | 12.888 | 7.404 | 7.791 |
+| 2 | SET | 30.323 | 20.857 | 21.791 |
+| 2 | GET | 30.472 | 21.716 | 23.112 |
+| 4 | SET | 80.330 | 39.165 | 39.079 |
+| 4 | GET | 91.916 | 43.776 | 42.917 |
+| 8 | SET | 114.654 | 50.981 | 51.222 |
+| 8 | GET | 114.354 | 51.993 | 52.961 |
 
 ### Análise visual — PC_8gb
 
-O gráfico compara as médias das dez repetições; as barras de erro mostram o desvio-padrão entre repetições.
+O gráfico compara as médias das dez repetições do Docker VMM e do WSL2 com 2 GB e 4 GB; as barras de erro mostram o desvio-padrão entre repetições.
 
 ![Gráfico comparativo dos benchmarks no PC_8gb](resultados_preliminares/PC_8gb/grafico_pc_8gb.svg)
 
-- **CPU:** os resultados são praticamente iguais com uma thread. Com duas a oito threads, Docker VMM fica aproximadamente 12% a 20% acima. O ganho de quatro para oito threads é pequeno em ambos os ambientes.
-- **Memória:** Docker VMM supera WSL2 em todas as configurações; a diferença aumenta de menos de 1% com uma thread para cerca de 25% com oito. O throughput quase estabiliza no Docker VMM de quatro para oito threads e cai ligeiramente no WSL2.
-- **I/O:** a largura de banda total reportada pelo fio é aproximadamente 14,7 vezes maior no Docker VMM, tanto para leitura quanto para escrita.
-- **Redis:** Docker VMM registra maior throughput em todas as quantidades de clientes. A vantagem é de cerca de 1,5 vez com um cliente e chega a pouco mais de 2,1 vezes com oito clientes.
+- **WSL2, CPU:** a configuração de 2 GB fica ligeiramente acima da de 4 GB em todos os níveis de threads; a diferença chega a cerca de 2,5% com oito threads.
+- **WSL2, memória:** 2 GB supera 4 GB em duas, quatro e oito threads; com uma thread, os resultados são próximos.
+- **WSL2, I/O:** os resultados são praticamente iguais entre 2 GB e 4 GB, com pequena vantagem para 2 GB.
+- **WSL2, Redis:** 4 GB fica ligeiramente acima na maioria das configurações; com quatro clientes, 2 GB fica um pouco à frente.
+- **Docker VMM:** registra throughput maior que as configurações WSL2 nos workloads de CPU, memória, I/O e Redis.
 
 Esses resultados descrevem cada PC e a configuração avaliada; não devem ser generalizados para outros hosts sem novas medições. Os gráficos podem ser recriados com `python Scripts/gerar_grafico_pc.py PC_8gb` ou `python Scripts/gerar_grafico_pc.py PC_16gb`.
 
@@ -156,8 +157,8 @@ Esses resultados descrevem cada PC e a configuração avaliada; não devem ser g
 - **Memória:** WSL2 tem vantagem nas configurações de maior concorrência, enquanto Docker VMM lidera em uma thread.
 - **I/O:** Docker VMM aparece muito à frente nos dados coletados.
 - **Redis:** resultados mistos conforme a concorrência, sem uma plataforma vencedora em todas as configurações.
-- **PC_8gb:** os dados agora cobrem os quatro workloads nos dois ambientes. O Docker VMM apresenta médias superiores na maioria das configurações de CPU, memória e Redis; no I/O, a largura de banda registrada também é maior.
+- **PC_8gb:** os dados incluem Docker VMM e WSL2 com 2 GB e 4 GB. Entre as configurações WSL2, a diferença depende do workload: CPU e memória favorecem em geral 2 GB, Redis favorece ligeiramente 4 GB e I/O é parecido.
 
 ## 6. Conclusão
 
-O projeto reúne scripts de automação para executar quatro workloads em WSL2 e Docker VMM. Os resultados incluem 260 logs no PC de 16 GB e 260 logs no PC de 8 GB, com os quatro workloads nos dois ambientes para cada máquina. No PC de 16 GB, CPU e Redis variam conforme a concorrência; memória favorece o WSL2 em várias configurações, e I/O favorece o Docker VMM. No PC de 8 GB, Docker VMM apresenta médias maiores na maior parte das configurações. Os scripts WSL2 identificam corretamente o cenário como `wsl2`.
+O projeto reúne scripts de automação para executar quatro workloads em WSL2 e Docker VMM. Os resultados incluem 260 logs no PC de 16 GB e benchmarks de Docker VMM, WSL2 com 2 GB e WSL2 com 4 GB no PC de 8 GB. No PC de 16 GB, CPU e Redis variam conforme a concorrência; memória favorece o WSL2 em várias configurações, e I/O favorece o Docker VMM. No PC de 8 GB, a diferença entre as duas configurações WSL2 depende do workload, enquanto Docker VMM apresenta médias maiores na maior parte das medições.

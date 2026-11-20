@@ -9,6 +9,7 @@ $ErrorActionPreference = "Stop"
 $PastaResultados = Join-Path (Get-Location).Path "resultados_${Cenario}_cpu"
 New-Item -ItemType Directory -Path $PastaResultados -Force | Out-Null
 
+Write-Host "=== Iniciando Workload W1: CPU-bound ($Cenario) ===" -ForegroundColor Cyan
 
 for ($rep = 1; $rep -le 10; $rep++) {
     Write-Host "--- Repetição $rep de 10 ---"

@@ -1,6 +1,6 @@
-WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
 sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
 
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
 Running the test with following options:
 Number of threads: 2
 Initializing random number generator from current time
@@ -16,23 +16,23 @@ Initializing worker threads...
 
 Threads started!
 
-Total operations: 10240 (49297.80 per second)
+Total operations: 10240 (49133.55 per second)
 
-10240.00 MiB transferred (49297.80 MiB/sec)
+10240.00 MiB transferred (49133.55 MiB/sec)
 
 
 General statistics:
-    total time:                          0.2066s
+    total time:                          0.2074s
     total number of events:              10240
 
 Latency (ms):
          min:                                    0.03
          avg:                                    0.04
-         max:                                    0.64
+         max:                                    0.53
          95th percentile:                        0.05
-         sum:                                  409.11
+         sum:                                  411.63
 
 Threads fairness:
     events (avg/stddev):           5120.0000/0.00
-    execution time (avg/stddev):   0.2046/0.00
+    execution time (avg/stddev):   0.2058/0.00
 

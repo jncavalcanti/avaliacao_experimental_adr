@@ -13,20 +13,20 @@ WARNING: the --test option is deprecated. You can pass a script name or path on 
 Threads started!
 
 CPU speed:
-    events per second:  2841.89
+    events per second:  2877.77
 
 General statistics:
-    total time:                          10.0002s
-    total number of events:              28422
+    total time:                          10.0005s
+    total number of events:              28782
 
 Latency (ms):
          min:                                    0.67
-         avg:                                    0.70
-         max:                                    5.40
-         95th percentile:                        0.78
-         sum:                                19982.80
+         avg:                                    0.69
+         max:                                    5.36
+         95th percentile:                        0.75
+         sum:                                19986.89
 
 Threads fairness:
-    events (avg/stddev):           14211.0000/6.00
-    execution time (avg/stddev):   9.9914/0.00
+    events (avg/stddev):           14391.0000/7.00
+    execution time (avg/stddev):   9.9934/0.00
 

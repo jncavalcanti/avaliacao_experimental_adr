@@ -14,7 +14,7 @@ do
   do
     echo "Testando com $k thread(s)..."
     docker run --rm severalnines/sysbench sysbench --test=cpu --cpu-max-prime=20000 --threads=$k run \
-      >> "$PASTA_RESULTADOS/cpu_rep_${rep}_threads_${k}.txt" 2>&1
+      > "$PASTA_RESULTADOS/cpu_rep_${rep}_threads_${k}.txt" 2>&1
   done
 done
 

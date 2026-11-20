@@ -1,3 +1,4 @@
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
 sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
 
 Running the test with following options:
@@ -13,26 +14,25 @@ Running memory speed test with the following options:
 
 Initializing worker threads...
 
-WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
 Threads started!
 
-Total operations: 10240 (48825.24 per second)
+Total operations: 10240 (48350.95 per second)
 
-10240.00 MiB transferred (48825.24 MiB/sec)
+10240.00 MiB transferred (48350.95 MiB/sec)
 
 
 General statistics:
-    total time:                          0.2086s
+    total time:                          0.2108s
     total number of events:              10240
 
 Latency (ms):
          min:                                    0.03
          avg:                                    0.04
-         max:                                    1.10
+         max:                                    0.71
          95th percentile:                        0.05
-         sum:                                  414.08
+         sum:                                  419.00
 
 Threads fairness:
     events (avg/stddev):           5120.0000/0.00
-    execution time (avg/stddev):   0.2070/0.00
+    execution time (avg/stddev):   0.2095/0.00
 

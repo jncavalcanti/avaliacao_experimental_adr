@@ -13,7 +13,7 @@ do
   do
     echo "Testando memória com $k thread(s)..."
     docker run --rm severalnines/sysbench sysbench --test=memory --memory-block-size=1024KiB --memory-total-size=10240MiB --threads=$k run \
-      >> "$PASTA_RESULTADOS/memoria_rep_${rep}_threads_${k}.txt" 2>&1
+      > "$PASTA_RESULTADOS/memoria_rep_${rep}_threads_${k}.txt" 2>&1
   done
 done
 

@@ -21,7 +21,7 @@ do
     # Executa o benchmark disparando 100.000 requisições com o nível de concorrência atual
     docker run --rm --link redis_bench_test_$concurrency:redis redis:alpine \
       redis-benchmark -h redis -p 6379 -n 100000 -c $concurrency -t set,get -q \
-      >> "$PASTA_RESULTADOS/redis_rep_${rep}_concurrency_${concurrency}.txt" 2>&1
+      > "$PASTA_RESULTADOS/redis_rep_${rep}_concurrency_${concurrency}.txt" 2>&1
       
     # Para e remove o container de teste para limpar o ambiente
     docker stop redis_bench_test_$concurrency > /dev/null

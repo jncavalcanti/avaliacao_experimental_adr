@@ -14,6 +14,7 @@ O repositório reúne automação e resultados preliminares para comparar worklo
   - **Redis:** `redis-benchmark`, operações SET e GET, 100.000 requisições e concorrência de 1, 2, 4 e 8 clientes.
 - Cada configuração é repetida dez vezes. Os scripts gravam saídas em arquivos separados por repetição e nível de concorrência/thread.
 - O diretório `resultados_preliminares/PC_16gb` contém **260 logs**: 130 para Docker VMM e 130 para WSL2. Para cada plataforma há 40 arquivos de CPU, 40 de memória, 10 de I/O e 40 de Redis.
+- O script `Scripts/gerar_csv_16gb.py` consolida as métricas dos 260 logs de 4 GB do `PC_16gb` em `resultados_preliminares/PC_16gb/resultados_16gb_wsl2_vs_docker_vmm.csv`, sem alterar os logs originais. Execute com `python Scripts/gerar_csv_16gb.py`.
 - O diretório `resultados_preliminares/PC_8gb` contém **260 logs**: 130 para Docker VMM e 130 para WSL2. Para cada plataforma há 40 arquivos de CPU, 40 de memória, 10 de I/O e 40 de Redis.
 - Os quatro scripts da pasta WSL2 foram ajustados para definir `CENARIO="wsl2"`, identificando corretamente o ambiente nos diretórios de saída.
 - A pasta `Scripts/Unificado` contém um script PowerShell por workload (CPU, memória, I/O e Redis). Eles usam o Docker CLI sem selecionar o hipervisor; essa seleção permanece no Docker Desktop.

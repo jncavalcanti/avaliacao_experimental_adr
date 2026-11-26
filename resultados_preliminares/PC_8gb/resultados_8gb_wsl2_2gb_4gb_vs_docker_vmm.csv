@@ -1,0 +1,3481 @@
+﻿maquina,backend,memoria_gb,workload,repeticao,concorrencia_ou_threads,operacao_ou_metrica,valor,unidade
+PC_8gb,Docker VMM,4,cpu,1,1,throughput_eventos_s,798.55,eventos/s
+PC_8gb,Docker VMM,4,cpu,1,1,latencia_min,1.23,ms
+PC_8gb,Docker VMM,4,cpu,1,1,latencia_media,1.25,ms
+PC_8gb,Docker VMM,4,cpu,1,1,latencia_max,3.09,ms
+PC_8gb,Docker VMM,4,cpu,1,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,1,1,p95,1.27,ms
+PC_8gb,Docker VMM,4,cpu,1,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,1,2,throughput_eventos_s,1566.97,eventos/s
+PC_8gb,Docker VMM,4,cpu,1,2,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,1,2,latencia_media,1.28,ms
+PC_8gb,Docker VMM,4,cpu,1,2,latencia_max,2.6,ms
+PC_8gb,Docker VMM,4,cpu,1,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,1,2,p95,1.3,ms
+PC_8gb,Docker VMM,4,cpu,1,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,1,4,throughput_eventos_s,2752.49,eventos/s
+PC_8gb,Docker VMM,4,cpu,1,4,latencia_min,1.26,ms
+PC_8gb,Docker VMM,4,cpu,1,4,latencia_media,1.45,ms
+PC_8gb,Docker VMM,4,cpu,1,4,latencia_max,3.29,ms
+PC_8gb,Docker VMM,4,cpu,1,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,1,4,p95,2.48,ms
+PC_8gb,Docker VMM,4,cpu,1,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,1,8,throughput_eventos_s,2918.27,eventos/s
+PC_8gb,Docker VMM,4,cpu,1,8,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,1,8,latencia_media,2.74,ms
+PC_8gb,Docker VMM,4,cpu,1,8,latencia_max,14.32,ms
+PC_8gb,Docker VMM,4,cpu,1,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,1,8,p95,4.74,ms
+PC_8gb,Docker VMM,4,cpu,1,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,2,1,throughput_eventos_s,794.86,eventos/s
+PC_8gb,Docker VMM,4,cpu,2,1,latencia_min,1.24,ms
+PC_8gb,Docker VMM,4,cpu,2,1,latencia_media,1.26,ms
+PC_8gb,Docker VMM,4,cpu,2,1,latencia_max,3.35,ms
+PC_8gb,Docker VMM,4,cpu,2,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,2,1,p95,1.27,ms
+PC_8gb,Docker VMM,4,cpu,2,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,2,2,throughput_eventos_s,1564.9,eventos/s
+PC_8gb,Docker VMM,4,cpu,2,2,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,2,2,latencia_media,1.28,ms
+PC_8gb,Docker VMM,4,cpu,2,2,latencia_max,4.34,ms
+PC_8gb,Docker VMM,4,cpu,2,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,2,2,p95,1.3,ms
+PC_8gb,Docker VMM,4,cpu,2,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,2,4,throughput_eventos_s,2556.54,eventos/s
+PC_8gb,Docker VMM,4,cpu,2,4,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,2,4,latencia_media,1.56,ms
+PC_8gb,Docker VMM,4,cpu,2,4,latencia_max,16.26,ms
+PC_8gb,Docker VMM,4,cpu,2,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,2,4,p95,2.52,ms
+PC_8gb,Docker VMM,4,cpu,2,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,2,8,throughput_eventos_s,2647.39,eventos/s
+PC_8gb,Docker VMM,4,cpu,2,8,latencia_min,1.29,ms
+PC_8gb,Docker VMM,4,cpu,2,8,latencia_media,3.02,ms
+PC_8gb,Docker VMM,4,cpu,2,8,latencia_max,10.32,ms
+PC_8gb,Docker VMM,4,cpu,2,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,2,8,p95,5.47,ms
+PC_8gb,Docker VMM,4,cpu,2,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,3,1,throughput_eventos_s,774.64,eventos/s
+PC_8gb,Docker VMM,4,cpu,3,1,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,3,1,latencia_media,1.29,ms
+PC_8gb,Docker VMM,4,cpu,3,1,latencia_max,2.22,ms
+PC_8gb,Docker VMM,4,cpu,3,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,3,1,p95,1.34,ms
+PC_8gb,Docker VMM,4,cpu,3,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,3,2,throughput_eventos_s,1539.36,eventos/s
+PC_8gb,Docker VMM,4,cpu,3,2,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,3,2,latencia_media,1.3,ms
+PC_8gb,Docker VMM,4,cpu,3,2,latencia_max,2.48,ms
+PC_8gb,Docker VMM,4,cpu,3,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,3,2,p95,1.32,ms
+PC_8gb,Docker VMM,4,cpu,3,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,3,4,throughput_eventos_s,2530.15,eventos/s
+PC_8gb,Docker VMM,4,cpu,3,4,latencia_min,1.28,ms
+PC_8gb,Docker VMM,4,cpu,3,4,latencia_media,1.58,ms
+PC_8gb,Docker VMM,4,cpu,3,4,latencia_max,4.45,ms
+PC_8gb,Docker VMM,4,cpu,3,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,3,4,p95,2.52,ms
+PC_8gb,Docker VMM,4,cpu,3,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,3,8,throughput_eventos_s,2432.6,eventos/s
+PC_8gb,Docker VMM,4,cpu,3,8,latencia_min,1.29,ms
+PC_8gb,Docker VMM,4,cpu,3,8,latencia_media,3.28,ms
+PC_8gb,Docker VMM,4,cpu,3,8,latencia_max,25.4,ms
+PC_8gb,Docker VMM,4,cpu,3,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,3,8,p95,5.57,ms
+PC_8gb,Docker VMM,4,cpu,3,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,4,1,throughput_eventos_s,768.8,eventos/s
+PC_8gb,Docker VMM,4,cpu,4,1,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,4,1,latencia_media,1.3,ms
+PC_8gb,Docker VMM,4,cpu,4,1,latencia_max,3.51,ms
+PC_8gb,Docker VMM,4,cpu,4,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,4,1,p95,1.37,ms
+PC_8gb,Docker VMM,4,cpu,4,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,4,2,throughput_eventos_s,1535.97,eventos/s
+PC_8gb,Docker VMM,4,cpu,4,2,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,4,2,latencia_media,1.3,ms
+PC_8gb,Docker VMM,4,cpu,4,2,latencia_max,15.83,ms
+PC_8gb,Docker VMM,4,cpu,4,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,4,2,p95,1.34,ms
+PC_8gb,Docker VMM,4,cpu,4,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,4,4,throughput_eventos_s,2587.53,eventos/s
+PC_8gb,Docker VMM,4,cpu,4,4,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,4,4,latencia_media,1.54,ms
+PC_8gb,Docker VMM,4,cpu,4,4,latencia_max,15.78,ms
+PC_8gb,Docker VMM,4,cpu,4,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,4,4,p95,2.52,ms
+PC_8gb,Docker VMM,4,cpu,4,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,4,8,throughput_eventos_s,2311.74,eventos/s
+PC_8gb,Docker VMM,4,cpu,4,8,latencia_min,1.28,ms
+PC_8gb,Docker VMM,4,cpu,4,8,latencia_media,3.45,ms
+PC_8gb,Docker VMM,4,cpu,4,8,latencia_max,56.38,ms
+PC_8gb,Docker VMM,4,cpu,4,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,4,8,p95,5.57,ms
+PC_8gb,Docker VMM,4,cpu,4,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,5,1,throughput_eventos_s,776.53,eventos/s
+PC_8gb,Docker VMM,4,cpu,5,1,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,5,1,latencia_media,1.29,ms
+PC_8gb,Docker VMM,4,cpu,5,1,latencia_max,2.13,ms
+PC_8gb,Docker VMM,4,cpu,5,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,5,1,p95,1.32,ms
+PC_8gb,Docker VMM,4,cpu,5,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,5,2,throughput_eventos_s,1549.0,eventos/s
+PC_8gb,Docker VMM,4,cpu,5,2,latencia_min,1.26,ms
+PC_8gb,Docker VMM,4,cpu,5,2,latencia_media,1.29,ms
+PC_8gb,Docker VMM,4,cpu,5,2,latencia_max,3.14,ms
+PC_8gb,Docker VMM,4,cpu,5,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,5,2,p95,1.32,ms
+PC_8gb,Docker VMM,4,cpu,5,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,5,4,throughput_eventos_s,2979.39,eventos/s
+PC_8gb,Docker VMM,4,cpu,5,4,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,5,4,latencia_media,1.34,ms
+PC_8gb,Docker VMM,4,cpu,5,4,latencia_max,5.08,ms
+PC_8gb,Docker VMM,4,cpu,5,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,5,4,p95,1.34,ms
+PC_8gb,Docker VMM,4,cpu,5,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,5,8,throughput_eventos_s,2918.19,eventos/s
+PC_8gb,Docker VMM,4,cpu,5,8,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,5,8,latencia_media,2.74,ms
+PC_8gb,Docker VMM,4,cpu,5,8,latencia_max,13.41,ms
+PC_8gb,Docker VMM,4,cpu,5,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,5,8,p95,4.74,ms
+PC_8gb,Docker VMM,4,cpu,5,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,6,1,throughput_eventos_s,789.17,eventos/s
+PC_8gb,Docker VMM,4,cpu,6,1,latencia_min,1.24,ms
+PC_8gb,Docker VMM,4,cpu,6,1,latencia_media,1.27,ms
+PC_8gb,Docker VMM,4,cpu,6,1,latencia_max,2.16,ms
+PC_8gb,Docker VMM,4,cpu,6,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,6,1,p95,1.3,ms
+PC_8gb,Docker VMM,4,cpu,6,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,6,2,throughput_eventos_s,1566.22,eventos/s
+PC_8gb,Docker VMM,4,cpu,6,2,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,6,2,latencia_media,1.28,ms
+PC_8gb,Docker VMM,4,cpu,6,2,latencia_max,15.77,ms
+PC_8gb,Docker VMM,4,cpu,6,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,6,2,p95,1.3,ms
+PC_8gb,Docker VMM,4,cpu,6,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,6,4,throughput_eventos_s,2995.19,eventos/s
+PC_8gb,Docker VMM,4,cpu,6,4,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,6,4,latencia_media,1.33,ms
+PC_8gb,Docker VMM,4,cpu,6,4,latencia_max,5.34,ms
+PC_8gb,Docker VMM,4,cpu,6,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,6,4,p95,1.34,ms
+PC_8gb,Docker VMM,4,cpu,6,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,6,8,throughput_eventos_s,2933.33,eventos/s
+PC_8gb,Docker VMM,4,cpu,6,8,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,6,8,latencia_media,2.72,ms
+PC_8gb,Docker VMM,4,cpu,6,8,latencia_max,33.46,ms
+PC_8gb,Docker VMM,4,cpu,6,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,6,8,p95,4.41,ms
+PC_8gb,Docker VMM,4,cpu,6,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,7,1,throughput_eventos_s,795.62,eventos/s
+PC_8gb,Docker VMM,4,cpu,7,1,latencia_min,1.24,ms
+PC_8gb,Docker VMM,4,cpu,7,1,latencia_media,1.26,ms
+PC_8gb,Docker VMM,4,cpu,7,1,latencia_max,2.7,ms
+PC_8gb,Docker VMM,4,cpu,7,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,7,1,p95,1.27,ms
+PC_8gb,Docker VMM,4,cpu,7,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,7,2,throughput_eventos_s,1487.89,eventos/s
+PC_8gb,Docker VMM,4,cpu,7,2,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,7,2,latencia_media,1.34,ms
+PC_8gb,Docker VMM,4,cpu,7,2,latencia_max,3.34,ms
+PC_8gb,Docker VMM,4,cpu,7,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,7,2,p95,2.39,ms
+PC_8gb,Docker VMM,4,cpu,7,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,7,4,throughput_eventos_s,2659.62,eventos/s
+PC_8gb,Docker VMM,4,cpu,7,4,latencia_min,1.26,ms
+PC_8gb,Docker VMM,4,cpu,7,4,latencia_media,1.5,ms
+PC_8gb,Docker VMM,4,cpu,7,4,latencia_max,6.41,ms
+PC_8gb,Docker VMM,4,cpu,7,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,7,4,p95,2.48,ms
+PC_8gb,Docker VMM,4,cpu,7,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,7,8,throughput_eventos_s,2893.96,eventos/s
+PC_8gb,Docker VMM,4,cpu,7,8,latencia_min,1.26,ms
+PC_8gb,Docker VMM,4,cpu,7,8,latencia_media,2.76,ms
+PC_8gb,Docker VMM,4,cpu,7,8,latencia_max,12.31,ms
+PC_8gb,Docker VMM,4,cpu,7,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,7,8,p95,5.47,ms
+PC_8gb,Docker VMM,4,cpu,7,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,8,1,throughput_eventos_s,795.36,eventos/s
+PC_8gb,Docker VMM,4,cpu,8,1,latencia_min,1.24,ms
+PC_8gb,Docker VMM,4,cpu,8,1,latencia_media,1.26,ms
+PC_8gb,Docker VMM,4,cpu,8,1,latencia_max,4.62,ms
+PC_8gb,Docker VMM,4,cpu,8,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,8,1,p95,1.27,ms
+PC_8gb,Docker VMM,4,cpu,8,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,8,2,throughput_eventos_s,1541.38,eventos/s
+PC_8gb,Docker VMM,4,cpu,8,2,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,8,2,latencia_media,1.3,ms
+PC_8gb,Docker VMM,4,cpu,8,2,latencia_max,5.52,ms
+PC_8gb,Docker VMM,4,cpu,8,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,8,2,p95,1.3,ms
+PC_8gb,Docker VMM,4,cpu,8,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,8,4,throughput_eventos_s,2951.92,eventos/s
+PC_8gb,Docker VMM,4,cpu,8,4,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,8,4,latencia_media,1.35,ms
+PC_8gb,Docker VMM,4,cpu,8,4,latencia_max,17.65,ms
+PC_8gb,Docker VMM,4,cpu,8,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,8,4,p95,1.39,ms
+PC_8gb,Docker VMM,4,cpu,8,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,8,8,throughput_eventos_s,2852.8,eventos/s
+PC_8gb,Docker VMM,4,cpu,8,8,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,8,8,latencia_media,2.8,ms
+PC_8gb,Docker VMM,4,cpu,8,8,latencia_max,11.32,ms
+PC_8gb,Docker VMM,4,cpu,8,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,8,8,p95,5.47,ms
+PC_8gb,Docker VMM,4,cpu,8,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,9,1,throughput_eventos_s,788.71,eventos/s
+PC_8gb,Docker VMM,4,cpu,9,1,latencia_min,1.24,ms
+PC_8gb,Docker VMM,4,cpu,9,1,latencia_media,1.27,ms
+PC_8gb,Docker VMM,4,cpu,9,1,latencia_max,1.92,ms
+PC_8gb,Docker VMM,4,cpu,9,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,9,1,p95,1.3,ms
+PC_8gb,Docker VMM,4,cpu,9,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,9,2,throughput_eventos_s,1477.55,eventos/s
+PC_8gb,Docker VMM,4,cpu,9,2,latencia_min,1.25,ms
+PC_8gb,Docker VMM,4,cpu,9,2,latencia_media,1.35,ms
+PC_8gb,Docker VMM,4,cpu,9,2,latencia_max,15.42,ms
+PC_8gb,Docker VMM,4,cpu,9,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,9,2,p95,1.55,ms
+PC_8gb,Docker VMM,4,cpu,9,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,9,4,throughput_eventos_s,1604.54,eventos/s
+PC_8gb,Docker VMM,4,cpu,9,4,latencia_min,1.31,ms
+PC_8gb,Docker VMM,4,cpu,9,4,latencia_media,2.49,ms
+PC_8gb,Docker VMM,4,cpu,9,4,latencia_max,91.76,ms
+PC_8gb,Docker VMM,4,cpu,9,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,9,4,p95,4.49,ms
+PC_8gb,Docker VMM,4,cpu,9,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,9,8,throughput_eventos_s,2174.4,eventos/s
+PC_8gb,Docker VMM,4,cpu,9,8,latencia_min,1.28,ms
+PC_8gb,Docker VMM,4,cpu,9,8,latencia_media,3.67,ms
+PC_8gb,Docker VMM,4,cpu,9,8,latencia_max,33.07,ms
+PC_8gb,Docker VMM,4,cpu,9,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,9,8,p95,5.67,ms
+PC_8gb,Docker VMM,4,cpu,9,8,p99,,ms
+PC_8gb,Docker VMM,4,cpu,10,1,throughput_eventos_s,788.75,eventos/s
+PC_8gb,Docker VMM,4,cpu,10,1,latencia_min,1.23,ms
+PC_8gb,Docker VMM,4,cpu,10,1,latencia_media,1.27,ms
+PC_8gb,Docker VMM,4,cpu,10,1,latencia_max,8.08,ms
+PC_8gb,Docker VMM,4,cpu,10,1,p50,,ms
+PC_8gb,Docker VMM,4,cpu,10,1,p95,1.3,ms
+PC_8gb,Docker VMM,4,cpu,10,1,p99,,ms
+PC_8gb,Docker VMM,4,cpu,10,2,throughput_eventos_s,1553.68,eventos/s
+PC_8gb,Docker VMM,4,cpu,10,2,latencia_min,1.24,ms
+PC_8gb,Docker VMM,4,cpu,10,2,latencia_media,1.29,ms
+PC_8gb,Docker VMM,4,cpu,10,2,latencia_max,3.69,ms
+PC_8gb,Docker VMM,4,cpu,10,2,p50,,ms
+PC_8gb,Docker VMM,4,cpu,10,2,p95,1.32,ms
+PC_8gb,Docker VMM,4,cpu,10,2,p99,,ms
+PC_8gb,Docker VMM,4,cpu,10,4,throughput_eventos_s,2910.5,eventos/s
+PC_8gb,Docker VMM,4,cpu,10,4,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,10,4,latencia_media,1.37,ms
+PC_8gb,Docker VMM,4,cpu,10,4,latencia_max,5.4,ms
+PC_8gb,Docker VMM,4,cpu,10,4,p50,,ms
+PC_8gb,Docker VMM,4,cpu,10,4,p95,2.03,ms
+PC_8gb,Docker VMM,4,cpu,10,4,p99,,ms
+PC_8gb,Docker VMM,4,cpu,10,8,throughput_eventos_s,2826.84,eventos/s
+PC_8gb,Docker VMM,4,cpu,10,8,latencia_min,1.27,ms
+PC_8gb,Docker VMM,4,cpu,10,8,latencia_media,2.83,ms
+PC_8gb,Docker VMM,4,cpu,10,8,latencia_max,10.48,ms
+PC_8gb,Docker VMM,4,cpu,10,8,p50,,ms
+PC_8gb,Docker VMM,4,cpu,10,8,p95,5.47,ms
+PC_8gb,Docker VMM,4,cpu,10,8,p99,,ms
+PC_8gb,Docker VMM,4,memoria,1,1,escrita_throughput,21128.83,MiB/s
+PC_8gb,Docker VMM,4,memoria,1,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,1,1,escrita_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,memoria,1,1,escrita_latencia_max,1.62,ms
+PC_8gb,Docker VMM,4,memoria,1,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,1,1,escrita_p95,0.07,ms
+PC_8gb,Docker VMM,4,memoria,1,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,1,2,escrita_throughput,44002.74,MiB/s
+PC_8gb,Docker VMM,4,memoria,1,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,1,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,1,2,escrita_latencia_max,0.94,ms
+PC_8gb,Docker VMM,4,memoria,1,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,1,2,escrita_p95,0.08,ms
+PC_8gb,Docker VMM,4,memoria,1,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,1,4,escrita_throughput,66586.08,MiB/s
+PC_8gb,Docker VMM,4,memoria,1,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,1,4,escrita_latencia_media,0.06,ms
+PC_8gb,Docker VMM,4,memoria,1,4,escrita_latencia_max,3.24,ms
+PC_8gb,Docker VMM,4,memoria,1,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,1,4,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,1,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,1,8,escrita_throughput,61221.54,MiB/s
+PC_8gb,Docker VMM,4,memoria,1,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,1,8,escrita_latencia_media,0.1,ms
+PC_8gb,Docker VMM,4,memoria,1,8,escrita_latencia_max,12.11,ms
+PC_8gb,Docker VMM,4,memoria,1,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,1,8,escrita_p95,0.1,ms
+PC_8gb,Docker VMM,4,memoria,1,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,2,1,escrita_throughput,25028.24,MiB/s
+PC_8gb,Docker VMM,4,memoria,2,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,2,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,2,1,escrita_latencia_max,1.49,ms
+PC_8gb,Docker VMM,4,memoria,2,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,2,1,escrita_p95,0.04,ms
+PC_8gb,Docker VMM,4,memoria,2,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,2,2,escrita_throughput,46011.33,MiB/s
+PC_8gb,Docker VMM,4,memoria,2,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,2,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,2,2,escrita_latencia_max,2.29,ms
+PC_8gb,Docker VMM,4,memoria,2,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,2,2,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,2,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,2,4,escrita_throughput,71985.84,MiB/s
+PC_8gb,Docker VMM,4,memoria,2,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,2,4,escrita_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,memoria,2,4,escrita_latencia_max,1.92,ms
+PC_8gb,Docker VMM,4,memoria,2,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,2,4,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,2,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,2,8,escrita_throughput,70569.68,MiB/s
+PC_8gb,Docker VMM,4,memoria,2,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,2,8,escrita_latencia_media,0.09,ms
+PC_8gb,Docker VMM,4,memoria,2,8,escrita_latencia_max,12.1,ms
+PC_8gb,Docker VMM,4,memoria,2,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,2,8,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,2,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,3,1,escrita_throughput,24231.16,MiB/s
+PC_8gb,Docker VMM,4,memoria,3,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,3,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,3,1,escrita_latencia_max,0.6,ms
+PC_8gb,Docker VMM,4,memoria,3,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,3,1,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,3,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,3,2,escrita_throughput,43834.66,MiB/s
+PC_8gb,Docker VMM,4,memoria,3,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,3,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,3,2,escrita_latencia_max,0.62,ms
+PC_8gb,Docker VMM,4,memoria,3,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,3,2,escrita_p95,0.08,ms
+PC_8gb,Docker VMM,4,memoria,3,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,3,4,escrita_throughput,69059.0,MiB/s
+PC_8gb,Docker VMM,4,memoria,3,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,3,4,escrita_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,memoria,3,4,escrita_latencia_max,1.41,ms
+PC_8gb,Docker VMM,4,memoria,3,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,3,4,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,3,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,3,8,escrita_throughput,69438.04,MiB/s
+PC_8gb,Docker VMM,4,memoria,3,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,3,8,escrita_latencia_media,0.08,ms
+PC_8gb,Docker VMM,4,memoria,3,8,escrita_latencia_max,16.21,ms
+PC_8gb,Docker VMM,4,memoria,3,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,3,8,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,3,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,4,1,escrita_throughput,24423.9,MiB/s
+PC_8gb,Docker VMM,4,memoria,4,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,4,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,4,1,escrita_latencia_max,0.66,ms
+PC_8gb,Docker VMM,4,memoria,4,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,4,1,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,4,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,4,2,escrita_throughput,46039.63,MiB/s
+PC_8gb,Docker VMM,4,memoria,4,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,4,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,4,2,escrita_latencia_max,0.64,ms
+PC_8gb,Docker VMM,4,memoria,4,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,4,2,escrita_p95,0.06,ms
+PC_8gb,Docker VMM,4,memoria,4,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,4,4,escrita_throughput,63478.21,MiB/s
+PC_8gb,Docker VMM,4,memoria,4,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,4,4,escrita_latencia_media,0.06,ms
+PC_8gb,Docker VMM,4,memoria,4,4,escrita_latencia_max,2.17,ms
+PC_8gb,Docker VMM,4,memoria,4,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,4,4,escrita_p95,0.1,ms
+PC_8gb,Docker VMM,4,memoria,4,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,4,8,escrita_throughput,62084.01,MiB/s
+PC_8gb,Docker VMM,4,memoria,4,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,4,8,escrita_latencia_media,0.11,ms
+PC_8gb,Docker VMM,4,memoria,4,8,escrita_latencia_max,11.09,ms
+PC_8gb,Docker VMM,4,memoria,4,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,4,8,escrita_p95,0.11,ms
+PC_8gb,Docker VMM,4,memoria,4,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,5,1,escrita_throughput,24776.95,MiB/s
+PC_8gb,Docker VMM,4,memoria,5,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,5,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,5,1,escrita_latencia_max,1.25,ms
+PC_8gb,Docker VMM,4,memoria,5,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,5,1,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,5,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,5,2,escrita_throughput,34696.7,MiB/s
+PC_8gb,Docker VMM,4,memoria,5,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,5,2,escrita_latencia_media,0.06,ms
+PC_8gb,Docker VMM,4,memoria,5,2,escrita_latencia_max,1.04,ms
+PC_8gb,Docker VMM,4,memoria,5,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,5,2,escrita_p95,0.12,ms
+PC_8gb,Docker VMM,4,memoria,5,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,5,4,escrita_throughput,73017.01,MiB/s
+PC_8gb,Docker VMM,4,memoria,5,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,5,4,escrita_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,memoria,5,4,escrita_latencia_max,2.1,ms
+PC_8gb,Docker VMM,4,memoria,5,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,5,4,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,5,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,5,8,escrita_throughput,68259.11,MiB/s
+PC_8gb,Docker VMM,4,memoria,5,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,5,8,escrita_latencia_media,0.1,ms
+PC_8gb,Docker VMM,4,memoria,5,8,escrita_latencia_max,9.1,ms
+PC_8gb,Docker VMM,4,memoria,5,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,5,8,escrita_p95,0.1,ms
+PC_8gb,Docker VMM,4,memoria,5,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,6,1,escrita_throughput,24489.22,MiB/s
+PC_8gb,Docker VMM,4,memoria,6,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,6,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,6,1,escrita_latencia_max,1.19,ms
+PC_8gb,Docker VMM,4,memoria,6,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,6,1,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,6,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,6,2,escrita_throughput,47675.63,MiB/s
+PC_8gb,Docker VMM,4,memoria,6,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,6,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,6,2,escrita_latencia_max,0.95,ms
+PC_8gb,Docker VMM,4,memoria,6,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,6,2,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,6,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,6,4,escrita_throughput,69189.47,MiB/s
+PC_8gb,Docker VMM,4,memoria,6,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,6,4,escrita_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,memoria,6,4,escrita_latencia_max,3.45,ms
+PC_8gb,Docker VMM,4,memoria,6,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,6,4,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,6,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,6,8,escrita_throughput,70022.17,MiB/s
+PC_8gb,Docker VMM,4,memoria,6,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,6,8,escrita_latencia_media,0.1,ms
+PC_8gb,Docker VMM,4,memoria,6,8,escrita_latencia_max,6.15,ms
+PC_8gb,Docker VMM,4,memoria,6,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,6,8,escrita_p95,0.11,ms
+PC_8gb,Docker VMM,4,memoria,6,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,7,1,escrita_throughput,24544.21,MiB/s
+PC_8gb,Docker VMM,4,memoria,7,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,7,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,7,1,escrita_latencia_max,0.99,ms
+PC_8gb,Docker VMM,4,memoria,7,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,7,1,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,7,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,7,2,escrita_throughput,45896.21,MiB/s
+PC_8gb,Docker VMM,4,memoria,7,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,7,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,7,2,escrita_latencia_max,0.41,ms
+PC_8gb,Docker VMM,4,memoria,7,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,7,2,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,7,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,7,4,escrita_throughput,73476.28,MiB/s
+PC_8gb,Docker VMM,4,memoria,7,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,7,4,escrita_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,memoria,7,4,escrita_latencia_max,0.95,ms
+PC_8gb,Docker VMM,4,memoria,7,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,7,4,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,7,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,7,8,escrita_throughput,64704.84,MiB/s
+PC_8gb,Docker VMM,4,memoria,7,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,7,8,escrita_latencia_media,0.1,ms
+PC_8gb,Docker VMM,4,memoria,7,8,escrita_latencia_max,10.1,ms
+PC_8gb,Docker VMM,4,memoria,7,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,7,8,escrita_p95,0.11,ms
+PC_8gb,Docker VMM,4,memoria,7,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,8,1,escrita_throughput,24419.2,MiB/s
+PC_8gb,Docker VMM,4,memoria,8,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,8,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,8,1,escrita_latencia_max,0.84,ms
+PC_8gb,Docker VMM,4,memoria,8,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,8,1,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,8,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,8,2,escrita_throughput,44969.58,MiB/s
+PC_8gb,Docker VMM,4,memoria,8,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,8,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,8,2,escrita_latencia_max,2.58,ms
+PC_8gb,Docker VMM,4,memoria,8,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,8,2,escrita_p95,0.06,ms
+PC_8gb,Docker VMM,4,memoria,8,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,8,4,escrita_throughput,71728.42,MiB/s
+PC_8gb,Docker VMM,4,memoria,8,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,8,4,escrita_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,memoria,8,4,escrita_latencia_max,2.2,ms
+PC_8gb,Docker VMM,4,memoria,8,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,8,4,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,8,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,8,8,escrita_throughput,62472.58,MiB/s
+PC_8gb,Docker VMM,4,memoria,8,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,8,8,escrita_latencia_media,0.1,ms
+PC_8gb,Docker VMM,4,memoria,8,8,escrita_latencia_max,14.1,ms
+PC_8gb,Docker VMM,4,memoria,8,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,8,8,escrita_p95,0.11,ms
+PC_8gb,Docker VMM,4,memoria,8,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,9,1,escrita_throughput,23886.9,MiB/s
+PC_8gb,Docker VMM,4,memoria,9,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,9,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,9,1,escrita_latencia_max,0.49,ms
+PC_8gb,Docker VMM,4,memoria,9,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,9,1,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,9,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,9,2,escrita_throughput,44713.48,MiB/s
+PC_8gb,Docker VMM,4,memoria,9,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,9,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,9,2,escrita_latencia_max,1.28,ms
+PC_8gb,Docker VMM,4,memoria,9,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,9,2,escrita_p95,0.06,ms
+PC_8gb,Docker VMM,4,memoria,9,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,9,4,escrita_throughput,64791.47,MiB/s
+PC_8gb,Docker VMM,4,memoria,9,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,9,4,escrita_latencia_media,0.06,ms
+PC_8gb,Docker VMM,4,memoria,9,4,escrita_latencia_max,5.17,ms
+PC_8gb,Docker VMM,4,memoria,9,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,9,4,escrita_p95,0.1,ms
+PC_8gb,Docker VMM,4,memoria,9,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,9,8,escrita_throughput,54582.65,MiB/s
+PC_8gb,Docker VMM,4,memoria,9,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,9,8,escrita_latencia_media,0.13,ms
+PC_8gb,Docker VMM,4,memoria,9,8,escrita_latencia_max,6.33,ms
+PC_8gb,Docker VMM,4,memoria,9,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,9,8,escrita_p95,0.15,ms
+PC_8gb,Docker VMM,4,memoria,9,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,10,1,escrita_throughput,23968.26,MiB/s
+PC_8gb,Docker VMM,4,memoria,10,1,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,10,1,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,10,1,escrita_latencia_max,0.72,ms
+PC_8gb,Docker VMM,4,memoria,10,1,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,10,1,escrita_p95,0.05,ms
+PC_8gb,Docker VMM,4,memoria,10,1,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,10,2,escrita_throughput,44947.65,MiB/s
+PC_8gb,Docker VMM,4,memoria,10,2,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,10,2,escrita_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,memoria,10,2,escrita_latencia_max,0.9,ms
+PC_8gb,Docker VMM,4,memoria,10,2,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,10,2,escrita_p95,0.06,ms
+PC_8gb,Docker VMM,4,memoria,10,2,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,10,4,escrita_throughput,76128.06,MiB/s
+PC_8gb,Docker VMM,4,memoria,10,4,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,10,4,escrita_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,memoria,10,4,escrita_latencia_max,3.68,ms
+PC_8gb,Docker VMM,4,memoria,10,4,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,10,4,escrita_p95,0.09,ms
+PC_8gb,Docker VMM,4,memoria,10,4,escrita_p99,,ms
+PC_8gb,Docker VMM,4,memoria,10,8,escrita_throughput,62709.06,MiB/s
+PC_8gb,Docker VMM,4,memoria,10,8,escrita_latencia_min,0.04,ms
+PC_8gb,Docker VMM,4,memoria,10,8,escrita_latencia_media,0.11,ms
+PC_8gb,Docker VMM,4,memoria,10,8,escrita_latencia_max,7.08,ms
+PC_8gb,Docker VMM,4,memoria,10,8,escrita_p50,,ms
+PC_8gb,Docker VMM,4,memoria,10,8,escrita_p95,0.12,ms
+PC_8gb,Docker VMM,4,memoria,10,8,escrita_p99,,ms
+PC_8gb,Docker VMM,4,io,1,2,leitura_largura_banda,142.0,MiB/s
+PC_8gb,Docker VMM,4,io,1,2,leitura_iops,36195.92,IOPS
+PC_8gb,Docker VMM,4,io,1,2,leitura_job1_latencia_media,449.64,us
+PC_8gb,Docker VMM,4,io,1,2,leitura_job1_p50,416.0,us
+PC_8gb,Docker VMM,4,io,1,2,leitura_job1_p95,668.0,us
+PC_8gb,Docker VMM,4,io,1,2,leitura_job1_p99,816.0,us
+PC_8gb,Docker VMM,4,io,1,2,leitura_job2_latencia_media,449.65,us
+PC_8gb,Docker VMM,4,io,1,2,leitura_job2_p50,416.0,us
+PC_8gb,Docker VMM,4,io,1,2,leitura_job2_p95,668.0,us
+PC_8gb,Docker VMM,4,io,1,2,leitura_job2_p99,824.0,us
+PC_8gb,Docker VMM,4,io,1,2,escrita_largura_banda,142.0,MiB/s
+PC_8gb,Docker VMM,4,io,1,2,escrita_iops,36225.979999999996,IOPS
+PC_8gb,Docker VMM,4,io,1,2,escrita_job1_latencia_media,431.53,us
+PC_8gb,Docker VMM,4,io,1,2,escrita_job1_p50,396.0,us
+PC_8gb,Docker VMM,4,io,1,2,escrita_job1_p95,644.0,us
+PC_8gb,Docker VMM,4,io,1,2,escrita_job1_p99,791.0,us
+PC_8gb,Docker VMM,4,io,1,2,escrita_job2_latencia_media,432.29,us
+PC_8gb,Docker VMM,4,io,1,2,escrita_job2_p50,396.0,us
+PC_8gb,Docker VMM,4,io,1,2,escrita_job2_p95,644.0,us
+PC_8gb,Docker VMM,4,io,1,2,escrita_job2_p99,799.0,us
+PC_8gb,Docker VMM,4,io,2,2,leitura_largura_banda,147.0,MiB/s
+PC_8gb,Docker VMM,4,io,2,2,leitura_iops,37662.479999999996,IOPS
+PC_8gb,Docker VMM,4,io,2,2,leitura_job1_latencia_media,432.01,us
+PC_8gb,Docker VMM,4,io,2,2,leitura_job1_p50,400.0,us
+PC_8gb,Docker VMM,4,io,2,2,leitura_job1_p95,635.0,us
+PC_8gb,Docker VMM,4,io,2,2,leitura_job1_p99,791.0,us
+PC_8gb,Docker VMM,4,io,2,2,leitura_job2_latencia_media,432.55,us
+PC_8gb,Docker VMM,4,io,2,2,leitura_job2_p50,400.0,us
+PC_8gb,Docker VMM,4,io,2,2,leitura_job2_p95,635.0,us
+PC_8gb,Docker VMM,4,io,2,2,leitura_job2_p99,783.0,us
+PC_8gb,Docker VMM,4,io,2,2,escrita_largura_banda,147.0,MiB/s
+PC_8gb,Docker VMM,4,io,2,2,escrita_iops,37684.41,IOPS
+PC_8gb,Docker VMM,4,io,2,2,escrita_job1_latencia_media,415.66,us
+PC_8gb,Docker VMM,4,io,2,2,escrita_job1_p50,383.0,us
+PC_8gb,Docker VMM,4,io,2,2,escrita_job1_p95,619.0,us
+PC_8gb,Docker VMM,4,io,2,2,escrita_job1_p99,766.0,us
+PC_8gb,Docker VMM,4,io,2,2,escrita_job2_latencia_media,415.77,us
+PC_8gb,Docker VMM,4,io,2,2,escrita_job2_p50,383.0,us
+PC_8gb,Docker VMM,4,io,2,2,escrita_job2_p95,619.0,us
+PC_8gb,Docker VMM,4,io,2,2,escrita_job2_p99,758.0,us
+PC_8gb,Docker VMM,4,io,3,2,leitura_largura_banda,145.0,MiB/s
+PC_8gb,Docker VMM,4,io,3,2,leitura_iops,37051.11,IOPS
+PC_8gb,Docker VMM,4,io,3,2,leitura_job1_latencia_media,439.68,us
+PC_8gb,Docker VMM,4,io,3,2,leitura_job1_p50,408.0,us
+PC_8gb,Docker VMM,4,io,3,2,leitura_job1_p95,652.0,us
+PC_8gb,Docker VMM,4,io,3,2,leitura_job1_p99,807.0,us
+PC_8gb,Docker VMM,4,io,3,2,leitura_job2_latencia_media,439.39,us
+PC_8gb,Docker VMM,4,io,3,2,leitura_job2_p50,408.0,us
+PC_8gb,Docker VMM,4,io,3,2,leitura_job2_p95,652.0,us
+PC_8gb,Docker VMM,4,io,3,2,leitura_job2_p99,807.0,us
+PC_8gb,Docker VMM,4,io,3,2,escrita_largura_banda,145.0,MiB/s
+PC_8gb,Docker VMM,4,io,3,2,escrita_iops,37089.87,IOPS
+PC_8gb,Docker VMM,4,io,3,2,escrita_job1_latencia_media,421.85,us
+PC_8gb,Docker VMM,4,io,3,2,escrita_job1_p50,392.0,us
+PC_8gb,Docker VMM,4,io,3,2,escrita_job1_p95,627.0,us
+PC_8gb,Docker VMM,4,io,3,2,escrita_job1_p99,775.0,us
+PC_8gb,Docker VMM,4,io,3,2,escrita_job2_latencia_media,421.3,us
+PC_8gb,Docker VMM,4,io,3,2,escrita_job2_p50,388.0,us
+PC_8gb,Docker VMM,4,io,3,2,escrita_job2_p95,627.0,us
+PC_8gb,Docker VMM,4,io,3,2,escrita_job2_p99,775.0,us
+PC_8gb,Docker VMM,4,io,4,2,leitura_largura_banda,145.0,MiB/s
+PC_8gb,Docker VMM,4,io,4,2,leitura_iops,36938.05,IOPS
+PC_8gb,Docker VMM,4,io,4,2,leitura_job1_latencia_media,441.08,us
+PC_8gb,Docker VMM,4,io,4,2,leitura_job1_p50,408.0,us
+PC_8gb,Docker VMM,4,io,4,2,leitura_job1_p95,652.0,us
+PC_8gb,Docker VMM,4,io,4,2,leitura_job1_p99,799.0,us
+PC_8gb,Docker VMM,4,io,4,2,leitura_job2_latencia_media,440.56,us
+PC_8gb,Docker VMM,4,io,4,2,leitura_job2_p50,408.0,us
+PC_8gb,Docker VMM,4,io,4,2,leitura_job2_p95,652.0,us
+PC_8gb,Docker VMM,4,io,4,2,leitura_job2_p99,799.0,us
+PC_8gb,Docker VMM,4,io,4,2,escrita_largura_banda,145.0,MiB/s
+PC_8gb,Docker VMM,4,io,4,2,escrita_iops,36980.149999999994,IOPS
+PC_8gb,Docker VMM,4,io,4,2,escrita_job1_latencia_media,422.62,us
+PC_8gb,Docker VMM,4,io,4,2,escrita_job1_p50,388.0,us
+PC_8gb,Docker VMM,4,io,4,2,escrita_job1_p95,627.0,us
+PC_8gb,Docker VMM,4,io,4,2,escrita_job1_p99,775.0,us
+PC_8gb,Docker VMM,4,io,4,2,escrita_job2_latencia_media,422.28,us
+PC_8gb,Docker VMM,4,io,4,2,escrita_job2_p50,388.0,us
+PC_8gb,Docker VMM,4,io,4,2,escrita_job2_p95,627.0,us
+PC_8gb,Docker VMM,4,io,4,2,escrita_job2_p99,775.0,us
+PC_8gb,Docker VMM,4,io,5,2,leitura_largura_banda,147.0,MiB/s
+PC_8gb,Docker VMM,4,io,5,2,leitura_iops,37554.47,IOPS
+PC_8gb,Docker VMM,4,io,5,2,leitura_job1_latencia_media,434.13,us
+PC_8gb,Docker VMM,4,io,5,2,leitura_job1_p50,404.0,us
+PC_8gb,Docker VMM,4,io,5,2,leitura_job1_p95,635.0,us
+PC_8gb,Docker VMM,4,io,5,2,leitura_job1_p99,783.0,us
+PC_8gb,Docker VMM,4,io,5,2,leitura_job2_latencia_media,434.4,us
+PC_8gb,Docker VMM,4,io,5,2,leitura_job2_p50,404.0,us
+PC_8gb,Docker VMM,4,io,5,2,leitura_job2_p95,635.0,us
+PC_8gb,Docker VMM,4,io,5,2,leitura_job2_p99,783.0,us
+PC_8gb,Docker VMM,4,io,5,2,escrita_largura_banda,147.0,MiB/s
+PC_8gb,Docker VMM,4,io,5,2,escrita_iops,37578.630000000005,IOPS
+PC_8gb,Docker VMM,4,io,5,2,escrita_job1_latencia_media,416.78,us
+PC_8gb,Docker VMM,4,io,5,2,escrita_job1_p50,388.0,us
+PC_8gb,Docker VMM,4,io,5,2,escrita_job1_p95,611.0,us
+PC_8gb,Docker VMM,4,io,5,2,escrita_job1_p99,758.0,us
+PC_8gb,Docker VMM,4,io,5,2,escrita_job2_latencia_media,416.0,us
+PC_8gb,Docker VMM,4,io,5,2,escrita_job2_p50,388.0,us
+PC_8gb,Docker VMM,4,io,5,2,escrita_job2_p95,611.0,us
+PC_8gb,Docker VMM,4,io,5,2,escrita_job2_p99,758.0,us
+PC_8gb,Docker VMM,4,io,6,2,leitura_largura_banda,141.0,MiB/s
+PC_8gb,Docker VMM,4,io,6,2,leitura_iops,36104.62,IOPS
+PC_8gb,Docker VMM,4,io,6,2,leitura_job1_latencia_media,451.25,us
+PC_8gb,Docker VMM,4,io,6,2,leitura_job1_p50,404.0,us
+PC_8gb,Docker VMM,4,io,6,2,leitura_job1_p95,652.0,us
+PC_8gb,Docker VMM,4,io,6,2,leitura_job1_p99,824.0,us
+PC_8gb,Docker VMM,4,io,6,2,leitura_job2_latencia_media,452.28,us
+PC_8gb,Docker VMM,4,io,6,2,leitura_job2_p50,404.0,us
+PC_8gb,Docker VMM,4,io,6,2,leitura_job2_p95,652.0,us
+PC_8gb,Docker VMM,4,io,6,2,leitura_job2_p99,824.0,us
+PC_8gb,Docker VMM,4,io,6,2,escrita_largura_banda,141.0,MiB/s
+PC_8gb,Docker VMM,4,io,6,2,escrita_iops,36139.88,IOPS
+PC_8gb,Docker VMM,4,io,6,2,escrita_job1_latencia_media,435.64,us
+PC_8gb,Docker VMM,4,io,6,2,escrita_job1_p50,388.0,us
+PC_8gb,Docker VMM,4,io,6,2,escrita_job1_p95,627.0,us
+PC_8gb,Docker VMM,4,io,6,2,escrita_job1_p99,791.0,us
+PC_8gb,Docker VMM,4,io,6,2,escrita_job2_latencia_media,435.36,us
+PC_8gb,Docker VMM,4,io,6,2,escrita_job2_p50,388.0,us
+PC_8gb,Docker VMM,4,io,6,2,escrita_job2_p95,627.0,us
+PC_8gb,Docker VMM,4,io,6,2,escrita_job2_p99,791.0,us
+PC_8gb,Docker VMM,4,io,7,2,leitura_largura_banda,122.0,MiB/s
+PC_8gb,Docker VMM,4,io,7,2,leitura_iops,31218.7,IOPS
+PC_8gb,Docker VMM,4,io,7,2,leitura_job1_latencia_media,517.83,us
+PC_8gb,Docker VMM,4,io,7,2,leitura_job1_p50,400.0,us
+PC_8gb,Docker VMM,4,io,7,2,leitura_job1_p95,660.0,us
+PC_8gb,Docker VMM,4,io,7,2,leitura_job1_p99,840.0,us
+PC_8gb,Docker VMM,4,io,7,2,leitura_job2_latencia_media,516.8,us
+PC_8gb,Docker VMM,4,io,7,2,leitura_job2_p50,400.0,us
+PC_8gb,Docker VMM,4,io,7,2,leitura_job2_p95,660.0,us
+PC_8gb,Docker VMM,4,io,7,2,leitura_job2_p99,832.0,us
+PC_8gb,Docker VMM,4,io,7,2,escrita_largura_banda,122.0,MiB/s
+PC_8gb,Docker VMM,4,io,7,2,escrita_iops,31257.0,IOPS
+PC_8gb,Docker VMM,4,io,7,2,escrita_job1_latencia_media,504.92,us
+PC_8gb,Docker VMM,4,io,7,2,escrita_job1_p50,379.0,us
+PC_8gb,Docker VMM,4,io,7,2,escrita_job1_p95,635.0,us
+PC_8gb,Docker VMM,4,io,7,2,escrita_job1_p99,816.0,us
+PC_8gb,Docker VMM,4,io,7,2,escrita_job2_latencia_media,506.3,us
+PC_8gb,Docker VMM,4,io,7,2,escrita_job2_p50,379.0,us
+PC_8gb,Docker VMM,4,io,7,2,escrita_job2_p95,635.0,us
+PC_8gb,Docker VMM,4,io,7,2,escrita_job2_p99,799.0,us
+PC_8gb,Docker VMM,4,io,8,2,leitura_largura_banda,123.0,MiB/s
+PC_8gb,Docker VMM,4,io,8,2,leitura_iops,31576.14,IOPS
+PC_8gb,Docker VMM,4,io,8,2,leitura_job1_latencia_media,513.36,us
+PC_8gb,Docker VMM,4,io,8,2,leitura_job1_p50,453.0,us
+PC_8gb,Docker VMM,4,io,8,2,leitura_job1_p95,717.0,us
+PC_8gb,Docker VMM,4,io,8,2,leitura_job1_p99,922.0,us
+PC_8gb,Docker VMM,4,io,8,2,leitura_job2_latencia_media,510.97,us
+PC_8gb,Docker VMM,4,io,8,2,leitura_job2_p50,453.0,us
+PC_8gb,Docker VMM,4,io,8,2,leitura_job2_p95,717.0,us
+PC_8gb,Docker VMM,4,io,8,2,leitura_job2_p99,922.0,us
+PC_8gb,Docker VMM,4,io,8,2,escrita_largura_banda,124.0,MiB/s
+PC_8gb,Docker VMM,4,io,8,2,escrita_iops,31621.64,IOPS
+PC_8gb,Docker VMM,4,io,8,2,escrita_job1_latencia_media,497.03,us
+PC_8gb,Docker VMM,4,io,8,2,escrita_job1_p50,437.0,us
+PC_8gb,Docker VMM,4,io,8,2,escrita_job1_p95,693.0,us
+PC_8gb,Docker VMM,4,io,8,2,escrita_job1_p99,889.0,us
+PC_8gb,Docker VMM,4,io,8,2,escrita_job2_latencia_media,501.03,us
+PC_8gb,Docker VMM,4,io,8,2,escrita_job2_p50,437.0,us
+PC_8gb,Docker VMM,4,io,8,2,escrita_job2_p95,693.0,us
+PC_8gb,Docker VMM,4,io,8,2,escrita_job2_p99,881.0,us
+PC_8gb,Docker VMM,4,io,9,2,leitura_largura_banda,128.0,MiB/s
+PC_8gb,Docker VMM,4,io,9,2,leitura_iops,32851.69,IOPS
+PC_8gb,Docker VMM,4,io,9,2,leitura_job1_latencia_media,496.59,us
+PC_8gb,Docker VMM,4,io,9,2,leitura_job1_p50,453.0,us
+PC_8gb,Docker VMM,4,io,9,2,leitura_job1_p95,693.0,us
+PC_8gb,Docker VMM,4,io,9,2,leitura_job1_p99,857.0,us
+PC_8gb,Docker VMM,4,io,9,2,leitura_job2_latencia_media,494.74,us
+PC_8gb,Docker VMM,4,io,9,2,leitura_job2_p50,453.0,us
+PC_8gb,Docker VMM,4,io,9,2,leitura_job2_p95,693.0,us
+PC_8gb,Docker VMM,4,io,9,2,leitura_job2_p99,848.0,us
+PC_8gb,Docker VMM,4,io,9,2,escrita_largura_banda,129.0,MiB/s
+PC_8gb,Docker VMM,4,io,9,2,escrita_iops,32890.100000000006,IOPS
+PC_8gb,Docker VMM,4,io,9,2,escrita_job1_latencia_media,474.97,us
+PC_8gb,Docker VMM,4,io,9,2,escrita_job1_p50,433.0,us
+PC_8gb,Docker VMM,4,io,9,2,escrita_job1_p95,668.0,us
+PC_8gb,Docker VMM,4,io,9,2,escrita_job1_p99,824.0,us
+PC_8gb,Docker VMM,4,io,9,2,escrita_job2_latencia_media,476.58,us
+PC_8gb,Docker VMM,4,io,9,2,escrita_job2_p50,437.0,us
+PC_8gb,Docker VMM,4,io,9,2,escrita_job2_p95,668.0,us
+PC_8gb,Docker VMM,4,io,9,2,escrita_job2_p99,824.0,us
+PC_8gb,Docker VMM,4,io,10,2,leitura_largura_banda,135.0,MiB/s
+PC_8gb,Docker VMM,4,io,10,2,leitura_iops,34632.31,IOPS
+PC_8gb,Docker VMM,4,io,10,2,leitura_job1_latencia_media,470.72,us
+PC_8gb,Docker VMM,4,io,10,2,leitura_job1_p50,441.0,us
+PC_8gb,Docker VMM,4,io,10,2,leitura_job1_p95,676.0,us
+PC_8gb,Docker VMM,4,io,10,2,leitura_job1_p99,799.0,us
+PC_8gb,Docker VMM,4,io,10,2,leitura_job2_latencia_media,469.58,us
+PC_8gb,Docker VMM,4,io,10,2,leitura_job2_p50,441.0,us
+PC_8gb,Docker VMM,4,io,10,2,leitura_job2_p95,668.0,us
+PC_8gb,Docker VMM,4,io,10,2,leitura_job2_p99,816.0,us
+PC_8gb,Docker VMM,4,io,10,2,escrita_largura_banda,135.0,MiB/s
+PC_8gb,Docker VMM,4,io,10,2,escrita_iops,34671.850000000006,IOPS
+PC_8gb,Docker VMM,4,io,10,2,escrita_job1_latencia_media,450.87,us
+PC_8gb,Docker VMM,4,io,10,2,escrita_job1_p50,420.0,us
+PC_8gb,Docker VMM,4,io,10,2,escrita_job1_p95,652.0,us
+PC_8gb,Docker VMM,4,io,10,2,escrita_job1_p99,775.0,us
+PC_8gb,Docker VMM,4,io,10,2,escrita_job2_latencia_media,451.84,us
+PC_8gb,Docker VMM,4,io,10,2,escrita_job2_p50,420.0,us
+PC_8gb,Docker VMM,4,io,10,2,escrita_job2_p95,652.0,us
+PC_8gb,Docker VMM,4,io,10,2,escrita_job2_p99,791.0,us
+PC_8gb,Docker VMM,4,redis,1,1,SET_requisicoes_por_segundo,14192.45,requisicoes/s
+PC_8gb,Docker VMM,4,redis,1,1,SET_latencia_media,0.067,ms
+PC_8gb,Docker VMM,4,redis,1,1,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,1,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,1,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,1,1,GET_requisicoes_por_segundo,14394.7,requisicoes/s
+PC_8gb,Docker VMM,4,redis,1,1,GET_latencia_media,0.066,ms
+PC_8gb,Docker VMM,4,redis,1,1,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,1,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,1,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,1,2,SET_requisicoes_por_segundo,35701.54,requisicoes/s
+PC_8gb,Docker VMM,4,redis,1,2,SET_latencia_media,0.049,ms
+PC_8gb,Docker VMM,4,redis,1,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,1,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,1,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,1,2,GET_requisicoes_por_segundo,31191.52,requisicoes/s
+PC_8gb,Docker VMM,4,redis,1,2,GET_latencia_media,0.056,ms
+PC_8gb,Docker VMM,4,redis,1,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,1,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,1,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,1,4,SET_requisicoes_por_segundo,84033.61,requisicoes/s
+PC_8gb,Docker VMM,4,redis,1,4,SET_latencia_media,0.038,ms
+PC_8gb,Docker VMM,4,redis,1,4,SET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,1,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,1,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,1,4,GET_requisicoes_por_segundo,92421.44,requisicoes/s
+PC_8gb,Docker VMM,4,redis,1,4,GET_latencia_media,0.034,ms
+PC_8gb,Docker VMM,4,redis,1,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,1,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,1,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,1,8,SET_requisicoes_por_segundo,100401.61,requisicoes/s
+PC_8gb,Docker VMM,4,redis,1,8,SET_latencia_media,0.059,ms
+PC_8gb,Docker VMM,4,redis,1,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,1,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,1,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,1,8,GET_requisicoes_por_segundo,106044.54,requisicoes/s
+PC_8gb,Docker VMM,4,redis,1,8,GET_latencia_media,0.054,ms
+PC_8gb,Docker VMM,4,redis,1,8,GET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,1,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,1,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,2,1,SET_requisicoes_por_segundo,13635.12,requisicoes/s
+PC_8gb,Docker VMM,4,redis,2,1,SET_latencia_media,0.069,ms
+PC_8gb,Docker VMM,4,redis,2,1,SET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,2,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,2,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,2,1,GET_requisicoes_por_segundo,13844.66,requisicoes/s
+PC_8gb,Docker VMM,4,redis,2,1,GET_latencia_media,0.068,ms
+PC_8gb,Docker VMM,4,redis,2,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,2,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,2,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,2,2,SET_requisicoes_por_segundo,36245.02,requisicoes/s
+PC_8gb,Docker VMM,4,redis,2,2,SET_latencia_media,0.048,ms
+PC_8gb,Docker VMM,4,redis,2,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,2,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,2,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,2,2,GET_requisicoes_por_segundo,32637.08,requisicoes/s
+PC_8gb,Docker VMM,4,redis,2,2,GET_latencia_media,0.053,ms
+PC_8gb,Docker VMM,4,redis,2,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,2,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,2,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,2,4,SET_requisicoes_por_segundo,76045.62,requisicoes/s
+PC_8gb,Docker VMM,4,redis,2,4,SET_latencia_media,0.041,ms
+PC_8gb,Docker VMM,4,redis,2,4,SET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,2,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,2,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,2,4,GET_requisicoes_por_segundo,87108.02,requisicoes/s
+PC_8gb,Docker VMM,4,redis,2,4,GET_latencia_media,0.036,ms
+PC_8gb,Docker VMM,4,redis,2,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,2,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,2,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,2,8,SET_requisicoes_por_segundo,103519.66,requisicoes/s
+PC_8gb,Docker VMM,4,redis,2,8,SET_latencia_media,0.059,ms
+PC_8gb,Docker VMM,4,redis,2,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,2,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,2,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,2,8,GET_requisicoes_por_segundo,113765.64,requisicoes/s
+PC_8gb,Docker VMM,4,redis,2,8,GET_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,redis,2,8,GET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,2,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,2,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,3,1,SET_requisicoes_por_segundo,13257.32,requisicoes/s
+PC_8gb,Docker VMM,4,redis,3,1,SET_latencia_media,0.071,ms
+PC_8gb,Docker VMM,4,redis,3,1,SET_p50,0.071,ms
+PC_8gb,Docker VMM,4,redis,3,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,3,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,3,1,GET_requisicoes_por_segundo,13449.9,requisicoes/s
+PC_8gb,Docker VMM,4,redis,3,1,GET_latencia_media,0.07,ms
+PC_8gb,Docker VMM,4,redis,3,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,3,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,3,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,3,2,SET_requisicoes_por_segundo,32102.73,requisicoes/s
+PC_8gb,Docker VMM,4,redis,3,2,SET_latencia_media,0.054,ms
+PC_8gb,Docker VMM,4,redis,3,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,3,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,3,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,3,2,GET_requisicoes_por_segundo,31240.24,requisicoes/s
+PC_8gb,Docker VMM,4,redis,3,2,GET_latencia_media,0.056,ms
+PC_8gb,Docker VMM,4,redis,3,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,3,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,3,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,3,4,SET_requisicoes_por_segundo,79239.3,requisicoes/s
+PC_8gb,Docker VMM,4,redis,3,4,SET_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,redis,3,4,SET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,3,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,3,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,3,4,GET_requisicoes_por_segundo,88417.33,requisicoes/s
+PC_8gb,Docker VMM,4,redis,3,4,GET_latencia_media,0.036,ms
+PC_8gb,Docker VMM,4,redis,3,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,3,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,3,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,3,8,SET_requisicoes_por_segundo,105596.62,requisicoes/s
+PC_8gb,Docker VMM,4,redis,3,8,SET_latencia_media,0.059,ms
+PC_8gb,Docker VMM,4,redis,3,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,3,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,3,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,3,8,GET_requisicoes_por_segundo,105485.23,requisicoes/s
+PC_8gb,Docker VMM,4,redis,3,8,GET_latencia_media,0.056,ms
+PC_8gb,Docker VMM,4,redis,3,8,GET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,3,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,3,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,4,1,SET_requisicoes_por_segundo,13533.63,requisicoes/s
+PC_8gb,Docker VMM,4,redis,4,1,SET_latencia_media,0.069,ms
+PC_8gb,Docker VMM,4,redis,4,1,SET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,4,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,4,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,4,1,GET_requisicoes_por_segundo,13544.63,requisicoes/s
+PC_8gb,Docker VMM,4,redis,4,1,GET_latencia_media,0.07,ms
+PC_8gb,Docker VMM,4,redis,4,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,4,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,4,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,4,2,SET_requisicoes_por_segundo,34674.06,requisicoes/s
+PC_8gb,Docker VMM,4,redis,4,2,SET_latencia_media,0.052,ms
+PC_8gb,Docker VMM,4,redis,4,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,4,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,4,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,4,2,GET_requisicoes_por_segundo,32743.94,requisicoes/s
+PC_8gb,Docker VMM,4,redis,4,2,GET_latencia_media,0.055,ms
+PC_8gb,Docker VMM,4,redis,4,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,4,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,4,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,4,4,SET_requisicoes_por_segundo,75700.23,requisicoes/s
+PC_8gb,Docker VMM,4,redis,4,4,SET_latencia_media,0.043,ms
+PC_8gb,Docker VMM,4,redis,4,4,SET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,4,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,4,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,4,4,GET_requisicoes_por_segundo,86880.97,requisicoes/s
+PC_8gb,Docker VMM,4,redis,4,4,GET_latencia_media,0.038,ms
+PC_8gb,Docker VMM,4,redis,4,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,4,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,4,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,4,8,SET_requisicoes_por_segundo,102880.66,requisicoes/s
+PC_8gb,Docker VMM,4,redis,4,8,SET_latencia_media,0.059,ms
+PC_8gb,Docker VMM,4,redis,4,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,4,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,4,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,4,8,GET_requisicoes_por_segundo,101010.1,requisicoes/s
+PC_8gb,Docker VMM,4,redis,4,8,GET_latencia_media,0.058,ms
+PC_8gb,Docker VMM,4,redis,4,8,GET_p50,0.047,ms
+PC_8gb,Docker VMM,4,redis,4,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,4,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,5,1,SET_requisicoes_por_segundo,13196.09,requisicoes/s
+PC_8gb,Docker VMM,4,redis,5,1,SET_latencia_media,0.071,ms
+PC_8gb,Docker VMM,4,redis,5,1,SET_p50,0.071,ms
+PC_8gb,Docker VMM,4,redis,5,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,5,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,5,1,GET_requisicoes_por_segundo,13238.02,requisicoes/s
+PC_8gb,Docker VMM,4,redis,5,1,GET_latencia_media,0.071,ms
+PC_8gb,Docker VMM,4,redis,5,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,5,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,5,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,5,2,SET_requisicoes_por_segundo,36697.25,requisicoes/s
+PC_8gb,Docker VMM,4,redis,5,2,SET_latencia_media,0.049,ms
+PC_8gb,Docker VMM,4,redis,5,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,5,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,5,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,5,2,GET_requisicoes_por_segundo,33456.0,requisicoes/s
+PC_8gb,Docker VMM,4,redis,5,2,GET_latencia_media,0.053,ms
+PC_8gb,Docker VMM,4,redis,5,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,5,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,5,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,5,4,SET_requisicoes_por_segundo,79428.12,requisicoes/s
+PC_8gb,Docker VMM,4,redis,5,4,SET_latencia_media,0.039,ms
+PC_8gb,Docker VMM,4,redis,5,4,SET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,5,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,5,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,5,4,GET_requisicoes_por_segundo,88105.73,requisicoes/s
+PC_8gb,Docker VMM,4,redis,5,4,GET_latencia_media,0.035,ms
+PC_8gb,Docker VMM,4,redis,5,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,5,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,5,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,5,8,SET_requisicoes_por_segundo,103092.78,requisicoes/s
+PC_8gb,Docker VMM,4,redis,5,8,SET_latencia_media,0.058,ms
+PC_8gb,Docker VMM,4,redis,5,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,5,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,5,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,5,8,GET_requisicoes_por_segundo,99403.58,requisicoes/s
+PC_8gb,Docker VMM,4,redis,5,8,GET_latencia_media,0.06,ms
+PC_8gb,Docker VMM,4,redis,5,8,GET_p50,0.047,ms
+PC_8gb,Docker VMM,4,redis,5,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,5,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,6,1,SET_requisicoes_por_segundo,12003.36,requisicoes/s
+PC_8gb,Docker VMM,4,redis,6,1,SET_latencia_media,0.078,ms
+PC_8gb,Docker VMM,4,redis,6,1,SET_p50,0.071,ms
+PC_8gb,Docker VMM,4,redis,6,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,6,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,6,1,GET_requisicoes_por_segundo,11392.12,requisicoes/s
+PC_8gb,Docker VMM,4,redis,6,1,GET_latencia_media,0.082,ms
+PC_8gb,Docker VMM,4,redis,6,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,6,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,6,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,6,2,SET_requisicoes_por_segundo,34674.06,requisicoes/s
+PC_8gb,Docker VMM,4,redis,6,2,SET_latencia_media,0.05,ms
+PC_8gb,Docker VMM,4,redis,6,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,6,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,6,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,6,2,GET_requisicoes_por_segundo,31979.53,requisicoes/s
+PC_8gb,Docker VMM,4,redis,6,2,GET_latencia_media,0.054,ms
+PC_8gb,Docker VMM,4,redis,6,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,6,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,6,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,6,4,SET_requisicoes_por_segundo,76923.08,requisicoes/s
+PC_8gb,Docker VMM,4,redis,6,4,SET_latencia_media,0.042,ms
+PC_8gb,Docker VMM,4,redis,6,4,SET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,6,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,6,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,6,4,GET_requisicoes_por_segundo,90991.81,requisicoes/s
+PC_8gb,Docker VMM,4,redis,6,4,GET_latencia_media,0.035,ms
+PC_8gb,Docker VMM,4,redis,6,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,6,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,6,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,6,8,SET_requisicoes_por_segundo,85324.23,requisicoes/s
+PC_8gb,Docker VMM,4,redis,6,8,SET_latencia_media,0.071,ms
+PC_8gb,Docker VMM,4,redis,6,8,SET_p50,0.047,ms
+PC_8gb,Docker VMM,4,redis,6,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,6,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,6,8,GET_requisicoes_por_segundo,104166.67,requisicoes/s
+PC_8gb,Docker VMM,4,redis,6,8,GET_latencia_media,0.056,ms
+PC_8gb,Docker VMM,4,redis,6,8,GET_p50,0.047,ms
+PC_8gb,Docker VMM,4,redis,6,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,6,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,7,1,SET_requisicoes_por_segundo,14226.78,requisicoes/s
+PC_8gb,Docker VMM,4,redis,7,1,SET_latencia_media,0.066,ms
+PC_8gb,Docker VMM,4,redis,7,1,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,7,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,7,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,7,1,GET_requisicoes_por_segundo,14086.49,requisicoes/s
+PC_8gb,Docker VMM,4,redis,7,1,GET_latencia_media,0.067,ms
+PC_8gb,Docker VMM,4,redis,7,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,7,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,7,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,7,2,SET_requisicoes_por_segundo,33036.01,requisicoes/s
+PC_8gb,Docker VMM,4,redis,7,2,SET_latencia_media,0.053,ms
+PC_8gb,Docker VMM,4,redis,7,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,7,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,7,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,7,2,GET_requisicoes_por_segundo,30778.7,requisicoes/s
+PC_8gb,Docker VMM,4,redis,7,2,GET_latencia_media,0.056,ms
+PC_8gb,Docker VMM,4,redis,7,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,7,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,7,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,7,4,SET_requisicoes_por_segundo,76804.91,requisicoes/s
+PC_8gb,Docker VMM,4,redis,7,4,SET_latencia_media,0.04,ms
+PC_8gb,Docker VMM,4,redis,7,4,SET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,7,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,7,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,7,4,GET_requisicoes_por_segundo,81967.21,requisicoes/s
+PC_8gb,Docker VMM,4,redis,7,4,GET_latencia_media,0.038,ms
+PC_8gb,Docker VMM,4,redis,7,4,GET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,7,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,7,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,7,8,SET_requisicoes_por_segundo,98039.22,requisicoes/s
+PC_8gb,Docker VMM,4,redis,7,8,SET_latencia_media,0.06,ms
+PC_8gb,Docker VMM,4,redis,7,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,7,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,7,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,7,8,GET_requisicoes_por_segundo,115074.8,requisicoes/s
+PC_8gb,Docker VMM,4,redis,7,8,GET_latencia_media,0.048,ms
+PC_8gb,Docker VMM,4,redis,7,8,GET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,7,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,7,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,8,1,SET_requisicoes_por_segundo,13324.45,requisicoes/s
+PC_8gb,Docker VMM,4,redis,8,1,SET_latencia_media,0.071,ms
+PC_8gb,Docker VMM,4,redis,8,1,SET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,8,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,8,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,8,1,GET_requisicoes_por_segundo,13197.83,requisicoes/s
+PC_8gb,Docker VMM,4,redis,8,1,GET_latencia_media,0.071,ms
+PC_8gb,Docker VMM,4,redis,8,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,8,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,8,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,8,2,SET_requisicoes_por_segundo,34494.65,requisicoes/s
+PC_8gb,Docker VMM,4,redis,8,2,SET_latencia_media,0.051,ms
+PC_8gb,Docker VMM,4,redis,8,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,8,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,8,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,8,2,GET_requisicoes_por_segundo,31555.7,requisicoes/s
+PC_8gb,Docker VMM,4,redis,8,2,GET_latencia_media,0.056,ms
+PC_8gb,Docker VMM,4,redis,8,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,8,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,8,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,8,4,SET_requisicoes_por_segundo,76103.5,requisicoes/s
+PC_8gb,Docker VMM,4,redis,8,4,SET_latencia_media,0.043,ms
+PC_8gb,Docker VMM,4,redis,8,4,SET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,8,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,8,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,8,4,GET_requisicoes_por_segundo,90090.09,requisicoes/s
+PC_8gb,Docker VMM,4,redis,8,4,GET_latencia_media,0.035,ms
+PC_8gb,Docker VMM,4,redis,8,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,8,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,8,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,8,8,SET_requisicoes_por_segundo,107181.13,requisicoes/s
+PC_8gb,Docker VMM,4,redis,8,8,SET_latencia_media,0.055,ms
+PC_8gb,Docker VMM,4,redis,8,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,8,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,8,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,8,8,GET_requisicoes_por_segundo,104931.8,requisicoes/s
+PC_8gb,Docker VMM,4,redis,8,8,GET_latencia_media,0.054,ms
+PC_8gb,Docker VMM,4,redis,8,8,GET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,8,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,8,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,9,1,SET_requisicoes_por_segundo,13566.68,requisicoes/s
+PC_8gb,Docker VMM,4,redis,9,1,SET_latencia_media,0.069,ms
+PC_8gb,Docker VMM,4,redis,9,1,SET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,9,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,9,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,9,1,GET_requisicoes_por_segundo,13539.13,requisicoes/s
+PC_8gb,Docker VMM,4,redis,9,1,GET_latencia_media,0.07,ms
+PC_8gb,Docker VMM,4,redis,9,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,9,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,9,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,9,2,SET_requisicoes_por_segundo,34482.76,requisicoes/s
+PC_8gb,Docker VMM,4,redis,9,2,SET_latencia_media,0.051,ms
+PC_8gb,Docker VMM,4,redis,9,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,9,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,9,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,9,2,GET_requisicoes_por_segundo,33322.23,requisicoes/s
+PC_8gb,Docker VMM,4,redis,9,2,GET_latencia_media,0.053,ms
+PC_8gb,Docker VMM,4,redis,9,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,9,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,9,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,9,4,SET_requisicoes_por_segundo,76103.5,requisicoes/s
+PC_8gb,Docker VMM,4,redis,9,4,SET_latencia_media,0.043,ms
+PC_8gb,Docker VMM,4,redis,9,4,SET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,9,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,9,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,9,4,GET_requisicoes_por_segundo,95238.1,requisicoes/s
+PC_8gb,Docker VMM,4,redis,9,4,GET_latencia_media,0.033,ms
+PC_8gb,Docker VMM,4,redis,9,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,9,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,9,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,9,8,SET_requisicoes_por_segundo,105152.48,requisicoes/s
+PC_8gb,Docker VMM,4,redis,9,8,SET_latencia_media,0.057,ms
+PC_8gb,Docker VMM,4,redis,9,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,9,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,9,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,9,8,GET_requisicoes_por_segundo,105374.08,requisicoes/s
+PC_8gb,Docker VMM,4,redis,9,8,GET_latencia_media,0.055,ms
+PC_8gb,Docker VMM,4,redis,9,8,GET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,9,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,9,8,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,10,1,SET_requisicoes_por_segundo,13900.47,requisicoes/s
+PC_8gb,Docker VMM,4,redis,10,1,SET_latencia_media,0.068,ms
+PC_8gb,Docker VMM,4,redis,10,1,SET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,10,1,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,10,1,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,10,1,GET_requisicoes_por_segundo,13760.84,requisicoes/s
+PC_8gb,Docker VMM,4,redis,10,1,GET_latencia_media,0.069,ms
+PC_8gb,Docker VMM,4,redis,10,1,GET_p50,0.063,ms
+PC_8gb,Docker VMM,4,redis,10,1,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,10,1,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,10,2,SET_requisicoes_por_segundo,31289.11,requisicoes/s
+PC_8gb,Docker VMM,4,redis,10,2,SET_latencia_media,0.056,ms
+PC_8gb,Docker VMM,4,redis,10,2,SET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,10,2,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,10,2,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,10,2,GET_requisicoes_por_segundo,31230.48,requisicoes/s
+PC_8gb,Docker VMM,4,redis,10,2,GET_latencia_media,0.055,ms
+PC_8gb,Docker VMM,4,redis,10,2,GET_p50,0.055,ms
+PC_8gb,Docker VMM,4,redis,10,2,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,10,2,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,10,4,SET_requisicoes_por_segundo,77881.62,requisicoes/s
+PC_8gb,Docker VMM,4,redis,10,4,SET_latencia_media,0.041,ms
+PC_8gb,Docker VMM,4,redis,10,4,SET_p50,0.031,ms
+PC_8gb,Docker VMM,4,redis,10,4,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,10,4,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,10,4,GET_requisicoes_por_segundo,90661.83,requisicoes/s
+PC_8gb,Docker VMM,4,redis,10,4,GET_latencia_media,0.035,ms
+PC_8gb,Docker VMM,4,redis,10,4,GET_p50,0.023,ms
+PC_8gb,Docker VMM,4,redis,10,4,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,10,4,GET_p99,,ms
+PC_8gb,Docker VMM,4,redis,10,8,SET_requisicoes_por_segundo,106496.27,requisicoes/s
+PC_8gb,Docker VMM,4,redis,10,8,SET_latencia_media,0.055,ms
+PC_8gb,Docker VMM,4,redis,10,8,SET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,10,8,SET_p95,,ms
+PC_8gb,Docker VMM,4,redis,10,8,SET_p99,,ms
+PC_8gb,Docker VMM,4,redis,10,8,GET_requisicoes_por_segundo,108932.46,requisicoes/s
+PC_8gb,Docker VMM,4,redis,10,8,GET_latencia_media,0.052,ms
+PC_8gb,Docker VMM,4,redis,10,8,GET_p50,0.039,ms
+PC_8gb,Docker VMM,4,redis,10,8,GET_p95,,ms
+PC_8gb,Docker VMM,4,redis,10,8,GET_p99,,ms
+PC_8gb,WSL2,2,cpu,1,1,throughput_eventos_s,776.42,eventos/s
+PC_8gb,WSL2,2,cpu,1,1,latencia_min,1.23,ms
+PC_8gb,WSL2,2,cpu,1,1,latencia_media,1.29,ms
+PC_8gb,WSL2,2,cpu,1,1,latencia_max,3.03,ms
+PC_8gb,WSL2,2,cpu,1,1,p50,,ms
+PC_8gb,WSL2,2,cpu,1,1,p95,1.34,ms
+PC_8gb,WSL2,2,cpu,1,1,p99,,ms
+PC_8gb,WSL2,2,cpu,1,2,throughput_eventos_s,1362.99,eventos/s
+PC_8gb,WSL2,2,cpu,1,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,1,2,latencia_media,1.46,ms
+PC_8gb,WSL2,2,cpu,1,2,latencia_max,4.97,ms
+PC_8gb,WSL2,2,cpu,1,2,p50,,ms
+PC_8gb,WSL2,2,cpu,1,2,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,1,2,p99,,ms
+PC_8gb,WSL2,2,cpu,1,4,throughput_eventos_s,2079.99,eventos/s
+PC_8gb,WSL2,2,cpu,1,4,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,1,4,latencia_media,1.92,ms
+PC_8gb,WSL2,2,cpu,1,4,latencia_max,14.77,ms
+PC_8gb,WSL2,2,cpu,1,4,p50,,ms
+PC_8gb,WSL2,2,cpu,1,4,p95,2.97,ms
+PC_8gb,WSL2,2,cpu,1,4,p99,,ms
+PC_8gb,WSL2,2,cpu,1,8,throughput_eventos_s,2246.89,eventos/s
+PC_8gb,WSL2,2,cpu,1,8,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,1,8,latencia_media,3.55,ms
+PC_8gb,WSL2,2,cpu,1,8,latencia_max,53.81,ms
+PC_8gb,WSL2,2,cpu,1,8,p50,,ms
+PC_8gb,WSL2,2,cpu,1,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,1,8,p99,,ms
+PC_8gb,WSL2,2,cpu,2,1,throughput_eventos_s,752.33,eventos/s
+PC_8gb,WSL2,2,cpu,2,1,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,2,1,latencia_media,1.33,ms
+PC_8gb,WSL2,2,cpu,2,1,latencia_max,5.81,ms
+PC_8gb,WSL2,2,cpu,2,1,p50,,ms
+PC_8gb,WSL2,2,cpu,2,1,p95,1.44,ms
+PC_8gb,WSL2,2,cpu,2,1,p99,,ms
+PC_8gb,WSL2,2,cpu,2,2,throughput_eventos_s,1377.44,eventos/s
+PC_8gb,WSL2,2,cpu,2,2,latencia_min,1.25,ms
+PC_8gb,WSL2,2,cpu,2,2,latencia_media,1.45,ms
+PC_8gb,WSL2,2,cpu,2,2,latencia_max,12.62,ms
+PC_8gb,WSL2,2,cpu,2,2,p50,,ms
+PC_8gb,WSL2,2,cpu,2,2,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,2,2,p99,,ms
+PC_8gb,WSL2,2,cpu,2,4,throughput_eventos_s,2355.42,eventos/s
+PC_8gb,WSL2,2,cpu,2,4,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,2,4,latencia_media,1.7,ms
+PC_8gb,WSL2,2,cpu,2,4,latencia_max,17.76,ms
+PC_8gb,WSL2,2,cpu,2,4,p50,,ms
+PC_8gb,WSL2,2,cpu,2,4,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,2,4,p99,,ms
+PC_8gb,WSL2,2,cpu,2,8,throughput_eventos_s,2244.67,eventos/s
+PC_8gb,WSL2,2,cpu,2,8,latencia_min,1.29,ms
+PC_8gb,WSL2,2,cpu,2,8,latencia_media,3.56,ms
+PC_8gb,WSL2,2,cpu,2,8,latencia_max,32.47,ms
+PC_8gb,WSL2,2,cpu,2,8,p50,,ms
+PC_8gb,WSL2,2,cpu,2,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,2,8,p99,,ms
+PC_8gb,WSL2,2,cpu,3,1,throughput_eventos_s,766.38,eventos/s
+PC_8gb,WSL2,2,cpu,3,1,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,3,1,latencia_media,1.3,ms
+PC_8gb,WSL2,2,cpu,3,1,latencia_max,15.12,ms
+PC_8gb,WSL2,2,cpu,3,1,p50,,ms
+PC_8gb,WSL2,2,cpu,3,1,p95,1.39,ms
+PC_8gb,WSL2,2,cpu,3,1,p99,,ms
+PC_8gb,WSL2,2,cpu,3,2,throughput_eventos_s,1316.46,eventos/s
+PC_8gb,WSL2,2,cpu,3,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,3,2,latencia_media,1.52,ms
+PC_8gb,WSL2,2,cpu,3,2,latencia_max,12.67,ms
+PC_8gb,WSL2,2,cpu,3,2,p50,,ms
+PC_8gb,WSL2,2,cpu,3,2,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,3,2,p99,,ms
+PC_8gb,WSL2,2,cpu,3,4,throughput_eventos_s,2292.76,eventos/s
+PC_8gb,WSL2,2,cpu,3,4,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,3,4,latencia_media,1.74,ms
+PC_8gb,WSL2,2,cpu,3,4,latencia_max,8.49,ms
+PC_8gb,WSL2,2,cpu,3,4,p50,,ms
+PC_8gb,WSL2,2,cpu,3,4,p95,2.52,ms
+PC_8gb,WSL2,2,cpu,3,4,p99,,ms
+PC_8gb,WSL2,2,cpu,3,8,throughput_eventos_s,2328.57,eventos/s
+PC_8gb,WSL2,2,cpu,3,8,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,3,8,latencia_media,3.43,ms
+PC_8gb,WSL2,2,cpu,3,8,latencia_max,17.18,ms
+PC_8gb,WSL2,2,cpu,3,8,p50,,ms
+PC_8gb,WSL2,2,cpu,3,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,3,8,p99,,ms
+PC_8gb,WSL2,2,cpu,4,1,throughput_eventos_s,778.87,eventos/s
+PC_8gb,WSL2,2,cpu,4,1,latencia_min,1.23,ms
+PC_8gb,WSL2,2,cpu,4,1,latencia_media,1.28,ms
+PC_8gb,WSL2,2,cpu,4,1,latencia_max,3.07,ms
+PC_8gb,WSL2,2,cpu,4,1,p50,,ms
+PC_8gb,WSL2,2,cpu,4,1,p95,1.34,ms
+PC_8gb,WSL2,2,cpu,4,1,p99,,ms
+PC_8gb,WSL2,2,cpu,4,2,throughput_eventos_s,1375.57,eventos/s
+PC_8gb,WSL2,2,cpu,4,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,4,2,latencia_media,1.45,ms
+PC_8gb,WSL2,2,cpu,4,2,latencia_max,3.92,ms
+PC_8gb,WSL2,2,cpu,4,2,p50,,ms
+PC_8gb,WSL2,2,cpu,4,2,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,4,2,p99,,ms
+PC_8gb,WSL2,2,cpu,4,4,throughput_eventos_s,2302.73,eventos/s
+PC_8gb,WSL2,2,cpu,4,4,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,4,4,latencia_media,1.73,ms
+PC_8gb,WSL2,2,cpu,4,4,latencia_max,16.7,ms
+PC_8gb,WSL2,2,cpu,4,4,p50,,ms
+PC_8gb,WSL2,2,cpu,4,4,p95,2.52,ms
+PC_8gb,WSL2,2,cpu,4,4,p99,,ms
+PC_8gb,WSL2,2,cpu,4,8,throughput_eventos_s,2290.91,eventos/s
+PC_8gb,WSL2,2,cpu,4,8,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,4,8,latencia_media,3.49,ms
+PC_8gb,WSL2,2,cpu,4,8,latencia_max,15.09,ms
+PC_8gb,WSL2,2,cpu,4,8,p50,,ms
+PC_8gb,WSL2,2,cpu,4,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,4,8,p99,,ms
+PC_8gb,WSL2,2,cpu,5,1,throughput_eventos_s,760.08,eventos/s
+PC_8gb,WSL2,2,cpu,5,1,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,5,1,latencia_media,1.31,ms
+PC_8gb,WSL2,2,cpu,5,1,latencia_max,4.44,ms
+PC_8gb,WSL2,2,cpu,5,1,p50,,ms
+PC_8gb,WSL2,2,cpu,5,1,p95,1.39,ms
+PC_8gb,WSL2,2,cpu,5,1,p99,,ms
+PC_8gb,WSL2,2,cpu,5,2,throughput_eventos_s,1353.62,eventos/s
+PC_8gb,WSL2,2,cpu,5,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,5,2,latencia_media,1.48,ms
+PC_8gb,WSL2,2,cpu,5,2,latencia_max,4.29,ms
+PC_8gb,WSL2,2,cpu,5,2,p50,,ms
+PC_8gb,WSL2,2,cpu,5,2,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,5,2,p99,,ms
+PC_8gb,WSL2,2,cpu,5,4,throughput_eventos_s,2305.07,eventos/s
+PC_8gb,WSL2,2,cpu,5,4,latencia_min,1.27,ms
+PC_8gb,WSL2,2,cpu,5,4,latencia_media,1.73,ms
+PC_8gb,WSL2,2,cpu,5,4,latencia_max,10.88,ms
+PC_8gb,WSL2,2,cpu,5,4,p50,,ms
+PC_8gb,WSL2,2,cpu,5,4,p95,2.52,ms
+PC_8gb,WSL2,2,cpu,5,4,p99,,ms
+PC_8gb,WSL2,2,cpu,5,8,throughput_eventos_s,2329.9,eventos/s
+PC_8gb,WSL2,2,cpu,5,8,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,5,8,latencia_media,3.43,ms
+PC_8gb,WSL2,2,cpu,5,8,latencia_max,19.95,ms
+PC_8gb,WSL2,2,cpu,5,8,p50,,ms
+PC_8gb,WSL2,2,cpu,5,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,5,8,p99,,ms
+PC_8gb,WSL2,2,cpu,6,1,throughput_eventos_s,774.77,eventos/s
+PC_8gb,WSL2,2,cpu,6,1,latencia_min,1.23,ms
+PC_8gb,WSL2,2,cpu,6,1,latencia_media,1.29,ms
+PC_8gb,WSL2,2,cpu,6,1,latencia_max,4.6,ms
+PC_8gb,WSL2,2,cpu,6,1,p50,,ms
+PC_8gb,WSL2,2,cpu,6,1,p95,1.34,ms
+PC_8gb,WSL2,2,cpu,6,1,p99,,ms
+PC_8gb,WSL2,2,cpu,6,2,throughput_eventos_s,1365.1,eventos/s
+PC_8gb,WSL2,2,cpu,6,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,6,2,latencia_media,1.46,ms
+PC_8gb,WSL2,2,cpu,6,2,latencia_max,6.15,ms
+PC_8gb,WSL2,2,cpu,6,2,p50,,ms
+PC_8gb,WSL2,2,cpu,6,2,p95,2.43,ms
+PC_8gb,WSL2,2,cpu,6,2,p99,,ms
+PC_8gb,WSL2,2,cpu,6,4,throughput_eventos_s,2347.79,eventos/s
+PC_8gb,WSL2,2,cpu,6,4,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,6,4,latencia_media,1.7,ms
+PC_8gb,WSL2,2,cpu,6,4,latencia_max,10.84,ms
+PC_8gb,WSL2,2,cpu,6,4,p50,,ms
+PC_8gb,WSL2,2,cpu,6,4,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,6,4,p99,,ms
+PC_8gb,WSL2,2,cpu,6,8,throughput_eventos_s,2371.91,eventos/s
+PC_8gb,WSL2,2,cpu,6,8,latencia_min,1.25,ms
+PC_8gb,WSL2,2,cpu,6,8,latencia_media,3.37,ms
+PC_8gb,WSL2,2,cpu,6,8,latencia_max,24.6,ms
+PC_8gb,WSL2,2,cpu,6,8,p50,,ms
+PC_8gb,WSL2,2,cpu,6,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,6,8,p99,,ms
+PC_8gb,WSL2,2,cpu,7,1,throughput_eventos_s,772.42,eventos/s
+PC_8gb,WSL2,2,cpu,7,1,latencia_min,1.23,ms
+PC_8gb,WSL2,2,cpu,7,1,latencia_media,1.29,ms
+PC_8gb,WSL2,2,cpu,7,1,latencia_max,8.15,ms
+PC_8gb,WSL2,2,cpu,7,1,p50,,ms
+PC_8gb,WSL2,2,cpu,7,1,p95,1.34,ms
+PC_8gb,WSL2,2,cpu,7,1,p99,,ms
+PC_8gb,WSL2,2,cpu,7,2,throughput_eventos_s,1389.04,eventos/s
+PC_8gb,WSL2,2,cpu,7,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,7,2,latencia_media,1.44,ms
+PC_8gb,WSL2,2,cpu,7,2,latencia_max,3.02,ms
+PC_8gb,WSL2,2,cpu,7,2,p50,,ms
+PC_8gb,WSL2,2,cpu,7,2,p95,2.43,ms
+PC_8gb,WSL2,2,cpu,7,2,p99,,ms
+PC_8gb,WSL2,2,cpu,7,4,throughput_eventos_s,2367.26,eventos/s
+PC_8gb,WSL2,2,cpu,7,4,latencia_min,1.25,ms
+PC_8gb,WSL2,2,cpu,7,4,latencia_media,1.69,ms
+PC_8gb,WSL2,2,cpu,7,4,latencia_max,12.24,ms
+PC_8gb,WSL2,2,cpu,7,4,p50,,ms
+PC_8gb,WSL2,2,cpu,7,4,p95,2.52,ms
+PC_8gb,WSL2,2,cpu,7,4,p99,,ms
+PC_8gb,WSL2,2,cpu,7,8,throughput_eventos_s,2339.03,eventos/s
+PC_8gb,WSL2,2,cpu,7,8,latencia_min,1.25,ms
+PC_8gb,WSL2,2,cpu,7,8,latencia_media,3.41,ms
+PC_8gb,WSL2,2,cpu,7,8,latencia_max,18.24,ms
+PC_8gb,WSL2,2,cpu,7,8,p50,,ms
+PC_8gb,WSL2,2,cpu,7,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,7,8,p99,,ms
+PC_8gb,WSL2,2,cpu,8,1,throughput_eventos_s,778.17,eventos/s
+PC_8gb,WSL2,2,cpu,8,1,latencia_min,1.23,ms
+PC_8gb,WSL2,2,cpu,8,1,latencia_media,1.28,ms
+PC_8gb,WSL2,2,cpu,8,1,latencia_max,2.57,ms
+PC_8gb,WSL2,2,cpu,8,1,p50,,ms
+PC_8gb,WSL2,2,cpu,8,1,p95,1.34,ms
+PC_8gb,WSL2,2,cpu,8,1,p99,,ms
+PC_8gb,WSL2,2,cpu,8,2,throughput_eventos_s,1415.54,eventos/s
+PC_8gb,WSL2,2,cpu,8,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,8,2,latencia_media,1.41,ms
+PC_8gb,WSL2,2,cpu,8,2,latencia_max,11.6,ms
+PC_8gb,WSL2,2,cpu,8,2,p50,,ms
+PC_8gb,WSL2,2,cpu,8,2,p95,2.43,ms
+PC_8gb,WSL2,2,cpu,8,2,p99,,ms
+PC_8gb,WSL2,2,cpu,8,4,throughput_eventos_s,2360.96,eventos/s
+PC_8gb,WSL2,2,cpu,8,4,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,8,4,latencia_media,1.69,ms
+PC_8gb,WSL2,2,cpu,8,4,latencia_max,6.86,ms
+PC_8gb,WSL2,2,cpu,8,4,p50,,ms
+PC_8gb,WSL2,2,cpu,8,4,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,8,4,p99,,ms
+PC_8gb,WSL2,2,cpu,8,8,throughput_eventos_s,2343.96,eventos/s
+PC_8gb,WSL2,2,cpu,8,8,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,8,8,latencia_media,3.41,ms
+PC_8gb,WSL2,2,cpu,8,8,latencia_max,17.33,ms
+PC_8gb,WSL2,2,cpu,8,8,p50,,ms
+PC_8gb,WSL2,2,cpu,8,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,8,8,p99,,ms
+PC_8gb,WSL2,2,cpu,9,1,throughput_eventos_s,773.64,eventos/s
+PC_8gb,WSL2,2,cpu,9,1,latencia_min,1.23,ms
+PC_8gb,WSL2,2,cpu,9,1,latencia_media,1.29,ms
+PC_8gb,WSL2,2,cpu,9,1,latencia_max,2.36,ms
+PC_8gb,WSL2,2,cpu,9,1,p50,,ms
+PC_8gb,WSL2,2,cpu,9,1,p95,1.37,ms
+PC_8gb,WSL2,2,cpu,9,1,p99,,ms
+PC_8gb,WSL2,2,cpu,9,2,throughput_eventos_s,1377.04,eventos/s
+PC_8gb,WSL2,2,cpu,9,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,9,2,latencia_media,1.45,ms
+PC_8gb,WSL2,2,cpu,9,2,latencia_max,3.08,ms
+PC_8gb,WSL2,2,cpu,9,2,p50,,ms
+PC_8gb,WSL2,2,cpu,9,2,p95,2.43,ms
+PC_8gb,WSL2,2,cpu,9,2,p99,,ms
+PC_8gb,WSL2,2,cpu,9,4,throughput_eventos_s,2340.63,eventos/s
+PC_8gb,WSL2,2,cpu,9,4,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,9,4,latencia_media,1.71,ms
+PC_8gb,WSL2,2,cpu,9,4,latencia_max,13.65,ms
+PC_8gb,WSL2,2,cpu,9,4,p50,,ms
+PC_8gb,WSL2,2,cpu,9,4,p95,2.52,ms
+PC_8gb,WSL2,2,cpu,9,4,p99,,ms
+PC_8gb,WSL2,2,cpu,9,8,throughput_eventos_s,2316.38,eventos/s
+PC_8gb,WSL2,2,cpu,9,8,latencia_min,1.25,ms
+PC_8gb,WSL2,2,cpu,9,8,latencia_media,3.45,ms
+PC_8gb,WSL2,2,cpu,9,8,latencia_max,18.51,ms
+PC_8gb,WSL2,2,cpu,9,8,p50,,ms
+PC_8gb,WSL2,2,cpu,9,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,9,8,p99,,ms
+PC_8gb,WSL2,2,cpu,10,1,throughput_eventos_s,773.72,eventos/s
+PC_8gb,WSL2,2,cpu,10,1,latencia_min,1.23,ms
+PC_8gb,WSL2,2,cpu,10,1,latencia_media,1.29,ms
+PC_8gb,WSL2,2,cpu,10,1,latencia_max,6.65,ms
+PC_8gb,WSL2,2,cpu,10,1,p50,,ms
+PC_8gb,WSL2,2,cpu,10,1,p95,1.37,ms
+PC_8gb,WSL2,2,cpu,10,1,p99,,ms
+PC_8gb,WSL2,2,cpu,10,2,throughput_eventos_s,1364.27,eventos/s
+PC_8gb,WSL2,2,cpu,10,2,latencia_min,1.24,ms
+PC_8gb,WSL2,2,cpu,10,2,latencia_media,1.46,ms
+PC_8gb,WSL2,2,cpu,10,2,latencia_max,4.87,ms
+PC_8gb,WSL2,2,cpu,10,2,p50,,ms
+PC_8gb,WSL2,2,cpu,10,2,p95,2.43,ms
+PC_8gb,WSL2,2,cpu,10,2,p99,,ms
+PC_8gb,WSL2,2,cpu,10,4,throughput_eventos_s,2349.33,eventos/s
+PC_8gb,WSL2,2,cpu,10,4,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,10,4,latencia_media,1.7,ms
+PC_8gb,WSL2,2,cpu,10,4,latencia_max,12.75,ms
+PC_8gb,WSL2,2,cpu,10,4,p50,,ms
+PC_8gb,WSL2,2,cpu,10,4,p95,2.48,ms
+PC_8gb,WSL2,2,cpu,10,4,p99,,ms
+PC_8gb,WSL2,2,cpu,10,8,throughput_eventos_s,2324.49,eventos/s
+PC_8gb,WSL2,2,cpu,10,8,latencia_min,1.26,ms
+PC_8gb,WSL2,2,cpu,10,8,latencia_media,3.44,ms
+PC_8gb,WSL2,2,cpu,10,8,latencia_max,14.84,ms
+PC_8gb,WSL2,2,cpu,10,8,p50,,ms
+PC_8gb,WSL2,2,cpu,10,8,p95,6.55,ms
+PC_8gb,WSL2,2,cpu,10,8,p99,,ms
+PC_8gb,WSL2,2,memoria,1,1,escrita_throughput,24413.53,MiB/s
+PC_8gb,WSL2,2,memoria,1,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,1,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,1,1,escrita_latencia_max,0.41,ms
+PC_8gb,WSL2,2,memoria,1,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,1,1,escrita_p95,0.05,ms
+PC_8gb,WSL2,2,memoria,1,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,1,2,escrita_throughput,46143.44,MiB/s
+PC_8gb,WSL2,2,memoria,1,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,1,2,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,1,2,escrita_latencia_max,1.09,ms
+PC_8gb,WSL2,2,memoria,1,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,1,2,escrita_p95,0.06,ms
+PC_8gb,WSL2,2,memoria,1,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,1,4,escrita_throughput,61245.8,MiB/s
+PC_8gb,WSL2,2,memoria,1,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,1,4,escrita_latencia_media,0.06,ms
+PC_8gb,WSL2,2,memoria,1,4,escrita_latencia_max,9.24,ms
+PC_8gb,WSL2,2,memoria,1,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,1,4,escrita_p95,0.1,ms
+PC_8gb,WSL2,2,memoria,1,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,1,8,escrita_throughput,54697.47,MiB/s
+PC_8gb,WSL2,2,memoria,1,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,1,8,escrita_latencia_media,0.11,ms
+PC_8gb,WSL2,2,memoria,1,8,escrita_latencia_max,20.14,ms
+PC_8gb,WSL2,2,memoria,1,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,1,8,escrita_p95,0.11,ms
+PC_8gb,WSL2,2,memoria,1,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,2,1,escrita_throughput,23874.95,MiB/s
+PC_8gb,WSL2,2,memoria,2,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,2,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,2,1,escrita_latencia_max,0.42,ms
+PC_8gb,WSL2,2,memoria,2,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,2,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,2,memoria,2,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,2,2,escrita_throughput,39169.88,MiB/s
+PC_8gb,WSL2,2,memoria,2,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,2,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,2,memoria,2,2,escrita_latencia_max,3.92,ms
+PC_8gb,WSL2,2,memoria,2,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,2,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,2,memoria,2,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,2,4,escrita_throughput,53158.4,MiB/s
+PC_8gb,WSL2,2,memoria,2,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,2,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,2,memoria,2,4,escrita_latencia_max,6.03,ms
+PC_8gb,WSL2,2,memoria,2,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,2,4,escrita_p95,0.11,ms
+PC_8gb,WSL2,2,memoria,2,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,2,8,escrita_throughput,48939.33,MiB/s
+PC_8gb,WSL2,2,memoria,2,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,2,8,escrita_latencia_media,0.13,ms
+PC_8gb,WSL2,2,memoria,2,8,escrita_latencia_max,20.1,ms
+PC_8gb,WSL2,2,memoria,2,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,2,8,escrita_p95,0.13,ms
+PC_8gb,WSL2,2,memoria,2,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,3,1,escrita_throughput,23620.37,MiB/s
+PC_8gb,WSL2,2,memoria,3,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,3,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,3,1,escrita_latencia_max,1.23,ms
+PC_8gb,WSL2,2,memoria,3,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,3,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,2,memoria,3,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,3,2,escrita_throughput,34405.9,MiB/s
+PC_8gb,WSL2,2,memoria,3,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,3,2,escrita_latencia_media,0.06,ms
+PC_8gb,WSL2,2,memoria,3,2,escrita_latencia_max,2.81,ms
+PC_8gb,WSL2,2,memoria,3,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,3,2,escrita_p95,0.09,ms
+PC_8gb,WSL2,2,memoria,3,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,3,4,escrita_throughput,51957.08,MiB/s
+PC_8gb,WSL2,2,memoria,3,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,3,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,2,memoria,3,4,escrita_latencia_max,12.24,ms
+PC_8gb,WSL2,2,memoria,3,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,3,4,escrita_p95,0.12,ms
+PC_8gb,WSL2,2,memoria,3,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,3,8,escrita_throughput,53148.0,MiB/s
+PC_8gb,WSL2,2,memoria,3,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,3,8,escrita_latencia_media,0.11,ms
+PC_8gb,WSL2,2,memoria,3,8,escrita_latencia_max,16.2,ms
+PC_8gb,WSL2,2,memoria,3,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,3,8,escrita_p95,0.12,ms
+PC_8gb,WSL2,2,memoria,3,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,4,1,escrita_throughput,21535.21,MiB/s
+PC_8gb,WSL2,2,memoria,4,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,4,1,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,2,memoria,4,1,escrita_latencia_max,1.15,ms
+PC_8gb,WSL2,2,memoria,4,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,4,1,escrita_p95,0.07,ms
+PC_8gb,WSL2,2,memoria,4,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,4,2,escrita_throughput,39339.82,MiB/s
+PC_8gb,WSL2,2,memoria,4,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,4,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,2,memoria,4,2,escrita_latencia_max,2.12,ms
+PC_8gb,WSL2,2,memoria,4,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,4,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,2,memoria,4,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,4,4,escrita_throughput,55514.12,MiB/s
+PC_8gb,WSL2,2,memoria,4,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,4,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,2,memoria,4,4,escrita_latencia_max,6.61,ms
+PC_8gb,WSL2,2,memoria,4,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,4,4,escrita_p95,0.11,ms
+PC_8gb,WSL2,2,memoria,4,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,4,8,escrita_throughput,58060.48,MiB/s
+PC_8gb,WSL2,2,memoria,4,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,4,8,escrita_latencia_media,0.1,ms
+PC_8gb,WSL2,2,memoria,4,8,escrita_latencia_max,16.07,ms
+PC_8gb,WSL2,2,memoria,4,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,4,8,escrita_p95,0.1,ms
+PC_8gb,WSL2,2,memoria,4,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,5,1,escrita_throughput,23623.85,MiB/s
+PC_8gb,WSL2,2,memoria,5,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,5,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,5,1,escrita_latencia_max,0.85,ms
+PC_8gb,WSL2,2,memoria,5,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,5,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,2,memoria,5,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,5,2,escrita_throughput,35879.74,MiB/s
+PC_8gb,WSL2,2,memoria,5,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,5,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,2,memoria,5,2,escrita_latencia_max,1.16,ms
+PC_8gb,WSL2,2,memoria,5,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,5,2,escrita_p95,0.09,ms
+PC_8gb,WSL2,2,memoria,5,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,5,4,escrita_throughput,53140.45,MiB/s
+PC_8gb,WSL2,2,memoria,5,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,5,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,2,memoria,5,4,escrita_latencia_max,6.24,ms
+PC_8gb,WSL2,2,memoria,5,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,5,4,escrita_p95,0.11,ms
+PC_8gb,WSL2,2,memoria,5,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,5,8,escrita_throughput,52274.18,MiB/s
+PC_8gb,WSL2,2,memoria,5,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,5,8,escrita_latencia_media,0.12,ms
+PC_8gb,WSL2,2,memoria,5,8,escrita_latencia_max,16.13,ms
+PC_8gb,WSL2,2,memoria,5,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,5,8,escrita_p95,0.12,ms
+PC_8gb,WSL2,2,memoria,5,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,6,1,escrita_throughput,23445.6,MiB/s
+PC_8gb,WSL2,2,memoria,6,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,6,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,6,1,escrita_latencia_max,0.97,ms
+PC_8gb,WSL2,2,memoria,6,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,6,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,2,memoria,6,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,6,2,escrita_throughput,38164.89,MiB/s
+PC_8gb,WSL2,2,memoria,6,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,6,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,2,memoria,6,2,escrita_latencia_max,4.57,ms
+PC_8gb,WSL2,2,memoria,6,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,6,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,2,memoria,6,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,6,4,escrita_throughput,58396.97,MiB/s
+PC_8gb,WSL2,2,memoria,6,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,6,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,2,memoria,6,4,escrita_latencia_max,8.07,ms
+PC_8gb,WSL2,2,memoria,6,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,6,4,escrita_p95,0.11,ms
+PC_8gb,WSL2,2,memoria,6,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,6,8,escrita_throughput,49496.48,MiB/s
+PC_8gb,WSL2,2,memoria,6,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,6,8,escrita_latencia_media,0.13,ms
+PC_8gb,WSL2,2,memoria,6,8,escrita_latencia_max,16.16,ms
+PC_8gb,WSL2,2,memoria,6,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,6,8,escrita_p95,0.13,ms
+PC_8gb,WSL2,2,memoria,6,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,7,1,escrita_throughput,23483.97,MiB/s
+PC_8gb,WSL2,2,memoria,7,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,7,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,7,1,escrita_latencia_max,1.38,ms
+PC_8gb,WSL2,2,memoria,7,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,7,1,escrita_p95,0.05,ms
+PC_8gb,WSL2,2,memoria,7,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,7,2,escrita_throughput,39465.78,MiB/s
+PC_8gb,WSL2,2,memoria,7,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,7,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,2,memoria,7,2,escrita_latencia_max,0.5,ms
+PC_8gb,WSL2,2,memoria,7,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,7,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,2,memoria,7,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,7,4,escrita_throughput,52413.03,MiB/s
+PC_8gb,WSL2,2,memoria,7,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,7,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,2,memoria,7,4,escrita_latencia_max,3.17,ms
+PC_8gb,WSL2,2,memoria,7,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,7,4,escrita_p95,0.12,ms
+PC_8gb,WSL2,2,memoria,7,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,7,8,escrita_throughput,52700.95,MiB/s
+PC_8gb,WSL2,2,memoria,7,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,7,8,escrita_latencia_media,0.14,ms
+PC_8gb,WSL2,2,memoria,7,8,escrita_latencia_max,8.07,ms
+PC_8gb,WSL2,2,memoria,7,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,7,8,escrita_p95,0.14,ms
+PC_8gb,WSL2,2,memoria,7,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,8,1,escrita_throughput,23594.87,MiB/s
+PC_8gb,WSL2,2,memoria,8,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,8,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,8,1,escrita_latencia_max,1.58,ms
+PC_8gb,WSL2,2,memoria,8,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,8,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,2,memoria,8,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,8,2,escrita_throughput,43598.26,MiB/s
+PC_8gb,WSL2,2,memoria,8,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,8,2,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,8,2,escrita_latencia_max,0.9,ms
+PC_8gb,WSL2,2,memoria,8,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,8,2,escrita_p95,0.07,ms
+PC_8gb,WSL2,2,memoria,8,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,8,4,escrita_throughput,48601.56,MiB/s
+PC_8gb,WSL2,2,memoria,8,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,8,4,escrita_latencia_media,0.08,ms
+PC_8gb,WSL2,2,memoria,8,4,escrita_latencia_max,12.14,ms
+PC_8gb,WSL2,2,memoria,8,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,8,4,escrita_p95,0.13,ms
+PC_8gb,WSL2,2,memoria,8,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,8,8,escrita_throughput,49772.87,MiB/s
+PC_8gb,WSL2,2,memoria,8,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,8,8,escrita_latencia_media,0.13,ms
+PC_8gb,WSL2,2,memoria,8,8,escrita_latencia_max,12.17,ms
+PC_8gb,WSL2,2,memoria,8,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,8,8,escrita_p95,0.13,ms
+PC_8gb,WSL2,2,memoria,8,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,9,1,escrita_throughput,22840.43,MiB/s
+PC_8gb,WSL2,2,memoria,9,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,9,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,9,1,escrita_latencia_max,1.04,ms
+PC_8gb,WSL2,2,memoria,9,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,9,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,2,memoria,9,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,9,2,escrita_throughput,40486.03,MiB/s
+PC_8gb,WSL2,2,memoria,9,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,9,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,2,memoria,9,2,escrita_latencia_max,2.65,ms
+PC_8gb,WSL2,2,memoria,9,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,9,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,2,memoria,9,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,9,4,escrita_throughput,51182.68,MiB/s
+PC_8gb,WSL2,2,memoria,9,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,9,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,2,memoria,9,4,escrita_latencia_max,12.16,ms
+PC_8gb,WSL2,2,memoria,9,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,9,4,escrita_p95,0.13,ms
+PC_8gb,WSL2,2,memoria,9,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,9,8,escrita_throughput,56437.57,MiB/s
+PC_8gb,WSL2,2,memoria,9,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,9,8,escrita_latencia_media,0.11,ms
+PC_8gb,WSL2,2,memoria,9,8,escrita_latencia_max,16.13,ms
+PC_8gb,WSL2,2,memoria,9,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,9,8,escrita_p95,0.12,ms
+PC_8gb,WSL2,2,memoria,9,8,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,10,1,escrita_throughput,22887.53,MiB/s
+PC_8gb,WSL2,2,memoria,10,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,10,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,2,memoria,10,1,escrita_latencia_max,1.03,ms
+PC_8gb,WSL2,2,memoria,10,1,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,10,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,2,memoria,10,1,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,10,2,escrita_throughput,41229.74,MiB/s
+PC_8gb,WSL2,2,memoria,10,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,10,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,2,memoria,10,2,escrita_latencia_max,2.8,ms
+PC_8gb,WSL2,2,memoria,10,2,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,10,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,2,memoria,10,2,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,10,4,escrita_throughput,53463.81,MiB/s
+PC_8gb,WSL2,2,memoria,10,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,10,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,2,memoria,10,4,escrita_latencia_max,8.13,ms
+PC_8gb,WSL2,2,memoria,10,4,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,10,4,escrita_p95,0.11,ms
+PC_8gb,WSL2,2,memoria,10,4,escrita_p99,,ms
+PC_8gb,WSL2,2,memoria,10,8,escrita_throughput,57272.76,MiB/s
+PC_8gb,WSL2,2,memoria,10,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,2,memoria,10,8,escrita_latencia_media,0.11,ms
+PC_8gb,WSL2,2,memoria,10,8,escrita_latencia_max,15.74,ms
+PC_8gb,WSL2,2,memoria,10,8,escrita_p50,,ms
+PC_8gb,WSL2,2,memoria,10,8,escrita_p95,0.12,ms
+PC_8gb,WSL2,2,memoria,10,8,escrita_p99,,ms
+PC_8gb,WSL2,2,io,1,2,leitura_largura_banda,8.6513671875,MiB/s
+PC_8gb,WSL2,2,io,1,2,leitura_iops,2213.67,IOPS
+PC_8gb,WSL2,2,io,1,2,leitura_job1_latencia_media,7060.0,us
+PC_8gb,WSL2,2,io,1,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,1,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,1,2,leitura_job1_p99,11000.0,us
+PC_8gb,WSL2,2,io,1,2,leitura_job2_latencia_media,7130.0,us
+PC_8gb,WSL2,2,io,1,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,1,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,1,2,leitura_job2_p99,11000.0,us
+PC_8gb,WSL2,2,io,1,2,escrita_largura_banda,8.654296875,MiB/s
+PC_8gb,WSL2,2,io,1,2,escrita_iops,2214.08,IOPS
+PC_8gb,WSL2,2,io,1,2,escrita_job1_latencia_media,7371.19,us
+PC_8gb,WSL2,2,io,1,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,1,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,1,2,escrita_job1_p99,11000.0,us
+PC_8gb,WSL2,2,io,1,2,escrita_job2_latencia_media,7304.36,us
+PC_8gb,WSL2,2,io,1,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,1,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,1,2,escrita_job2_p99,11000.0,us
+PC_8gb,WSL2,2,io,2,2,leitura_largura_banda,8.84375,MiB/s
+PC_8gb,WSL2,2,io,2,2,leitura_iops,2262.8,IOPS
+PC_8gb,WSL2,2,io,2,2,leitura_job1_latencia_media,6958.91,us
+PC_8gb,WSL2,2,io,2,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,2,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,2,2,leitura_job1_p99,11000.0,us
+PC_8gb,WSL2,2,io,2,2,leitura_job2_latencia_media,6958.25,us
+PC_8gb,WSL2,2,io,2,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,2,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,2,2,leitura_job2_p99,11000.0,us
+PC_8gb,WSL2,2,io,2,2,escrita_largura_banda,8.8291015625,MiB/s
+PC_8gb,WSL2,2,io,2,2,escrita_iops,2259.45,IOPS
+PC_8gb,WSL2,2,io,2,2,escrita_job1_latencia_media,7191.77,us
+PC_8gb,WSL2,2,io,2,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,2,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,2,2,escrita_job1_p99,11000.0,us
+PC_8gb,WSL2,2,io,2,2,escrita_job2_latencia_media,7158.97,us
+PC_8gb,WSL2,2,io,2,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,2,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,2,2,escrita_job2_p99,11000.0,us
+PC_8gb,WSL2,2,io,3,2,leitura_largura_banda,8.58203125,MiB/s
+PC_8gb,WSL2,2,io,3,2,leitura_iops,2196.08,IOPS
+PC_8gb,WSL2,2,io,3,2,leitura_job1_latencia_media,7125.04,us
+PC_8gb,WSL2,2,io,3,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,3,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,3,2,leitura_job1_p99,12000.0,us
+PC_8gb,WSL2,2,io,3,2,leitura_job2_latencia_media,7093.52,us
+PC_8gb,WSL2,2,io,3,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,3,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,3,2,leitura_job2_p99,12000.0,us
+PC_8gb,WSL2,2,io,3,2,escrita_largura_banda,8.583984375,MiB/s
+PC_8gb,WSL2,2,io,3,2,escrita_iops,2196.85,IOPS
+PC_8gb,WSL2,2,io,3,2,escrita_job1_latencia_media,7388.48,us
+PC_8gb,WSL2,2,io,3,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,3,2,escrita_job1_p95,9000.0,us
+PC_8gb,WSL2,2,io,3,2,escrita_job1_p99,12000.0,us
+PC_8gb,WSL2,2,io,3,2,escrita_job2_latencia_media,7492.07,us
+PC_8gb,WSL2,2,io,3,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,3,2,escrita_job2_p95,9000.0,us
+PC_8gb,WSL2,2,io,3,2,escrita_job2_p99,13000.0,us
+PC_8gb,WSL2,2,io,4,2,leitura_largura_banda,8.8671875,MiB/s
+PC_8gb,WSL2,2,io,4,2,leitura_iops,2274.11,IOPS
+PC_8gb,WSL2,2,io,4,2,leitura_job1_latencia_media,6801.63,us
+PC_8gb,WSL2,2,io,4,2,leitura_job1_p50,6000.0,us
+PC_8gb,WSL2,2,io,4,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,4,2,leitura_job1_p99,9000.0,us
+PC_8gb,WSL2,2,io,4,2,leitura_job2_latencia_media,6956.61,us
+PC_8gb,WSL2,2,io,4,2,leitura_job2_p50,6000.0,us
+PC_8gb,WSL2,2,io,4,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,4,2,leitura_job2_p99,10000.0,us
+PC_8gb,WSL2,2,io,4,2,escrita_largura_banda,8.8525390625,MiB/s
+PC_8gb,WSL2,2,io,4,2,escrita_iops,2271.2,IOPS
+PC_8gb,WSL2,2,io,4,2,escrita_job1_latencia_media,7270.36,us
+PC_8gb,WSL2,2,io,4,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,4,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,4,2,escrita_job1_p99,10000.0,us
+PC_8gb,WSL2,2,io,4,2,escrita_job2_latencia_media,7165.3,us
+PC_8gb,WSL2,2,io,4,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,4,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,4,2,escrita_job2_p99,10000.0,us
+PC_8gb,WSL2,2,io,5,2,leitura_largura_banda,8.82421875,MiB/s
+PC_8gb,WSL2,2,io,5,2,leitura_iops,2257.27,IOPS
+PC_8gb,WSL2,2,io,5,2,leitura_job1_latencia_media,6968.76,us
+PC_8gb,WSL2,2,io,5,2,leitura_job1_p50,6000.0,us
+PC_8gb,WSL2,2,io,5,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,5,2,leitura_job1_p99,11000.0,us
+PC_8gb,WSL2,2,io,5,2,leitura_job2_latencia_media,6963.15,us
+PC_8gb,WSL2,2,io,5,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,5,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,5,2,leitura_job2_p99,11000.0,us
+PC_8gb,WSL2,2,io,5,2,escrita_largura_banda,8.806640625,MiB/s
+PC_8gb,WSL2,2,io,5,2,escrita_iops,2253.17,IOPS
+PC_8gb,WSL2,2,io,5,2,escrita_job1_latencia_media,7167.17,us
+PC_8gb,WSL2,2,io,5,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,5,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,5,2,escrita_job1_p99,11000.0,us
+PC_8gb,WSL2,2,io,5,2,escrita_job2_latencia_media,7234.68,us
+PC_8gb,WSL2,2,io,5,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,5,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,5,2,escrita_job2_p99,11000.0,us
+PC_8gb,WSL2,2,io,6,2,leitura_largura_banda,9.029296875,MiB/s
+PC_8gb,WSL2,2,io,6,2,leitura_iops,2311.08,IOPS
+PC_8gb,WSL2,2,io,6,2,leitura_job1_latencia_media,6790.0,us
+PC_8gb,WSL2,2,io,6,2,leitura_job1_p50,6000.0,us
+PC_8gb,WSL2,2,io,6,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,6,2,leitura_job1_p99,9000.0,us
+PC_8gb,WSL2,2,io,6,2,leitura_job2_latencia_media,6701.19,us
+PC_8gb,WSL2,2,io,6,2,leitura_job2_p50,6000.0,us
+PC_8gb,WSL2,2,io,6,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,6,2,leitura_job2_p99,9000.0,us
+PC_8gb,WSL2,2,io,6,2,escrita_largura_banda,9.015625,MiB/s
+PC_8gb,WSL2,2,io,6,2,escrita_iops,2306.48,IOPS
+PC_8gb,WSL2,2,io,6,2,escrita_job1_latencia_media,7037.83,us
+PC_8gb,WSL2,2,io,6,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,6,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,6,2,escrita_job1_p99,9000.0,us
+PC_8gb,WSL2,2,io,6,2,escrita_job2_latencia_media,7158.87,us
+PC_8gb,WSL2,2,io,6,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,6,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,6,2,escrita_job2_p99,9000.0,us
+PC_8gb,WSL2,2,io,7,2,leitura_largura_banda,9.0439453125,MiB/s
+PC_8gb,WSL2,2,io,7,2,leitura_iops,2314.13,IOPS
+PC_8gb,WSL2,2,io,7,2,leitura_job1_latencia_media,6739.91,us
+PC_8gb,WSL2,2,io,7,2,leitura_job1_p50,6000.0,us
+PC_8gb,WSL2,2,io,7,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,7,2,leitura_job1_p99,9000.0,us
+PC_8gb,WSL2,2,io,7,2,leitura_job2_latencia_media,6726.77,us
+PC_8gb,WSL2,2,io,7,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,7,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,7,2,leitura_job2_p99,9000.0,us
+PC_8gb,WSL2,2,io,7,2,escrita_largura_banda,9.02734375,MiB/s
+PC_8gb,WSL2,2,io,7,2,escrita_iops,2310.0299999999997,IOPS
+PC_8gb,WSL2,2,io,7,2,escrita_job1_latencia_media,7062.84,us
+PC_8gb,WSL2,2,io,7,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,7,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,7,2,escrita_job1_p99,9000.0,us
+PC_8gb,WSL2,2,io,7,2,escrita_job2_latencia_media,7115.61,us
+PC_8gb,WSL2,2,io,7,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,7,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,7,2,escrita_job2_p99,9000.0,us
+PC_8gb,WSL2,2,io,8,2,leitura_largura_banda,8.171875,MiB/s
+PC_8gb,WSL2,2,io,8,2,leitura_iops,2089.58,IOPS
+PC_8gb,WSL2,2,io,8,2,leitura_job1_latencia_media,7447.72,us
+PC_8gb,WSL2,2,io,8,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,8,2,leitura_job1_p95,9000.0,us
+PC_8gb,WSL2,2,io,8,2,leitura_job1_p99,13000.0,us
+PC_8gb,WSL2,2,io,8,2,leitura_job2_latencia_media,7529.06,us
+PC_8gb,WSL2,2,io,8,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,8,2,leitura_job2_p95,9000.0,us
+PC_8gb,WSL2,2,io,8,2,leitura_job2_p99,14000.0,us
+PC_8gb,WSL2,2,io,8,2,escrita_largura_banda,8.19140625,MiB/s
+PC_8gb,WSL2,2,io,8,2,escrita_iops,2095.79,IOPS
+PC_8gb,WSL2,2,io,8,2,escrita_job1_latencia_media,7790.52,us
+PC_8gb,WSL2,2,io,8,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,8,2,escrita_job1_p95,9000.0,us
+PC_8gb,WSL2,2,io,8,2,escrita_job1_p99,14000.0,us
+PC_8gb,WSL2,2,io,8,2,escrita_job2_latencia_media,7762.08,us
+PC_8gb,WSL2,2,io,8,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,8,2,escrita_job2_p95,9000.0,us
+PC_8gb,WSL2,2,io,8,2,escrita_job2_p99,13000.0,us
+PC_8gb,WSL2,2,io,9,2,leitura_largura_banda,7.3876953125,MiB/s
+PC_8gb,WSL2,2,io,9,2,leitura_iops,1890.02,IOPS
+PC_8gb,WSL2,2,io,9,2,leitura_job1_latencia_media,8219.83,us
+PC_8gb,WSL2,2,io,9,2,leitura_job1_p50,8000.0,us
+PC_8gb,WSL2,2,io,9,2,leitura_job1_p95,11000.0,us
+PC_8gb,WSL2,2,io,9,2,leitura_job1_p99,17000.0,us
+PC_8gb,WSL2,2,io,9,2,leitura_job2_latencia_media,8279.59,us
+PC_8gb,WSL2,2,io,9,2,leitura_job2_p50,8000.0,us
+PC_8gb,WSL2,2,io,9,2,leitura_job2_p95,11000.0,us
+PC_8gb,WSL2,2,io,9,2,leitura_job2_p99,16000.0,us
+PC_8gb,WSL2,2,io,9,2,escrita_largura_banda,7.4130859375,MiB/s
+PC_8gb,WSL2,2,io,9,2,escrita_iops,1896.5900000000001,IOPS
+PC_8gb,WSL2,2,io,9,2,escrita_job1_latencia_media,8634.59,us
+PC_8gb,WSL2,2,io,9,2,escrita_job1_p50,8000.0,us
+PC_8gb,WSL2,2,io,9,2,escrita_job1_p95,11000.0,us
+PC_8gb,WSL2,2,io,9,2,escrita_job1_p99,17000.0,us
+PC_8gb,WSL2,2,io,9,2,escrita_job2_latencia_media,8613.59,us
+PC_8gb,WSL2,2,io,9,2,escrita_job2_p50,8000.0,us
+PC_8gb,WSL2,2,io,9,2,escrita_job2_p95,11000.0,us
+PC_8gb,WSL2,2,io,9,2,escrita_job2_p99,16000.0,us
+PC_8gb,WSL2,2,io,10,2,leitura_largura_banda,8.7822265625,MiB/s
+PC_8gb,WSL2,2,io,10,2,leitura_iops,2243.05,IOPS
+PC_8gb,WSL2,2,io,10,2,leitura_job1_latencia_media,6886.71,us
+PC_8gb,WSL2,2,io,10,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,10,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,2,io,10,2,leitura_job1_p99,10000.0,us
+PC_8gb,WSL2,2,io,10,2,leitura_job2_latencia_media,6956.94,us
+PC_8gb,WSL2,2,io,10,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,10,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,2,io,10,2,leitura_job2_p99,10000.0,us
+PC_8gb,WSL2,2,io,10,2,escrita_largura_banda,8.771484375,MiB/s
+PC_8gb,WSL2,2,io,10,2,escrita_iops,2244.34,IOPS
+PC_8gb,WSL2,2,io,10,2,escrita_job1_latencia_media,7325.51,us
+PC_8gb,WSL2,2,io,10,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,2,io,10,2,escrita_job1_p95,9000.0,us
+PC_8gb,WSL2,2,io,10,2,escrita_job1_p99,10000.0,us
+PC_8gb,WSL2,2,io,10,2,escrita_job2_latencia_media,7287.64,us
+PC_8gb,WSL2,2,io,10,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,2,io,10,2,escrita_job2_p95,9000.0,us
+PC_8gb,WSL2,2,io,10,2,escrita_job2_p99,10000.0,us
+PC_8gb,WSL2,2,redis,1,1,SET_requisicoes_por_segundo,6828.27,requisicoes/s
+PC_8gb,WSL2,2,redis,1,1,SET_latencia_media,0.135,ms
+PC_8gb,WSL2,2,redis,1,1,SET_p50,0.119,ms
+PC_8gb,WSL2,2,redis,1,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,1,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,1,1,GET_requisicoes_por_segundo,7665.77,requisicoes/s
+PC_8gb,WSL2,2,redis,1,1,GET_latencia_media,0.121,ms
+PC_8gb,WSL2,2,redis,1,1,GET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,1,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,1,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,1,2,SET_requisicoes_por_segundo,20802.99,requisicoes/s
+PC_8gb,WSL2,2,redis,1,2,SET_latencia_media,0.087,ms
+PC_8gb,WSL2,2,redis,1,2,SET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,1,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,1,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,1,2,GET_requisicoes_por_segundo,21528.53,requisicoes/s
+PC_8gb,WSL2,2,redis,1,2,GET_latencia_media,0.084,ms
+PC_8gb,WSL2,2,redis,1,2,GET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,1,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,1,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,1,4,SET_requisicoes_por_segundo,39292.73,requisicoes/s
+PC_8gb,WSL2,2,redis,1,4,SET_latencia_media,0.079,ms
+PC_8gb,WSL2,2,redis,1,4,SET_p50,0.063,ms
+PC_8gb,WSL2,2,redis,1,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,1,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,1,4,GET_requisicoes_por_segundo,44603.03,requisicoes/s
+PC_8gb,WSL2,2,redis,1,4,GET_latencia_media,0.069,ms
+PC_8gb,WSL2,2,redis,1,4,GET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,1,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,1,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,1,8,SET_requisicoes_por_segundo,54975.26,requisicoes/s
+PC_8gb,WSL2,2,redis,1,8,SET_latencia_media,0.102,ms
+PC_8gb,WSL2,2,redis,1,8,SET_p50,0.079,ms
+PC_8gb,WSL2,2,redis,1,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,1,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,1,8,GET_requisicoes_por_segundo,55679.29,requisicoes/s
+PC_8gb,WSL2,2,redis,1,8,GET_latencia_media,0.099,ms
+PC_8gb,WSL2,2,redis,1,8,GET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,1,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,1,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,2,1,SET_requisicoes_por_segundo,7444.91,requisicoes/s
+PC_8gb,WSL2,2,redis,2,1,SET_latencia_media,0.124,ms
+PC_8gb,WSL2,2,redis,2,1,SET_p50,0.119,ms
+PC_8gb,WSL2,2,redis,2,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,2,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,2,1,GET_requisicoes_por_segundo,7825.95,requisicoes/s
+PC_8gb,WSL2,2,redis,2,1,GET_latencia_media,0.118,ms
+PC_8gb,WSL2,2,redis,2,1,GET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,2,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,2,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,2,2,SET_requisicoes_por_segundo,21155.07,requisicoes/s
+PC_8gb,WSL2,2,redis,2,2,SET_latencia_media,0.087,ms
+PC_8gb,WSL2,2,redis,2,2,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,2,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,2,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,2,2,GET_requisicoes_por_segundo,21026.07,requisicoes/s
+PC_8gb,WSL2,2,redis,2,2,GET_latencia_media,0.086,ms
+PC_8gb,WSL2,2,redis,2,2,GET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,2,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,2,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,2,4,SET_requisicoes_por_segundo,41067.76,requisicoes/s
+PC_8gb,WSL2,2,redis,2,4,SET_latencia_media,0.075,ms
+PC_8gb,WSL2,2,redis,2,4,SET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,2,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,2,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,2,4,GET_requisicoes_por_segundo,46403.71,requisicoes/s
+PC_8gb,WSL2,2,redis,2,4,GET_latencia_media,0.065,ms
+PC_8gb,WSL2,2,redis,2,4,GET_p50,0.047,ms
+PC_8gb,WSL2,2,redis,2,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,2,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,2,8,SET_requisicoes_por_segundo,52465.9,requisicoes/s
+PC_8gb,WSL2,2,redis,2,8,SET_latencia_media,0.108,ms
+PC_8gb,WSL2,2,redis,2,8,SET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,2,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,2,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,2,8,GET_requisicoes_por_segundo,52521.01,requisicoes/s
+PC_8gb,WSL2,2,redis,2,8,GET_latencia_media,0.107,ms
+PC_8gb,WSL2,2,redis,2,8,GET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,2,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,2,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,3,1,SET_requisicoes_por_segundo,7633.59,requisicoes/s
+PC_8gb,WSL2,2,redis,3,1,SET_latencia_media,0.121,ms
+PC_8gb,WSL2,2,redis,3,1,SET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,3,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,3,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,3,1,GET_requisicoes_por_segundo,7703.57,requisicoes/s
+PC_8gb,WSL2,2,redis,3,1,GET_latencia_media,0.12,ms
+PC_8gb,WSL2,2,redis,3,1,GET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,3,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,3,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,3,2,SET_requisicoes_por_segundo,20794.34,requisicoes/s
+PC_8gb,WSL2,2,redis,3,2,SET_latencia_media,0.087,ms
+PC_8gb,WSL2,2,redis,3,2,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,3,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,3,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,3,2,GET_requisicoes_por_segundo,21528.53,requisicoes/s
+PC_8gb,WSL2,2,redis,3,2,GET_latencia_media,0.084,ms
+PC_8gb,WSL2,2,redis,3,2,GET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,3,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,3,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,3,4,SET_requisicoes_por_segundo,38971.16,requisicoes/s
+PC_8gb,WSL2,2,redis,3,4,SET_latencia_media,0.08,ms
+PC_8gb,WSL2,2,redis,3,4,SET_p50,0.063,ms
+PC_8gb,WSL2,2,redis,3,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,3,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,3,4,GET_requisicoes_por_segundo,42955.32,requisicoes/s
+PC_8gb,WSL2,2,redis,3,4,GET_latencia_media,0.071,ms
+PC_8gb,WSL2,2,redis,3,4,GET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,3,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,3,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,3,8,SET_requisicoes_por_segundo,52770.45,requisicoes/s
+PC_8gb,WSL2,2,redis,3,8,SET_latencia_media,0.108,ms
+PC_8gb,WSL2,2,redis,3,8,SET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,3,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,3,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,3,8,GET_requisicoes_por_segundo,53333.33,requisicoes/s
+PC_8gb,WSL2,2,redis,3,8,GET_latencia_media,0.105,ms
+PC_8gb,WSL2,2,redis,3,8,GET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,3,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,3,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,4,1,SET_requisicoes_por_segundo,7504.69,requisicoes/s
+PC_8gb,WSL2,2,redis,4,1,SET_latencia_media,0.123,ms
+PC_8gb,WSL2,2,redis,4,1,SET_p50,0.119,ms
+PC_8gb,WSL2,2,redis,4,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,4,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,4,1,GET_requisicoes_por_segundo,7802.14,requisicoes/s
+PC_8gb,WSL2,2,redis,4,1,GET_latencia_media,0.119,ms
+PC_8gb,WSL2,2,redis,4,1,GET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,4,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,4,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,4,2,SET_requisicoes_por_segundo,21231.42,requisicoes/s
+PC_8gb,WSL2,2,redis,4,2,SET_latencia_media,0.086,ms
+PC_8gb,WSL2,2,redis,4,2,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,4,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,4,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,4,2,GET_requisicoes_por_segundo,23877.74,requisicoes/s
+PC_8gb,WSL2,2,redis,4,2,GET_latencia_media,0.076,ms
+PC_8gb,WSL2,2,redis,4,2,GET_p50,0.079,ms
+PC_8gb,WSL2,2,redis,4,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,4,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,4,4,SET_requisicoes_por_segundo,42016.8,requisicoes/s
+PC_8gb,WSL2,2,redis,4,4,SET_latencia_media,0.073,ms
+PC_8gb,WSL2,2,redis,4,4,SET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,4,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,4,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,4,4,GET_requisicoes_por_segundo,45475.22,requisicoes/s
+PC_8gb,WSL2,2,redis,4,4,GET_latencia_media,0.067,ms
+PC_8gb,WSL2,2,redis,4,4,GET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,4,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,4,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,4,8,SET_requisicoes_por_segundo,52328.62,requisicoes/s
+PC_8gb,WSL2,2,redis,4,8,SET_latencia_media,0.108,ms
+PC_8gb,WSL2,2,redis,4,8,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,4,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,4,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,4,8,GET_requisicoes_por_segundo,54200.54,requisicoes/s
+PC_8gb,WSL2,2,redis,4,8,GET_latencia_media,0.103,ms
+PC_8gb,WSL2,2,redis,4,8,GET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,4,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,4,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,5,1,SET_requisicoes_por_segundo,7544.89,requisicoes/s
+PC_8gb,WSL2,2,redis,5,1,SET_latencia_media,0.123,ms
+PC_8gb,WSL2,2,redis,5,1,SET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,5,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,5,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,5,1,GET_requisicoes_por_segundo,7595.32,requisicoes/s
+PC_8gb,WSL2,2,redis,5,1,GET_latencia_media,0.122,ms
+PC_8gb,WSL2,2,redis,5,1,GET_p50,0.119,ms
+PC_8gb,WSL2,2,redis,5,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,5,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,5,2,SET_requisicoes_por_segundo,20483.41,requisicoes/s
+PC_8gb,WSL2,2,redis,5,2,SET_latencia_media,0.089,ms
+PC_8gb,WSL2,2,redis,5,2,SET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,5,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,5,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,5,2,GET_requisicoes_por_segundo,21097.05,requisicoes/s
+PC_8gb,WSL2,2,redis,5,2,GET_latencia_media,0.086,ms
+PC_8gb,WSL2,2,redis,5,2,GET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,5,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,5,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,5,4,SET_requisicoes_por_segundo,39888.31,requisicoes/s
+PC_8gb,WSL2,2,redis,5,4,SET_latencia_media,0.078,ms
+PC_8gb,WSL2,2,redis,5,4,SET_p50,0.063,ms
+PC_8gb,WSL2,2,redis,5,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,5,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,5,4,GET_requisicoes_por_segundo,45187.53,requisicoes/s
+PC_8gb,WSL2,2,redis,5,4,GET_latencia_media,0.067,ms
+PC_8gb,WSL2,2,redis,5,4,GET_p50,0.047,ms
+PC_8gb,WSL2,2,redis,5,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,5,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,5,8,SET_requisicoes_por_segundo,52110.47,requisicoes/s
+PC_8gb,WSL2,2,redis,5,8,SET_latencia_media,0.109,ms
+PC_8gb,WSL2,2,redis,5,8,SET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,5,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,5,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,5,8,GET_requisicoes_por_segundo,48899.75,requisicoes/s
+PC_8gb,WSL2,2,redis,5,8,GET_latencia_media,0.115,ms
+PC_8gb,WSL2,2,redis,5,8,GET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,5,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,5,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,6,1,SET_requisicoes_por_segundo,6558.24,requisicoes/s
+PC_8gb,WSL2,2,redis,6,1,SET_latencia_media,0.141,ms
+PC_8gb,WSL2,2,redis,6,1,SET_p50,0.127,ms
+PC_8gb,WSL2,2,redis,6,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,6,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,6,1,GET_requisicoes_por_segundo,7328.15,requisicoes/s
+PC_8gb,WSL2,2,redis,6,1,GET_latencia_media,0.126,ms
+PC_8gb,WSL2,2,redis,6,1,GET_p50,0.119,ms
+PC_8gb,WSL2,2,redis,6,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,6,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,6,2,SET_requisicoes_por_segundo,22182.79,requisicoes/s
+PC_8gb,WSL2,2,redis,6,2,SET_latencia_media,0.082,ms
+PC_8gb,WSL2,2,redis,6,2,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,6,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,6,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,6,2,GET_requisicoes_por_segundo,23929.17,requisicoes/s
+PC_8gb,WSL2,2,redis,6,2,GET_latencia_media,0.075,ms
+PC_8gb,WSL2,2,redis,6,2,GET_p50,0.079,ms
+PC_8gb,WSL2,2,redis,6,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,6,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,6,4,SET_requisicoes_por_segundo,40048.06,requisicoes/s
+PC_8gb,WSL2,2,redis,6,4,SET_latencia_media,0.077,ms
+PC_8gb,WSL2,2,redis,6,4,SET_p50,0.063,ms
+PC_8gb,WSL2,2,redis,6,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,6,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,6,4,GET_requisicoes_por_segundo,43346.34,requisicoes/s
+PC_8gb,WSL2,2,redis,6,4,GET_latencia_media,0.071,ms
+PC_8gb,WSL2,2,redis,6,4,GET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,6,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,6,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,6,8,SET_requisicoes_por_segundo,46904.32,requisicoes/s
+PC_8gb,WSL2,2,redis,6,8,SET_latencia_media,0.124,ms
+PC_8gb,WSL2,2,redis,6,8,SET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,6,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,6,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,6,8,GET_requisicoes_por_segundo,52770.45,requisicoes/s
+PC_8gb,WSL2,2,redis,6,8,GET_latencia_media,0.105,ms
+PC_8gb,WSL2,2,redis,6,8,GET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,6,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,6,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,7,1,SET_requisicoes_por_segundo,7492.88,requisicoes/s
+PC_8gb,WSL2,2,redis,7,1,SET_latencia_media,0.123,ms
+PC_8gb,WSL2,2,redis,7,1,SET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,7,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,7,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,7,1,GET_requisicoes_por_segundo,6001.68,requisicoes/s
+PC_8gb,WSL2,2,redis,7,1,GET_latencia_media,0.154,ms
+PC_8gb,WSL2,2,redis,7,1,GET_p50,0.127,ms
+PC_8gb,WSL2,2,redis,7,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,7,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,7,2,SET_requisicoes_por_segundo,20622.81,requisicoes/s
+PC_8gb,WSL2,2,redis,7,2,SET_latencia_media,0.087,ms
+PC_8gb,WSL2,2,redis,7,2,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,7,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,7,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,7,2,GET_requisicoes_por_segundo,22055.58,requisicoes/s
+PC_8gb,WSL2,2,redis,7,2,GET_latencia_media,0.08,ms
+PC_8gb,WSL2,2,redis,7,2,GET_p50,0.071,ms
+PC_8gb,WSL2,2,redis,7,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,7,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,7,4,SET_requisicoes_por_segundo,33579.59,requisicoes/s
+PC_8gb,WSL2,2,redis,7,4,SET_latencia_media,0.093,ms
+PC_8gb,WSL2,2,redis,7,4,SET_p50,0.063,ms
+PC_8gb,WSL2,2,redis,7,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,7,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,7,4,GET_requisicoes_por_segundo,37411.15,requisicoes/s
+PC_8gb,WSL2,2,redis,7,4,GET_latencia_media,0.082,ms
+PC_8gb,WSL2,2,redis,7,4,GET_p50,0.063,ms
+PC_8gb,WSL2,2,redis,7,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,7,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,7,8,SET_requisicoes_por_segundo,43440.48,requisicoes/s
+PC_8gb,WSL2,2,redis,7,8,SET_latencia_media,0.133,ms
+PC_8gb,WSL2,2,redis,7,8,SET_p50,0.103,ms
+PC_8gb,WSL2,2,redis,7,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,7,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,7,8,GET_requisicoes_por_segundo,46317.74,requisicoes/s
+PC_8gb,WSL2,2,redis,7,8,GET_latencia_media,0.12,ms
+PC_8gb,WSL2,2,redis,7,8,GET_p50,0.103,ms
+PC_8gb,WSL2,2,redis,7,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,7,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,8,1,SET_requisicoes_por_segundo,5794.41,requisicoes/s
+PC_8gb,WSL2,2,redis,8,1,SET_latencia_media,0.159,ms
+PC_8gb,WSL2,2,redis,8,1,SET_p50,0.143,ms
+PC_8gb,WSL2,2,redis,8,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,8,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,8,1,GET_requisicoes_por_segundo,7109.34,requisicoes/s
+PC_8gb,WSL2,2,redis,8,1,GET_latencia_media,0.129,ms
+PC_8gb,WSL2,2,redis,8,1,GET_p50,0.119,ms
+PC_8gb,WSL2,2,redis,8,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,8,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,8,2,SET_requisicoes_por_segundo,20656.89,requisicoes/s
+PC_8gb,WSL2,2,redis,8,2,SET_latencia_media,0.087,ms
+PC_8gb,WSL2,2,redis,8,2,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,8,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,8,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,8,2,GET_requisicoes_por_segundo,21172.98,requisicoes/s
+PC_8gb,WSL2,2,redis,8,2,GET_latencia_media,0.085,ms
+PC_8gb,WSL2,2,redis,8,2,GET_p50,0.079,ms
+PC_8gb,WSL2,2,redis,8,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,8,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,8,4,SET_requisicoes_por_segundo,37355.25,requisicoes/s
+PC_8gb,WSL2,2,redis,8,4,SET_latencia_media,0.083,ms
+PC_8gb,WSL2,2,redis,8,4,SET_p50,0.063,ms
+PC_8gb,WSL2,2,redis,8,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,8,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,8,4,GET_requisicoes_por_segundo,42826.55,requisicoes/s
+PC_8gb,WSL2,2,redis,8,4,GET_latencia_media,0.072,ms
+PC_8gb,WSL2,2,redis,8,4,GET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,8,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,8,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,8,8,SET_requisicoes_por_segundo,50505.05,requisicoes/s
+PC_8gb,WSL2,2,redis,8,8,SET_latencia_media,0.113,ms
+PC_8gb,WSL2,2,redis,8,8,SET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,8,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,8,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,8,8,GET_requisicoes_por_segundo,50942.43,requisicoes/s
+PC_8gb,WSL2,2,redis,8,8,GET_latencia_media,0.109,ms
+PC_8gb,WSL2,2,redis,8,8,GET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,8,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,8,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,9,1,SET_requisicoes_por_segundo,7388.25,requisicoes/s
+PC_8gb,WSL2,2,redis,9,1,SET_latencia_media,0.124,ms
+PC_8gb,WSL2,2,redis,9,1,SET_p50,0.119,ms
+PC_8gb,WSL2,2,redis,9,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,9,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,9,1,GET_requisicoes_por_segundo,7431.08,requisicoes/s
+PC_8gb,WSL2,2,redis,9,1,GET_latencia_media,0.124,ms
+PC_8gb,WSL2,2,redis,9,1,GET_p50,0.119,ms
+PC_8gb,WSL2,2,redis,9,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,9,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,9,2,SET_requisicoes_por_segundo,19327.41,requisicoes/s
+PC_8gb,WSL2,2,redis,9,2,SET_latencia_media,0.094,ms
+PC_8gb,WSL2,2,redis,9,2,SET_p50,0.103,ms
+PC_8gb,WSL2,2,redis,9,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,9,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,9,2,GET_requisicoes_por_segundo,18021.27,requisicoes/s
+PC_8gb,WSL2,2,redis,9,2,GET_latencia_media,0.101,ms
+PC_8gb,WSL2,2,redis,9,2,GET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,9,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,9,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,9,4,SET_requisicoes_por_segundo,39904.23,requisicoes/s
+PC_8gb,WSL2,2,redis,9,4,SET_latencia_media,0.077,ms
+PC_8gb,WSL2,2,redis,9,4,SET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,9,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,9,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,9,4,GET_requisicoes_por_segundo,44543.43,requisicoes/s
+PC_8gb,WSL2,2,redis,9,4,GET_latencia_media,0.069,ms
+PC_8gb,WSL2,2,redis,9,4,GET_p50,0.055,ms
+PC_8gb,WSL2,2,redis,9,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,9,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,9,8,SET_requisicoes_por_segundo,53163.21,requisicoes/s
+PC_8gb,WSL2,2,redis,9,8,SET_latencia_media,0.106,ms
+PC_8gb,WSL2,2,redis,9,8,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,9,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,9,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,9,8,GET_requisicoes_por_segundo,53504.55,requisicoes/s
+PC_8gb,WSL2,2,redis,9,8,GET_latencia_media,0.103,ms
+PC_8gb,WSL2,2,redis,9,8,GET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,9,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,9,8,GET_p99,,ms
+PC_8gb,WSL2,2,redis,10,1,SET_requisicoes_por_segundo,7390.98,requisicoes/s
+PC_8gb,WSL2,2,redis,10,1,SET_latencia_media,0.125,ms
+PC_8gb,WSL2,2,redis,10,1,SET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,10,1,SET_p95,,ms
+PC_8gb,WSL2,2,redis,10,1,SET_p99,,ms
+PC_8gb,WSL2,2,redis,10,1,GET_requisicoes_por_segundo,7579.2,requisicoes/s
+PC_8gb,WSL2,2,redis,10,1,GET_latencia_media,0.121,ms
+PC_8gb,WSL2,2,redis,10,1,GET_p50,0.111,ms
+PC_8gb,WSL2,2,redis,10,1,GET_p95,,ms
+PC_8gb,WSL2,2,redis,10,1,GET_p99,,ms
+PC_8gb,WSL2,2,redis,10,2,SET_requisicoes_por_segundo,21317.42,requisicoes/s
+PC_8gb,WSL2,2,redis,10,2,SET_latencia_media,0.086,ms
+PC_8gb,WSL2,2,redis,10,2,SET_p50,0.087,ms
+PC_8gb,WSL2,2,redis,10,2,SET_p95,,ms
+PC_8gb,WSL2,2,redis,10,2,SET_p99,,ms
+PC_8gb,WSL2,2,redis,10,2,GET_requisicoes_por_segundo,22920.01,requisicoes/s
+PC_8gb,WSL2,2,redis,10,2,GET_latencia_media,0.079,ms
+PC_8gb,WSL2,2,redis,10,2,GET_p50,0.079,ms
+PC_8gb,WSL2,2,redis,10,2,GET_p95,,ms
+PC_8gb,WSL2,2,redis,10,2,GET_p99,,ms
+PC_8gb,WSL2,2,redis,10,4,SET_requisicoes_por_segundo,39525.69,requisicoes/s
+PC_8gb,WSL2,2,redis,10,4,SET_latencia_media,0.078,ms
+PC_8gb,WSL2,2,redis,10,4,SET_p50,0.063,ms
+PC_8gb,WSL2,2,redis,10,4,SET_p95,,ms
+PC_8gb,WSL2,2,redis,10,4,SET_p99,,ms
+PC_8gb,WSL2,2,redis,10,4,GET_requisicoes_por_segundo,45004.5,requisicoes/s
+PC_8gb,WSL2,2,redis,10,4,GET_latencia_media,0.068,ms
+PC_8gb,WSL2,2,redis,10,4,GET_p50,0.047,ms
+PC_8gb,WSL2,2,redis,10,4,GET_p95,,ms
+PC_8gb,WSL2,2,redis,10,4,GET_p99,,ms
+PC_8gb,WSL2,2,redis,10,8,SET_requisicoes_por_segundo,51150.89,requisicoes/s
+PC_8gb,WSL2,2,redis,10,8,SET_latencia_media,0.11,ms
+PC_8gb,WSL2,2,redis,10,8,SET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,10,8,SET_p95,,ms
+PC_8gb,WSL2,2,redis,10,8,SET_p99,,ms
+PC_8gb,WSL2,2,redis,10,8,GET_requisicoes_por_segundo,51759.83,requisicoes/s
+PC_8gb,WSL2,2,redis,10,8,GET_latencia_media,0.108,ms
+PC_8gb,WSL2,2,redis,10,8,GET_p50,0.095,ms
+PC_8gb,WSL2,2,redis,10,8,GET_p95,,ms
+PC_8gb,WSL2,2,redis,10,8,GET_p99,,ms
+PC_8gb,WSL2,4,cpu,1,1,throughput_eventos_s,769.41,eventos/s
+PC_8gb,WSL2,4,cpu,1,1,latencia_min,1.23,ms
+PC_8gb,WSL2,4,cpu,1,1,latencia_media,1.3,ms
+PC_8gb,WSL2,4,cpu,1,1,latencia_max,4.45,ms
+PC_8gb,WSL2,4,cpu,1,1,p50,,ms
+PC_8gb,WSL2,4,cpu,1,1,p95,1.37,ms
+PC_8gb,WSL2,4,cpu,1,1,p99,,ms
+PC_8gb,WSL2,4,cpu,1,2,throughput_eventos_s,1345.45,eventos/s
+PC_8gb,WSL2,4,cpu,1,2,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,1,2,latencia_media,1.48,ms
+PC_8gb,WSL2,4,cpu,1,2,latencia_max,3.49,ms
+PC_8gb,WSL2,4,cpu,1,2,p50,,ms
+PC_8gb,WSL2,4,cpu,1,2,p95,2.43,ms
+PC_8gb,WSL2,4,cpu,1,2,p99,,ms
+PC_8gb,WSL2,4,cpu,1,4,throughput_eventos_s,2271.57,eventos/s
+PC_8gb,WSL2,4,cpu,1,4,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,1,4,latencia_media,1.76,ms
+PC_8gb,WSL2,4,cpu,1,4,latencia_max,18.26,ms
+PC_8gb,WSL2,4,cpu,1,4,p50,,ms
+PC_8gb,WSL2,4,cpu,1,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,1,4,p99,,ms
+PC_8gb,WSL2,4,cpu,1,8,throughput_eventos_s,2183.79,eventos/s
+PC_8gb,WSL2,4,cpu,1,8,latencia_min,1.27,ms
+PC_8gb,WSL2,4,cpu,1,8,latencia_media,3.66,ms
+PC_8gb,WSL2,4,cpu,1,8,latencia_max,33.7,ms
+PC_8gb,WSL2,4,cpu,1,8,p50,,ms
+PC_8gb,WSL2,4,cpu,1,8,p95,6.67,ms
+PC_8gb,WSL2,4,cpu,1,8,p99,,ms
+PC_8gb,WSL2,4,cpu,2,1,throughput_eventos_s,768.12,eventos/s
+PC_8gb,WSL2,4,cpu,2,1,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,2,1,latencia_media,1.3,ms
+PC_8gb,WSL2,4,cpu,2,1,latencia_max,2.27,ms
+PC_8gb,WSL2,4,cpu,2,1,p50,,ms
+PC_8gb,WSL2,4,cpu,2,1,p95,1.37,ms
+PC_8gb,WSL2,4,cpu,2,1,p99,,ms
+PC_8gb,WSL2,4,cpu,2,2,throughput_eventos_s,1372.98,eventos/s
+PC_8gb,WSL2,4,cpu,2,2,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,2,2,latencia_media,1.45,ms
+PC_8gb,WSL2,4,cpu,2,2,latencia_max,6.96,ms
+PC_8gb,WSL2,4,cpu,2,2,p50,,ms
+PC_8gb,WSL2,4,cpu,2,2,p95,2.43,ms
+PC_8gb,WSL2,4,cpu,2,2,p99,,ms
+PC_8gb,WSL2,4,cpu,2,4,throughput_eventos_s,2319.61,eventos/s
+PC_8gb,WSL2,4,cpu,2,4,latencia_min,1.25,ms
+PC_8gb,WSL2,4,cpu,2,4,latencia_media,1.72,ms
+PC_8gb,WSL2,4,cpu,2,4,latencia_max,9.66,ms
+PC_8gb,WSL2,4,cpu,2,4,p50,,ms
+PC_8gb,WSL2,4,cpu,2,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,2,4,p99,,ms
+PC_8gb,WSL2,4,cpu,2,8,throughput_eventos_s,2247.49,eventos/s
+PC_8gb,WSL2,4,cpu,2,8,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,2,8,latencia_media,3.56,ms
+PC_8gb,WSL2,4,cpu,2,8,latencia_max,36.51,ms
+PC_8gb,WSL2,4,cpu,2,8,p50,,ms
+PC_8gb,WSL2,4,cpu,2,8,p95,6.55,ms
+PC_8gb,WSL2,4,cpu,2,8,p99,,ms
+PC_8gb,WSL2,4,cpu,3,1,throughput_eventos_s,770.24,eventos/s
+PC_8gb,WSL2,4,cpu,3,1,latencia_min,1.23,ms
+PC_8gb,WSL2,4,cpu,3,1,latencia_media,1.3,ms
+PC_8gb,WSL2,4,cpu,3,1,latencia_max,6.07,ms
+PC_8gb,WSL2,4,cpu,3,1,p50,,ms
+PC_8gb,WSL2,4,cpu,3,1,p95,1.37,ms
+PC_8gb,WSL2,4,cpu,3,1,p99,,ms
+PC_8gb,WSL2,4,cpu,3,2,throughput_eventos_s,1361.79,eventos/s
+PC_8gb,WSL2,4,cpu,3,2,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,3,2,latencia_media,1.47,ms
+PC_8gb,WSL2,4,cpu,3,2,latencia_max,2.98,ms
+PC_8gb,WSL2,4,cpu,3,2,p50,,ms
+PC_8gb,WSL2,4,cpu,3,2,p95,2.43,ms
+PC_8gb,WSL2,4,cpu,3,2,p99,,ms
+PC_8gb,WSL2,4,cpu,3,4,throughput_eventos_s,2254.28,eventos/s
+PC_8gb,WSL2,4,cpu,3,4,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,3,4,latencia_media,1.77,ms
+PC_8gb,WSL2,4,cpu,3,4,latencia_max,9.51,ms
+PC_8gb,WSL2,4,cpu,3,4,p50,,ms
+PC_8gb,WSL2,4,cpu,3,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,3,4,p99,,ms
+PC_8gb,WSL2,4,cpu,3,8,throughput_eventos_s,2292.26,eventos/s
+PC_8gb,WSL2,4,cpu,3,8,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,3,8,latencia_media,3.48,ms
+PC_8gb,WSL2,4,cpu,3,8,latencia_max,17.88,ms
+PC_8gb,WSL2,4,cpu,3,8,p50,,ms
+PC_8gb,WSL2,4,cpu,3,8,p95,6.55,ms
+PC_8gb,WSL2,4,cpu,3,8,p99,,ms
+PC_8gb,WSL2,4,cpu,4,1,throughput_eventos_s,770.26,eventos/s
+PC_8gb,WSL2,4,cpu,4,1,latencia_min,1.23,ms
+PC_8gb,WSL2,4,cpu,4,1,latencia_media,1.3,ms
+PC_8gb,WSL2,4,cpu,4,1,latencia_max,4.85,ms
+PC_8gb,WSL2,4,cpu,4,1,p50,,ms
+PC_8gb,WSL2,4,cpu,4,1,p95,1.37,ms
+PC_8gb,WSL2,4,cpu,4,1,p99,,ms
+PC_8gb,WSL2,4,cpu,4,2,throughput_eventos_s,1329.42,eventos/s
+PC_8gb,WSL2,4,cpu,4,2,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,4,2,latencia_media,1.5,ms
+PC_8gb,WSL2,4,cpu,4,2,latencia_max,2.9,ms
+PC_8gb,WSL2,4,cpu,4,2,p50,,ms
+PC_8gb,WSL2,4,cpu,4,2,p95,2.48,ms
+PC_8gb,WSL2,4,cpu,4,2,p99,,ms
+PC_8gb,WSL2,4,cpu,4,4,throughput_eventos_s,2355.0,eventos/s
+PC_8gb,WSL2,4,cpu,4,4,latencia_min,1.27,ms
+PC_8gb,WSL2,4,cpu,4,4,latencia_media,1.7,ms
+PC_8gb,WSL2,4,cpu,4,4,latencia_max,10.41,ms
+PC_8gb,WSL2,4,cpu,4,4,p50,,ms
+PC_8gb,WSL2,4,cpu,4,4,p95,2.48,ms
+PC_8gb,WSL2,4,cpu,4,4,p99,,ms
+PC_8gb,WSL2,4,cpu,4,8,throughput_eventos_s,2311.11,eventos/s
+PC_8gb,WSL2,4,cpu,4,8,latencia_min,1.27,ms
+PC_8gb,WSL2,4,cpu,4,8,latencia_media,3.46,ms
+PC_8gb,WSL2,4,cpu,4,8,latencia_max,18.15,ms
+PC_8gb,WSL2,4,cpu,4,8,p50,,ms
+PC_8gb,WSL2,4,cpu,4,8,p95,6.55,ms
+PC_8gb,WSL2,4,cpu,4,8,p99,,ms
+PC_8gb,WSL2,4,cpu,5,1,throughput_eventos_s,773.56,eventos/s
+PC_8gb,WSL2,4,cpu,5,1,latencia_min,1.23,ms
+PC_8gb,WSL2,4,cpu,5,1,latencia_media,1.29,ms
+PC_8gb,WSL2,4,cpu,5,1,latencia_max,2.45,ms
+PC_8gb,WSL2,4,cpu,5,1,p50,,ms
+PC_8gb,WSL2,4,cpu,5,1,p95,1.37,ms
+PC_8gb,WSL2,4,cpu,5,1,p99,,ms
+PC_8gb,WSL2,4,cpu,5,2,throughput_eventos_s,1363.83,eventos/s
+PC_8gb,WSL2,4,cpu,5,2,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,5,2,latencia_media,1.46,ms
+PC_8gb,WSL2,4,cpu,5,2,latencia_max,4.28,ms
+PC_8gb,WSL2,4,cpu,5,2,p50,,ms
+PC_8gb,WSL2,4,cpu,5,2,p95,2.43,ms
+PC_8gb,WSL2,4,cpu,5,2,p99,,ms
+PC_8gb,WSL2,4,cpu,5,4,throughput_eventos_s,2257.79,eventos/s
+PC_8gb,WSL2,4,cpu,5,4,latencia_min,1.27,ms
+PC_8gb,WSL2,4,cpu,5,4,latencia_media,1.77,ms
+PC_8gb,WSL2,4,cpu,5,4,latencia_max,12.55,ms
+PC_8gb,WSL2,4,cpu,5,4,p50,,ms
+PC_8gb,WSL2,4,cpu,5,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,5,4,p99,,ms
+PC_8gb,WSL2,4,cpu,5,8,throughput_eventos_s,2272.95,eventos/s
+PC_8gb,WSL2,4,cpu,5,8,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,5,8,latencia_media,3.51,ms
+PC_8gb,WSL2,4,cpu,5,8,latencia_max,33.03,ms
+PC_8gb,WSL2,4,cpu,5,8,p50,,ms
+PC_8gb,WSL2,4,cpu,5,8,p95,6.55,ms
+PC_8gb,WSL2,4,cpu,5,8,p99,,ms
+PC_8gb,WSL2,4,cpu,6,1,throughput_eventos_s,775.38,eventos/s
+PC_8gb,WSL2,4,cpu,6,1,latencia_min,1.23,ms
+PC_8gb,WSL2,4,cpu,6,1,latencia_media,1.29,ms
+PC_8gb,WSL2,4,cpu,6,1,latencia_max,2.53,ms
+PC_8gb,WSL2,4,cpu,6,1,p50,,ms
+PC_8gb,WSL2,4,cpu,6,1,p95,1.34,ms
+PC_8gb,WSL2,4,cpu,6,1,p99,,ms
+PC_8gb,WSL2,4,cpu,6,2,throughput_eventos_s,1348.35,eventos/s
+PC_8gb,WSL2,4,cpu,6,2,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,6,2,latencia_media,1.48,ms
+PC_8gb,WSL2,4,cpu,6,2,latencia_max,7.89,ms
+PC_8gb,WSL2,4,cpu,6,2,p50,,ms
+PC_8gb,WSL2,4,cpu,6,2,p95,2.48,ms
+PC_8gb,WSL2,4,cpu,6,2,p99,,ms
+PC_8gb,WSL2,4,cpu,6,4,throughput_eventos_s,2300.96,eventos/s
+PC_8gb,WSL2,4,cpu,6,4,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,6,4,latencia_media,1.74,ms
+PC_8gb,WSL2,4,cpu,6,4,latencia_max,10.59,ms
+PC_8gb,WSL2,4,cpu,6,4,p50,,ms
+PC_8gb,WSL2,4,cpu,6,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,6,4,p99,,ms
+PC_8gb,WSL2,4,cpu,6,8,throughput_eventos_s,2267.52,eventos/s
+PC_8gb,WSL2,4,cpu,6,8,latencia_min,1.25,ms
+PC_8gb,WSL2,4,cpu,6,8,latencia_media,3.52,ms
+PC_8gb,WSL2,4,cpu,6,8,latencia_max,35.07,ms
+PC_8gb,WSL2,4,cpu,6,8,p50,,ms
+PC_8gb,WSL2,4,cpu,6,8,p95,6.55,ms
+PC_8gb,WSL2,4,cpu,6,8,p99,,ms
+PC_8gb,WSL2,4,cpu,7,1,throughput_eventos_s,760.14,eventos/s
+PC_8gb,WSL2,4,cpu,7,1,latencia_min,1.23,ms
+PC_8gb,WSL2,4,cpu,7,1,latencia_media,1.31,ms
+PC_8gb,WSL2,4,cpu,7,1,latencia_max,11.38,ms
+PC_8gb,WSL2,4,cpu,7,1,p50,,ms
+PC_8gb,WSL2,4,cpu,7,1,p95,1.42,ms
+PC_8gb,WSL2,4,cpu,7,1,p99,,ms
+PC_8gb,WSL2,4,cpu,7,2,throughput_eventos_s,1346.33,eventos/s
+PC_8gb,WSL2,4,cpu,7,2,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,7,2,latencia_media,1.48,ms
+PC_8gb,WSL2,4,cpu,7,2,latencia_max,5.32,ms
+PC_8gb,WSL2,4,cpu,7,2,p50,,ms
+PC_8gb,WSL2,4,cpu,7,2,p95,2.48,ms
+PC_8gb,WSL2,4,cpu,7,2,p99,,ms
+PC_8gb,WSL2,4,cpu,7,4,throughput_eventos_s,2345.65,eventos/s
+PC_8gb,WSL2,4,cpu,7,4,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,7,4,latencia_media,1.7,ms
+PC_8gb,WSL2,4,cpu,7,4,latencia_max,16.89,ms
+PC_8gb,WSL2,4,cpu,7,4,p50,,ms
+PC_8gb,WSL2,4,cpu,7,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,7,4,p99,,ms
+PC_8gb,WSL2,4,cpu,7,8,throughput_eventos_s,2298.68,eventos/s
+PC_8gb,WSL2,4,cpu,7,8,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,7,8,latencia_media,3.47,ms
+PC_8gb,WSL2,4,cpu,7,8,latencia_max,14.69,ms
+PC_8gb,WSL2,4,cpu,7,8,p50,,ms
+PC_8gb,WSL2,4,cpu,7,8,p95,6.55,ms
+PC_8gb,WSL2,4,cpu,7,8,p99,,ms
+PC_8gb,WSL2,4,cpu,8,1,throughput_eventos_s,747.72,eventos/s
+PC_8gb,WSL2,4,cpu,8,1,latencia_min,1.23,ms
+PC_8gb,WSL2,4,cpu,8,1,latencia_media,1.33,ms
+PC_8gb,WSL2,4,cpu,8,1,latencia_max,9.19,ms
+PC_8gb,WSL2,4,cpu,8,1,p50,,ms
+PC_8gb,WSL2,4,cpu,8,1,p95,1.47,ms
+PC_8gb,WSL2,4,cpu,8,1,p99,,ms
+PC_8gb,WSL2,4,cpu,8,2,throughput_eventos_s,1379.71,eventos/s
+PC_8gb,WSL2,4,cpu,8,2,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,8,2,latencia_media,1.45,ms
+PC_8gb,WSL2,4,cpu,8,2,latencia_max,11.91,ms
+PC_8gb,WSL2,4,cpu,8,2,p50,,ms
+PC_8gb,WSL2,4,cpu,8,2,p95,2.48,ms
+PC_8gb,WSL2,4,cpu,8,2,p99,,ms
+PC_8gb,WSL2,4,cpu,8,4,throughput_eventos_s,2257.69,eventos/s
+PC_8gb,WSL2,4,cpu,8,4,latencia_min,1.25,ms
+PC_8gb,WSL2,4,cpu,8,4,latencia_media,1.77,ms
+PC_8gb,WSL2,4,cpu,8,4,latencia_max,18.81,ms
+PC_8gb,WSL2,4,cpu,8,4,p50,,ms
+PC_8gb,WSL2,4,cpu,8,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,8,4,p99,,ms
+PC_8gb,WSL2,4,cpu,8,8,throughput_eventos_s,2266.21,eventos/s
+PC_8gb,WSL2,4,cpu,8,8,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,8,8,latencia_media,3.52,ms
+PC_8gb,WSL2,4,cpu,8,8,latencia_max,18.1,ms
+PC_8gb,WSL2,4,cpu,8,8,p50,,ms
+PC_8gb,WSL2,4,cpu,8,8,p95,6.55,ms
+PC_8gb,WSL2,4,cpu,8,8,p99,,ms
+PC_8gb,WSL2,4,cpu,9,1,throughput_eventos_s,756.65,eventos/s
+PC_8gb,WSL2,4,cpu,9,1,latencia_min,1.25,ms
+PC_8gb,WSL2,4,cpu,9,1,latencia_media,1.32,ms
+PC_8gb,WSL2,4,cpu,9,1,latencia_max,12.41,ms
+PC_8gb,WSL2,4,cpu,9,1,p50,,ms
+PC_8gb,WSL2,4,cpu,9,1,p95,1.39,ms
+PC_8gb,WSL2,4,cpu,9,1,p99,,ms
+PC_8gb,WSL2,4,cpu,9,2,throughput_eventos_s,1376.8,eventos/s
+PC_8gb,WSL2,4,cpu,9,2,latencia_min,1.25,ms
+PC_8gb,WSL2,4,cpu,9,2,latencia_media,1.45,ms
+PC_8gb,WSL2,4,cpu,9,2,latencia_max,4.3,ms
+PC_8gb,WSL2,4,cpu,9,2,p50,,ms
+PC_8gb,WSL2,4,cpu,9,2,p95,2.48,ms
+PC_8gb,WSL2,4,cpu,9,2,p99,,ms
+PC_8gb,WSL2,4,cpu,9,4,throughput_eventos_s,2252.51,eventos/s
+PC_8gb,WSL2,4,cpu,9,4,latencia_min,1.27,ms
+PC_8gb,WSL2,4,cpu,9,4,latencia_media,1.77,ms
+PC_8gb,WSL2,4,cpu,9,4,latencia_max,9.77,ms
+PC_8gb,WSL2,4,cpu,9,4,p50,,ms
+PC_8gb,WSL2,4,cpu,9,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,9,4,p99,,ms
+PC_8gb,WSL2,4,cpu,9,8,throughput_eventos_s,2121.14,eventos/s
+PC_8gb,WSL2,4,cpu,9,8,latencia_min,1.27,ms
+PC_8gb,WSL2,4,cpu,9,8,latencia_media,3.76,ms
+PC_8gb,WSL2,4,cpu,9,8,latencia_max,37.28,ms
+PC_8gb,WSL2,4,cpu,9,8,p50,,ms
+PC_8gb,WSL2,4,cpu,9,8,p95,7.04,ms
+PC_8gb,WSL2,4,cpu,9,8,p99,,ms
+PC_8gb,WSL2,4,cpu,10,1,throughput_eventos_s,767.63,eventos/s
+PC_8gb,WSL2,4,cpu,10,1,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,10,1,latencia_media,1.3,ms
+PC_8gb,WSL2,4,cpu,10,1,latencia_max,3.78,ms
+PC_8gb,WSL2,4,cpu,10,1,p50,,ms
+PC_8gb,WSL2,4,cpu,10,1,p95,1.37,ms
+PC_8gb,WSL2,4,cpu,10,1,p99,,ms
+PC_8gb,WSL2,4,cpu,10,2,throughput_eventos_s,1309.65,eventos/s
+PC_8gb,WSL2,4,cpu,10,2,latencia_min,1.24,ms
+PC_8gb,WSL2,4,cpu,10,2,latencia_media,1.53,ms
+PC_8gb,WSL2,4,cpu,10,2,latencia_max,13.49,ms
+PC_8gb,WSL2,4,cpu,10,2,p50,,ms
+PC_8gb,WSL2,4,cpu,10,2,p95,2.48,ms
+PC_8gb,WSL2,4,cpu,10,2,p99,,ms
+PC_8gb,WSL2,4,cpu,10,4,throughput_eventos_s,2314.95,eventos/s
+PC_8gb,WSL2,4,cpu,10,4,latencia_min,1.26,ms
+PC_8gb,WSL2,4,cpu,10,4,latencia_media,1.73,ms
+PC_8gb,WSL2,4,cpu,10,4,latencia_max,10.39,ms
+PC_8gb,WSL2,4,cpu,10,4,p50,,ms
+PC_8gb,WSL2,4,cpu,10,4,p95,2.52,ms
+PC_8gb,WSL2,4,cpu,10,4,p99,,ms
+PC_8gb,WSL2,4,cpu,10,8,throughput_eventos_s,2312.85,eventos/s
+PC_8gb,WSL2,4,cpu,10,8,latencia_min,1.27,ms
+PC_8gb,WSL2,4,cpu,10,8,latencia_media,3.45,ms
+PC_8gb,WSL2,4,cpu,10,8,latencia_max,18.68,ms
+PC_8gb,WSL2,4,cpu,10,8,p50,,ms
+PC_8gb,WSL2,4,cpu,10,8,p95,6.55,ms
+PC_8gb,WSL2,4,cpu,10,8,p99,,ms
+PC_8gb,WSL2,4,memoria,1,1,escrita_throughput,23687.69,MiB/s
+PC_8gb,WSL2,4,memoria,1,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,1,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,1,1,escrita_latencia_max,2.03,ms
+PC_8gb,WSL2,4,memoria,1,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,1,1,escrita_p95,0.05,ms
+PC_8gb,WSL2,4,memoria,1,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,1,2,escrita_throughput,38710.34,MiB/s
+PC_8gb,WSL2,4,memoria,1,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,1,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,4,memoria,1,2,escrita_latencia_max,4.32,ms
+PC_8gb,WSL2,4,memoria,1,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,1,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,4,memoria,1,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,1,4,escrita_throughput,47923.05,MiB/s
+PC_8gb,WSL2,4,memoria,1,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,1,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,1,4,escrita_latencia_max,16.08,ms
+PC_8gb,WSL2,4,memoria,1,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,1,4,escrita_p95,0.12,ms
+PC_8gb,WSL2,4,memoria,1,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,1,8,escrita_throughput,54657.9,MiB/s
+PC_8gb,WSL2,4,memoria,1,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,1,8,escrita_latencia_media,0.12,ms
+PC_8gb,WSL2,4,memoria,1,8,escrita_latencia_max,16.16,ms
+PC_8gb,WSL2,4,memoria,1,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,1,8,escrita_p95,0.13,ms
+PC_8gb,WSL2,4,memoria,1,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,2,1,escrita_throughput,23095.31,MiB/s
+PC_8gb,WSL2,4,memoria,2,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,2,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,2,1,escrita_latencia_max,2.26,ms
+PC_8gb,WSL2,4,memoria,2,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,2,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,4,memoria,2,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,2,2,escrita_throughput,34800.73,MiB/s
+PC_8gb,WSL2,4,memoria,2,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,2,2,escrita_latencia_media,0.06,ms
+PC_8gb,WSL2,4,memoria,2,2,escrita_latencia_max,2.47,ms
+PC_8gb,WSL2,4,memoria,2,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,2,2,escrita_p95,0.09,ms
+PC_8gb,WSL2,4,memoria,2,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,2,4,escrita_throughput,49975.77,MiB/s
+PC_8gb,WSL2,4,memoria,2,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,2,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,2,4,escrita_latencia_max,4.19,ms
+PC_8gb,WSL2,4,memoria,2,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,2,4,escrita_p95,0.13,ms
+PC_8gb,WSL2,4,memoria,2,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,2,8,escrita_throughput,54340.73,MiB/s
+PC_8gb,WSL2,4,memoria,2,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,2,8,escrita_latencia_media,0.12,ms
+PC_8gb,WSL2,4,memoria,2,8,escrita_latencia_max,16.2,ms
+PC_8gb,WSL2,4,memoria,2,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,2,8,escrita_p95,0.12,ms
+PC_8gb,WSL2,4,memoria,2,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,3,1,escrita_throughput,23622.34,MiB/s
+PC_8gb,WSL2,4,memoria,3,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,3,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,3,1,escrita_latencia_max,1.13,ms
+PC_8gb,WSL2,4,memoria,3,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,3,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,4,memoria,3,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,3,2,escrita_throughput,25335.7,MiB/s
+PC_8gb,WSL2,4,memoria,3,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,3,2,escrita_latencia_media,0.08,ms
+PC_8gb,WSL2,4,memoria,3,2,escrita_latencia_max,0.7,ms
+PC_8gb,WSL2,4,memoria,3,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,3,2,escrita_p95,0.16,ms
+PC_8gb,WSL2,4,memoria,3,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,3,4,escrita_throughput,55318.15,MiB/s
+PC_8gb,WSL2,4,memoria,3,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,3,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,3,4,escrita_latencia_max,8.24,ms
+PC_8gb,WSL2,4,memoria,3,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,3,4,escrita_p95,0.11,ms
+PC_8gb,WSL2,4,memoria,3,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,3,8,escrita_throughput,48331.5,MiB/s
+PC_8gb,WSL2,4,memoria,3,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,3,8,escrita_latencia_media,0.12,ms
+PC_8gb,WSL2,4,memoria,3,8,escrita_latencia_max,16.2,ms
+PC_8gb,WSL2,4,memoria,3,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,3,8,escrita_p95,0.14,ms
+PC_8gb,WSL2,4,memoria,3,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,4,1,escrita_throughput,21002.86,MiB/s
+PC_8gb,WSL2,4,memoria,4,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,4,1,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,4,memoria,4,1,escrita_latencia_max,4.17,ms
+PC_8gb,WSL2,4,memoria,4,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,4,1,escrita_p95,0.07,ms
+PC_8gb,WSL2,4,memoria,4,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,4,2,escrita_throughput,38224.7,MiB/s
+PC_8gb,WSL2,4,memoria,4,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,4,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,4,memoria,4,2,escrita_latencia_max,0.57,ms
+PC_8gb,WSL2,4,memoria,4,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,4,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,4,memoria,4,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,4,4,escrita_throughput,47664.51,MiB/s
+PC_8gb,WSL2,4,memoria,4,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,4,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,4,4,escrita_latencia_max,4.21,ms
+PC_8gb,WSL2,4,memoria,4,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,4,4,escrita_p95,0.12,ms
+PC_8gb,WSL2,4,memoria,4,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,4,8,escrita_throughput,45680.45,MiB/s
+PC_8gb,WSL2,4,memoria,4,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,4,8,escrita_latencia_media,0.13,ms
+PC_8gb,WSL2,4,memoria,4,8,escrita_latencia_max,12.73,ms
+PC_8gb,WSL2,4,memoria,4,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,4,8,escrita_p95,0.15,ms
+PC_8gb,WSL2,4,memoria,4,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,5,1,escrita_throughput,22627.81,MiB/s
+PC_8gb,WSL2,4,memoria,5,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,5,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,5,1,escrita_latencia_max,1.2,ms
+PC_8gb,WSL2,4,memoria,5,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,5,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,4,memoria,5,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,5,2,escrita_throughput,37151.8,MiB/s
+PC_8gb,WSL2,4,memoria,5,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,5,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,4,memoria,5,2,escrita_latencia_max,1.96,ms
+PC_8gb,WSL2,4,memoria,5,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,5,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,4,memoria,5,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,5,4,escrita_throughput,49238.2,MiB/s
+PC_8gb,WSL2,4,memoria,5,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,5,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,5,4,escrita_latencia_max,6.84,ms
+PC_8gb,WSL2,4,memoria,5,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,5,4,escrita_p95,0.12,ms
+PC_8gb,WSL2,4,memoria,5,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,5,8,escrita_throughput,49070.16,MiB/s
+PC_8gb,WSL2,4,memoria,5,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,5,8,escrita_latencia_media,0.14,ms
+PC_8gb,WSL2,4,memoria,5,8,escrita_latencia_max,12.14,ms
+PC_8gb,WSL2,4,memoria,5,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,5,8,escrita_p95,0.14,ms
+PC_8gb,WSL2,4,memoria,5,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,6,1,escrita_throughput,22671.98,MiB/s
+PC_8gb,WSL2,4,memoria,6,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,6,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,6,1,escrita_latencia_max,1.57,ms
+PC_8gb,WSL2,4,memoria,6,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,6,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,4,memoria,6,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,6,2,escrita_throughput,37139.73,MiB/s
+PC_8gb,WSL2,4,memoria,6,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,6,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,4,memoria,6,2,escrita_latencia_max,1.16,ms
+PC_8gb,WSL2,4,memoria,6,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,6,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,4,memoria,6,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,6,4,escrita_throughput,49060.76,MiB/s
+PC_8gb,WSL2,4,memoria,6,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,6,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,6,4,escrita_latencia_max,4.64,ms
+PC_8gb,WSL2,4,memoria,6,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,6,4,escrita_p95,0.12,ms
+PC_8gb,WSL2,4,memoria,6,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,6,8,escrita_throughput,48844.82,MiB/s
+PC_8gb,WSL2,4,memoria,6,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,6,8,escrita_latencia_media,0.12,ms
+PC_8gb,WSL2,4,memoria,6,8,escrita_latencia_max,20.14,ms
+PC_8gb,WSL2,4,memoria,6,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,6,8,escrita_p95,0.14,ms
+PC_8gb,WSL2,4,memoria,6,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,7,1,escrita_throughput,23431.65,MiB/s
+PC_8gb,WSL2,4,memoria,7,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,7,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,7,1,escrita_latencia_max,0.99,ms
+PC_8gb,WSL2,4,memoria,7,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,7,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,4,memoria,7,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,7,2,escrita_throughput,34800.94,MiB/s
+PC_8gb,WSL2,4,memoria,7,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,7,2,escrita_latencia_media,0.06,ms
+PC_8gb,WSL2,4,memoria,7,2,escrita_latencia_max,3.02,ms
+PC_8gb,WSL2,4,memoria,7,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,7,2,escrita_p95,0.09,ms
+PC_8gb,WSL2,4,memoria,7,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,7,4,escrita_throughput,50610.25,MiB/s
+PC_8gb,WSL2,4,memoria,7,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,7,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,7,4,escrita_latencia_max,8.23,ms
+PC_8gb,WSL2,4,memoria,7,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,7,4,escrita_p95,0.13,ms
+PC_8gb,WSL2,4,memoria,7,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,7,8,escrita_throughput,54290.27,MiB/s
+PC_8gb,WSL2,4,memoria,7,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,7,8,escrita_latencia_media,0.12,ms
+PC_8gb,WSL2,4,memoria,7,8,escrita_latencia_max,12.09,ms
+PC_8gb,WSL2,4,memoria,7,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,7,8,escrita_p95,0.13,ms
+PC_8gb,WSL2,4,memoria,7,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,8,1,escrita_throughput,23250.92,MiB/s
+PC_8gb,WSL2,4,memoria,8,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,8,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,8,1,escrita_latencia_max,1.13,ms
+PC_8gb,WSL2,4,memoria,8,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,8,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,4,memoria,8,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,8,2,escrita_throughput,37126.1,MiB/s
+PC_8gb,WSL2,4,memoria,8,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,8,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,4,memoria,8,2,escrita_latencia_max,0.76,ms
+PC_8gb,WSL2,4,memoria,8,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,8,2,escrita_p95,0.09,ms
+PC_8gb,WSL2,4,memoria,8,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,8,4,escrita_throughput,44849.23,MiB/s
+PC_8gb,WSL2,4,memoria,8,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,8,4,escrita_latencia_media,0.08,ms
+PC_8gb,WSL2,4,memoria,8,4,escrita_latencia_max,4.58,ms
+PC_8gb,WSL2,4,memoria,8,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,8,4,escrita_p95,0.14,ms
+PC_8gb,WSL2,4,memoria,8,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,8,8,escrita_throughput,55153.33,MiB/s
+PC_8gb,WSL2,4,memoria,8,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,8,8,escrita_latencia_media,0.12,ms
+PC_8gb,WSL2,4,memoria,8,8,escrita_latencia_max,12.08,ms
+PC_8gb,WSL2,4,memoria,8,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,8,8,escrita_p95,0.13,ms
+PC_8gb,WSL2,4,memoria,8,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,9,1,escrita_throughput,22620.23,MiB/s
+PC_8gb,WSL2,4,memoria,9,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,9,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,9,1,escrita_latencia_max,1.09,ms
+PC_8gb,WSL2,4,memoria,9,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,9,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,4,memoria,9,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,9,2,escrita_throughput,37269.43,MiB/s
+PC_8gb,WSL2,4,memoria,9,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,9,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,4,memoria,9,2,escrita_latencia_max,1.08,ms
+PC_8gb,WSL2,4,memoria,9,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,9,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,4,memoria,9,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,9,4,escrita_throughput,46724.7,MiB/s
+PC_8gb,WSL2,4,memoria,9,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,9,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,9,4,escrita_latencia_max,8.15,ms
+PC_8gb,WSL2,4,memoria,9,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,9,4,escrita_p95,0.12,ms
+PC_8gb,WSL2,4,memoria,9,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,9,8,escrita_throughput,47890.04,MiB/s
+PC_8gb,WSL2,4,memoria,9,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,9,8,escrita_latencia_media,0.15,ms
+PC_8gb,WSL2,4,memoria,9,8,escrita_latencia_max,13.01,ms
+PC_8gb,WSL2,4,memoria,9,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,9,8,escrita_p95,0.15,ms
+PC_8gb,WSL2,4,memoria,9,8,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,10,1,escrita_throughput,22781.26,MiB/s
+PC_8gb,WSL2,4,memoria,10,1,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,10,1,escrita_latencia_media,0.04,ms
+PC_8gb,WSL2,4,memoria,10,1,escrita_latencia_max,0.88,ms
+PC_8gb,WSL2,4,memoria,10,1,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,10,1,escrita_p95,0.06,ms
+PC_8gb,WSL2,4,memoria,10,1,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,10,2,escrita_throughput,41310.33,MiB/s
+PC_8gb,WSL2,4,memoria,10,2,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,10,2,escrita_latencia_media,0.05,ms
+PC_8gb,WSL2,4,memoria,10,2,escrita_latencia_max,1.95,ms
+PC_8gb,WSL2,4,memoria,10,2,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,10,2,escrita_p95,0.08,ms
+PC_8gb,WSL2,4,memoria,10,2,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,10,4,escrita_throughput,54113.32,MiB/s
+PC_8gb,WSL2,4,memoria,10,4,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,10,4,escrita_latencia_media,0.07,ms
+PC_8gb,WSL2,4,memoria,10,4,escrita_latencia_max,4.41,ms
+PC_8gb,WSL2,4,memoria,10,4,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,10,4,escrita_p95,0.12,ms
+PC_8gb,WSL2,4,memoria,10,4,escrita_p99,,ms
+PC_8gb,WSL2,4,memoria,10,8,escrita_throughput,44407.91,MiB/s
+PC_8gb,WSL2,4,memoria,10,8,escrita_latencia_min,0.04,ms
+PC_8gb,WSL2,4,memoria,10,8,escrita_latencia_media,0.15,ms
+PC_8gb,WSL2,4,memoria,10,8,escrita_latencia_max,28.23,ms
+PC_8gb,WSL2,4,memoria,10,8,escrita_p50,,ms
+PC_8gb,WSL2,4,memoria,10,8,escrita_p95,0.15,ms
+PC_8gb,WSL2,4,memoria,10,8,escrita_p99,,ms
+PC_8gb,WSL2,4,io,1,2,leitura_largura_banda,8.3955078125,MiB/s
+PC_8gb,WSL2,4,io,1,2,leitura_iops,2154.95,IOPS
+PC_8gb,WSL2,4,io,1,2,leitura_job1_latencia_media,7310.0,us
+PC_8gb,WSL2,4,io,1,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,1,2,leitura_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,1,2,leitura_job1_p99,12000.0,us
+PC_8gb,WSL2,4,io,1,2,leitura_job2_latencia_media,7330.0,us
+PC_8gb,WSL2,4,io,1,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,1,2,leitura_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,1,2,leitura_job2_p99,12000.0,us
+PC_8gb,WSL2,4,io,1,2,escrita_largura_banda,8.40234375,MiB/s
+PC_8gb,WSL2,4,io,1,2,escrita_iops,2156.7,IOPS
+PC_8gb,WSL2,4,io,1,2,escrita_job1_latencia_media,7550.0,us
+PC_8gb,WSL2,4,io,1,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,1,2,escrita_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,1,2,escrita_job1_p99,12000.0,us
+PC_8gb,WSL2,4,io,1,2,escrita_job2_latencia_media,7560.0,us
+PC_8gb,WSL2,4,io,1,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,1,2,escrita_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,1,2,escrita_job2_p99,12000.0,us
+PC_8gb,WSL2,4,io,2,2,leitura_largura_banda,8.48828125,MiB/s
+PC_8gb,WSL2,4,io,2,2,leitura_iops,2168.8100000000004,IOPS
+PC_8gb,WSL2,4,io,2,2,leitura_job1_latencia_media,7251.15,us
+PC_8gb,WSL2,4,io,2,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,2,2,leitura_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,2,2,leitura_job1_p99,12000.0,us
+PC_8gb,WSL2,4,io,2,2,leitura_job2_latencia_media,7180.0,us
+PC_8gb,WSL2,4,io,2,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,2,2,leitura_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,2,2,leitura_job2_p99,12000.0,us
+PC_8gb,WSL2,4,io,2,2,escrita_largura_banda,8.4951171875,MiB/s
+PC_8gb,WSL2,4,io,2,2,escrita_iops,2171.59,IOPS
+PC_8gb,WSL2,4,io,2,2,escrita_job1_latencia_media,7471.78,us
+PC_8gb,WSL2,4,io,2,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,2,2,escrita_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,2,2,escrita_job1_p99,11000.0,us
+PC_8gb,WSL2,4,io,2,2,escrita_job2_latencia_media,7510.11,us
+PC_8gb,WSL2,4,io,2,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,2,2,escrita_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,2,2,escrita_job2_p99,12000.0,us
+PC_8gb,WSL2,4,io,3,2,leitura_largura_banda,8.3427734375,MiB/s
+PC_8gb,WSL2,4,io,3,2,leitura_iops,2127.21,IOPS
+PC_8gb,WSL2,4,io,3,2,leitura_job1_latencia_media,7321.17,us
+PC_8gb,WSL2,4,io,3,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,3,2,leitura_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,3,2,leitura_job1_p99,15000.0,us
+PC_8gb,WSL2,4,io,3,2,leitura_job2_latencia_media,7395.49,us
+PC_8gb,WSL2,4,io,3,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,3,2,leitura_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,3,2,leitura_job2_p99,16000.0,us
+PC_8gb,WSL2,4,io,3,2,escrita_largura_banda,8.3505859375,MiB/s
+PC_8gb,WSL2,4,io,3,2,escrita_iops,2133.98,IOPS
+PC_8gb,WSL2,4,io,3,2,escrita_job1_latencia_media,7611.24,us
+PC_8gb,WSL2,4,io,3,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,3,2,escrita_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,3,2,escrita_job1_p99,15000.0,us
+PC_8gb,WSL2,4,io,3,2,escrita_job2_latencia_media,7595.52,us
+PC_8gb,WSL2,4,io,3,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,3,2,escrita_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,3,2,escrita_job2_p99,14000.0,us
+PC_8gb,WSL2,4,io,4,2,leitura_largura_banda,8.6728515625,MiB/s
+PC_8gb,WSL2,4,io,4,2,leitura_iops,2218.26,IOPS
+PC_8gb,WSL2,4,io,4,2,leitura_job1_latencia_media,7040.0,us
+PC_8gb,WSL2,4,io,4,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,4,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,4,2,leitura_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,4,2,leitura_job2_latencia_media,7000.0,us
+PC_8gb,WSL2,4,io,4,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,4,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,4,2,leitura_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,4,2,escrita_largura_banda,8.673828125,MiB/s
+PC_8gb,WSL2,4,io,4,2,escrita_iops,2219.54,IOPS
+PC_8gb,WSL2,4,io,4,2,escrita_job1_latencia_media,7369.78,us
+PC_8gb,WSL2,4,io,4,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,4,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,4,2,escrita_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,4,2,escrita_job2_latencia_media,7383.96,us
+PC_8gb,WSL2,4,io,4,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,4,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,4,2,escrita_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,5,2,leitura_largura_banda,8.4404296875,MiB/s
+PC_8gb,WSL2,4,io,5,2,leitura_iops,2159.2,IOPS
+PC_8gb,WSL2,4,io,5,2,leitura_job1_latencia_media,7243.16,us
+PC_8gb,WSL2,4,io,5,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,5,2,leitura_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,5,2,leitura_job1_p99,11000.0,us
+PC_8gb,WSL2,4,io,5,2,leitura_job2_latencia_media,7205.6,us
+PC_8gb,WSL2,4,io,5,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,5,2,leitura_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,5,2,leitura_job2_p99,11000.0,us
+PC_8gb,WSL2,4,io,5,2,escrita_largura_banda,8.447265625,MiB/s
+PC_8gb,WSL2,4,io,5,2,escrita_iops,2161.3,IOPS
+PC_8gb,WSL2,4,io,5,2,escrita_job1_latencia_media,7557.12,us
+PC_8gb,WSL2,4,io,5,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,5,2,escrita_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,5,2,escrita_job1_p99,11000.0,us
+PC_8gb,WSL2,4,io,5,2,escrita_job2_latencia_media,7574.35,us
+PC_8gb,WSL2,4,io,5,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,5,2,escrita_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,5,2,escrita_job2_p99,11000.0,us
+PC_8gb,WSL2,4,io,6,2,leitura_largura_banda,8.5966796875,MiB/s
+PC_8gb,WSL2,4,io,6,2,leitura_iops,2196.8199999999997,IOPS
+PC_8gb,WSL2,4,io,6,2,leitura_job1_latencia_media,7050.08,us
+PC_8gb,WSL2,4,io,6,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,6,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,6,2,leitura_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,6,2,leitura_job2_latencia_media,7102.3,us
+PC_8gb,WSL2,4,io,6,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,6,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,6,2,leitura_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,6,2,escrita_largura_banda,8.59765625,MiB/s
+PC_8gb,WSL2,4,io,6,2,escrita_iops,2199.2,IOPS
+PC_8gb,WSL2,4,io,6,2,escrita_job1_latencia_media,7476.25,us
+PC_8gb,WSL2,4,io,6,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,6,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,6,2,escrita_job1_p99,11000.0,us
+PC_8gb,WSL2,4,io,6,2,escrita_job2_latencia_media,7425.17,us
+PC_8gb,WSL2,4,io,6,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,6,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,6,2,escrita_job2_p99,11000.0,us
+PC_8gb,WSL2,4,io,7,2,leitura_largura_banda,8.6806640625,MiB/s
+PC_8gb,WSL2,4,io,7,2,leitura_iops,2229.0,IOPS
+PC_8gb,WSL2,4,io,7,2,leitura_job1_latencia_media,7020.0,us
+PC_8gb,WSL2,4,io,7,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,7,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,7,2,leitura_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,7,2,leitura_job2_latencia_media,7110.0,us
+PC_8gb,WSL2,4,io,7,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,7,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,7,2,leitura_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,7,2,escrita_largura_banda,8.67578125,MiB/s
+PC_8gb,WSL2,4,io,7,2,escrita_iops,2227.71,IOPS
+PC_8gb,WSL2,4,io,7,2,escrita_job1_latencia_media,7370.0,us
+PC_8gb,WSL2,4,io,7,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,7,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,7,2,escrita_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,7,2,escrita_job2_latencia_media,7280.0,us
+PC_8gb,WSL2,4,io,7,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,7,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,7,2,escrita_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,8,2,leitura_largura_banda,8.580078125,MiB/s
+PC_8gb,WSL2,4,io,8,2,leitura_iops,2195.6800000000003,IOPS
+PC_8gb,WSL2,4,io,8,2,leitura_job1_latencia_media,7134.86,us
+PC_8gb,WSL2,4,io,8,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,8,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,8,2,leitura_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,8,2,leitura_job2_latencia_media,7081.61,us
+PC_8gb,WSL2,4,io,8,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,8,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,8,2,leitura_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,8,2,escrita_largura_banda,8.583984375,MiB/s
+PC_8gb,WSL2,4,io,8,2,escrita_iops,2196.27,IOPS
+PC_8gb,WSL2,4,io,8,2,escrita_job1_latencia_media,7416.93,us
+PC_8gb,WSL2,4,io,8,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,8,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,8,2,escrita_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,8,2,escrita_job2_latencia_media,7470.84,us
+PC_8gb,WSL2,4,io,8,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,8,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,8,2,escrita_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,9,2,leitura_largura_banda,8.615234375,MiB/s
+PC_8gb,WSL2,4,io,9,2,leitura_iops,2204.05,IOPS
+PC_8gb,WSL2,4,io,9,2,leitura_job1_latencia_media,7030.0,us
+PC_8gb,WSL2,4,io,9,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,9,2,leitura_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,9,2,leitura_job1_p99,9000.0,us
+PC_8gb,WSL2,4,io,9,2,leitura_job2_latencia_media,7057.52,us
+PC_8gb,WSL2,4,io,9,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,9,2,leitura_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,9,2,leitura_job2_p99,9000.0,us
+PC_8gb,WSL2,4,io,9,2,escrita_largura_banda,8.619140625,MiB/s
+PC_8gb,WSL2,4,io,9,2,escrita_iops,2205.0,IOPS
+PC_8gb,WSL2,4,io,9,2,escrita_job1_latencia_media,7448.54,us
+PC_8gb,WSL2,4,io,9,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,9,2,escrita_job1_p95,8000.0,us
+PC_8gb,WSL2,4,io,9,2,escrita_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,9,2,escrita_job2_latencia_media,7447.08,us
+PC_8gb,WSL2,4,io,9,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,9,2,escrita_job2_p95,8000.0,us
+PC_8gb,WSL2,4,io,9,2,escrita_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,10,2,leitura_largura_banda,8.5390625,MiB/s
+PC_8gb,WSL2,4,io,10,2,leitura_iops,2190.33,IOPS
+PC_8gb,WSL2,4,io,10,2,leitura_job1_latencia_media,7165.9,us
+PC_8gb,WSL2,4,io,10,2,leitura_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,10,2,leitura_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,10,2,leitura_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,10,2,leitura_job2_latencia_media,7188.6,us
+PC_8gb,WSL2,4,io,10,2,leitura_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,10,2,leitura_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,10,2,leitura_job2_p99,10000.0,us
+PC_8gb,WSL2,4,io,10,2,escrita_largura_banda,8.5439453125,MiB/s
+PC_8gb,WSL2,4,io,10,2,escrita_iops,2191.41,IOPS
+PC_8gb,WSL2,4,io,10,2,escrita_job1_latencia_media,7434.35,us
+PC_8gb,WSL2,4,io,10,2,escrita_job1_p50,7000.0,us
+PC_8gb,WSL2,4,io,10,2,escrita_job1_p95,9000.0,us
+PC_8gb,WSL2,4,io,10,2,escrita_job1_p99,10000.0,us
+PC_8gb,WSL2,4,io,10,2,escrita_job2_latencia_media,7449.87,us
+PC_8gb,WSL2,4,io,10,2,escrita_job2_p50,7000.0,us
+PC_8gb,WSL2,4,io,10,2,escrita_job2_p95,9000.0,us
+PC_8gb,WSL2,4,io,10,2,escrita_job2_p99,10000.0,us
+PC_8gb,WSL2,4,redis,1,1,SET_requisicoes_por_segundo,7621.95,requisicoes/s
+PC_8gb,WSL2,4,redis,1,1,SET_latencia_media,0.121,ms
+PC_8gb,WSL2,4,redis,1,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,1,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,1,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,1,1,GET_requisicoes_por_segundo,7939.03,requisicoes/s
+PC_8gb,WSL2,4,redis,1,1,GET_latencia_media,0.117,ms
+PC_8gb,WSL2,4,redis,1,1,GET_p50,0.103,ms
+PC_8gb,WSL2,4,redis,1,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,1,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,1,2,SET_requisicoes_por_segundo,23212.63,requisicoes/s
+PC_8gb,WSL2,4,redis,1,2,SET_latencia_media,0.078,ms
+PC_8gb,WSL2,4,redis,1,2,SET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,1,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,1,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,1,2,GET_requisicoes_por_segundo,25075.23,requisicoes/s
+PC_8gb,WSL2,4,redis,1,2,GET_latencia_media,0.072,ms
+PC_8gb,WSL2,4,redis,1,2,GET_p50,0.055,ms
+PC_8gb,WSL2,4,redis,1,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,1,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,1,4,SET_requisicoes_por_segundo,40144.52,requisicoes/s
+PC_8gb,WSL2,4,redis,1,4,SET_latencia_media,0.077,ms
+PC_8gb,WSL2,4,redis,1,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,1,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,1,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,1,4,GET_requisicoes_por_segundo,44722.72,requisicoes/s
+PC_8gb,WSL2,4,redis,1,4,GET_latencia_media,0.069,ms
+PC_8gb,WSL2,4,redis,1,4,GET_p50,0.055,ms
+PC_8gb,WSL2,4,redis,1,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,1,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,1,8,SET_requisicoes_por_segundo,51626.23,requisicoes/s
+PC_8gb,WSL2,4,redis,1,8,SET_latencia_media,0.11,ms
+PC_8gb,WSL2,4,redis,1,8,SET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,1,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,1,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,1,8,GET_requisicoes_por_segundo,52029.14,requisicoes/s
+PC_8gb,WSL2,4,redis,1,8,GET_latencia_media,0.108,ms
+PC_8gb,WSL2,4,redis,1,8,GET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,1,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,1,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,2,1,SET_requisicoes_por_segundo,7635.34,requisicoes/s
+PC_8gb,WSL2,4,redis,2,1,SET_latencia_media,0.121,ms
+PC_8gb,WSL2,4,redis,2,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,2,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,2,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,2,1,GET_requisicoes_por_segundo,7824.73,requisicoes/s
+PC_8gb,WSL2,4,redis,2,1,GET_latencia_media,0.118,ms
+PC_8gb,WSL2,4,redis,2,1,GET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,2,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,2,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,2,2,SET_requisicoes_por_segundo,21505.38,requisicoes/s
+PC_8gb,WSL2,4,redis,2,2,SET_latencia_media,0.084,ms
+PC_8gb,WSL2,4,redis,2,2,SET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,2,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,2,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,2,2,GET_requisicoes_por_segundo,22563.18,requisicoes/s
+PC_8gb,WSL2,4,redis,2,2,GET_latencia_media,0.08,ms
+PC_8gb,WSL2,4,redis,2,2,GET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,2,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,2,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,2,4,SET_requisicoes_por_segundo,37864.45,requisicoes/s
+PC_8gb,WSL2,4,redis,2,4,SET_latencia_media,0.082,ms
+PC_8gb,WSL2,4,redis,2,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,2,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,2,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,2,4,GET_requisicoes_por_segundo,40551.5,requisicoes/s
+PC_8gb,WSL2,4,redis,2,4,GET_latencia_media,0.077,ms
+PC_8gb,WSL2,4,redis,2,4,GET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,2,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,2,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,2,8,SET_requisicoes_por_segundo,53390.28,requisicoes/s
+PC_8gb,WSL2,4,redis,2,8,SET_latencia_media,0.106,ms
+PC_8gb,WSL2,4,redis,2,8,SET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,2,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,2,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,2,8,GET_requisicoes_por_segundo,53022.27,requisicoes/s
+PC_8gb,WSL2,4,redis,2,8,GET_latencia_media,0.106,ms
+PC_8gb,WSL2,4,redis,2,8,GET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,2,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,2,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,3,1,SET_requisicoes_por_segundo,7676.36,requisicoes/s
+PC_8gb,WSL2,4,redis,3,1,SET_latencia_media,0.12,ms
+PC_8gb,WSL2,4,redis,3,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,3,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,3,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,3,1,GET_requisicoes_por_segundo,7892.66,requisicoes/s
+PC_8gb,WSL2,4,redis,3,1,GET_latencia_media,0.117,ms
+PC_8gb,WSL2,4,redis,3,1,GET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,3,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,3,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,3,2,SET_requisicoes_por_segundo,22158.21,requisicoes/s
+PC_8gb,WSL2,4,redis,3,2,SET_latencia_media,0.082,ms
+PC_8gb,WSL2,4,redis,3,2,SET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,3,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,3,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,3,2,GET_requisicoes_por_segundo,22031.29,requisicoes/s
+PC_8gb,WSL2,4,redis,3,2,GET_latencia_media,0.082,ms
+PC_8gb,WSL2,4,redis,3,2,GET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,3,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,3,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,3,4,SET_requisicoes_por_segundo,40225.26,requisicoes/s
+PC_8gb,WSL2,4,redis,3,4,SET_latencia_media,0.077,ms
+PC_8gb,WSL2,4,redis,3,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,3,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,3,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,3,4,GET_requisicoes_por_segundo,42462.84,requisicoes/s
+PC_8gb,WSL2,4,redis,3,4,GET_latencia_media,0.073,ms
+PC_8gb,WSL2,4,redis,3,4,GET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,3,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,3,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,3,8,SET_requisicoes_por_segundo,52273.91,requisicoes/s
+PC_8gb,WSL2,4,redis,3,8,SET_latencia_media,0.108,ms
+PC_8gb,WSL2,4,redis,3,8,SET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,3,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,3,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,3,8,GET_requisicoes_por_segundo,52910.05,requisicoes/s
+PC_8gb,WSL2,4,redis,3,8,GET_latencia_media,0.104,ms
+PC_8gb,WSL2,4,redis,3,8,GET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,3,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,3,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,4,1,SET_requisicoes_por_segundo,7744.73,requisicoes/s
+PC_8gb,WSL2,4,redis,4,1,SET_latencia_media,0.119,ms
+PC_8gb,WSL2,4,redis,4,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,4,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,4,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,4,1,GET_requisicoes_por_segundo,7773.03,requisicoes/s
+PC_8gb,WSL2,4,redis,4,1,GET_latencia_media,0.119,ms
+PC_8gb,WSL2,4,redis,4,1,GET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,4,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,4,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,4,2,SET_requisicoes_por_segundo,21240.44,requisicoes/s
+PC_8gb,WSL2,4,redis,4,2,SET_latencia_media,0.086,ms
+PC_8gb,WSL2,4,redis,4,2,SET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,4,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,4,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,4,2,GET_requisicoes_por_segundo,22007.04,requisicoes/s
+PC_8gb,WSL2,4,redis,4,2,GET_latencia_media,0.082,ms
+PC_8gb,WSL2,4,redis,4,2,GET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,4,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,4,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,4,4,SET_requisicoes_por_segundo,38358.27,requisicoes/s
+PC_8gb,WSL2,4,redis,4,4,SET_latencia_media,0.081,ms
+PC_8gb,WSL2,4,redis,4,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,4,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,4,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,4,4,GET_requisicoes_por_segundo,41034.06,requisicoes/s
+PC_8gb,WSL2,4,redis,4,4,GET_latencia_media,0.075,ms
+PC_8gb,WSL2,4,redis,4,4,GET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,4,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,4,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,4,8,SET_requisicoes_por_segundo,53390.28,requisicoes/s
+PC_8gb,WSL2,4,redis,4,8,SET_latencia_media,0.106,ms
+PC_8gb,WSL2,4,redis,4,8,SET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,4,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,4,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,4,8,GET_requisicoes_por_segundo,54141.85,requisicoes/s
+PC_8gb,WSL2,4,redis,4,8,GET_latencia_media,0.103,ms
+PC_8gb,WSL2,4,redis,4,8,GET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,4,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,4,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,5,1,SET_requisicoes_por_segundo,7635.92,requisicoes/s
+PC_8gb,WSL2,4,redis,5,1,SET_latencia_media,0.121,ms
+PC_8gb,WSL2,4,redis,5,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,5,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,5,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,5,1,GET_requisicoes_por_segundo,7830.85,requisicoes/s
+PC_8gb,WSL2,4,redis,5,1,GET_latencia_media,0.118,ms
+PC_8gb,WSL2,4,redis,5,1,GET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,5,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,5,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,5,2,SET_requisicoes_por_segundo,22904.26,requisicoes/s
+PC_8gb,WSL2,4,redis,5,2,SET_latencia_media,0.08,ms
+PC_8gb,WSL2,4,redis,5,2,SET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,5,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,5,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,5,2,GET_requisicoes_por_segundo,27693.16,requisicoes/s
+PC_8gb,WSL2,4,redis,5,2,GET_latencia_media,0.064,ms
+PC_8gb,WSL2,4,redis,5,2,GET_p50,0.047,ms
+PC_8gb,WSL2,4,redis,5,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,5,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,5,4,SET_requisicoes_por_segundo,40112.31,requisicoes/s
+PC_8gb,WSL2,4,redis,5,4,SET_latencia_media,0.077,ms
+PC_8gb,WSL2,4,redis,5,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,5,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,5,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,5,4,GET_requisicoes_por_segundo,42301.18,requisicoes/s
+PC_8gb,WSL2,4,redis,5,4,GET_latencia_media,0.073,ms
+PC_8gb,WSL2,4,redis,5,4,GET_p50,0.055,ms
+PC_8gb,WSL2,4,redis,5,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,5,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,5,8,SET_requisicoes_por_segundo,52110.47,requisicoes/s
+PC_8gb,WSL2,4,redis,5,8,SET_latencia_media,0.108,ms
+PC_8gb,WSL2,4,redis,5,8,SET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,5,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,5,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,5,8,GET_requisicoes_por_segundo,52521.01,requisicoes/s
+PC_8gb,WSL2,4,redis,5,8,GET_latencia_media,0.106,ms
+PC_8gb,WSL2,4,redis,5,8,GET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,5,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,5,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,6,1,SET_requisicoes_por_segundo,7638.84,requisicoes/s
+PC_8gb,WSL2,4,redis,6,1,SET_latencia_media,0.121,ms
+PC_8gb,WSL2,4,redis,6,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,6,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,6,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,6,1,GET_requisicoes_por_segundo,7782.71,requisicoes/s
+PC_8gb,WSL2,4,redis,6,1,GET_latencia_media,0.119,ms
+PC_8gb,WSL2,4,redis,6,1,GET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,6,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,6,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,6,2,SET_requisicoes_por_segundo,21649.71,requisicoes/s
+PC_8gb,WSL2,4,redis,6,2,SET_latencia_media,0.085,ms
+PC_8gb,WSL2,4,redis,6,2,SET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,6,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,6,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,6,2,GET_requisicoes_por_segundo,23529.41,requisicoes/s
+PC_8gb,WSL2,4,redis,6,2,GET_latencia_media,0.077,ms
+PC_8gb,WSL2,4,redis,6,2,GET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,6,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,6,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,6,4,SET_requisicoes_por_segundo,39729.84,requisicoes/s
+PC_8gb,WSL2,4,redis,6,4,SET_latencia_media,0.077,ms
+PC_8gb,WSL2,4,redis,6,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,6,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,6,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,6,4,GET_requisicoes_por_segundo,44622.94,requisicoes/s
+PC_8gb,WSL2,4,redis,6,4,GET_latencia_media,0.069,ms
+PC_8gb,WSL2,4,redis,6,4,GET_p50,0.047,ms
+PC_8gb,WSL2,4,redis,6,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,6,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,6,8,SET_requisicoes_por_segundo,53418.8,requisicoes/s
+PC_8gb,WSL2,4,redis,6,8,SET_latencia_media,0.106,ms
+PC_8gb,WSL2,4,redis,6,8,SET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,6,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,6,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,6,8,GET_requisicoes_por_segundo,52548.61,requisicoes/s
+PC_8gb,WSL2,4,redis,6,8,GET_latencia_media,0.105,ms
+PC_8gb,WSL2,4,redis,6,8,GET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,6,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,6,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,7,1,SET_requisicoes_por_segundo,7590.71,requisicoes/s
+PC_8gb,WSL2,4,redis,7,1,SET_latencia_media,0.122,ms
+PC_8gb,WSL2,4,redis,7,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,7,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,7,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,7,1,GET_requisicoes_por_segundo,7879.6,requisicoes/s
+PC_8gb,WSL2,4,redis,7,1,GET_latencia_media,0.118,ms
+PC_8gb,WSL2,4,redis,7,1,GET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,7,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,7,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,7,2,SET_requisicoes_por_segundo,22517.45,requisicoes/s
+PC_8gb,WSL2,4,redis,7,2,SET_latencia_media,0.081,ms
+PC_8gb,WSL2,4,redis,7,2,SET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,7,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,7,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,7,2,GET_requisicoes_por_segundo,23359.03,requisicoes/s
+PC_8gb,WSL2,4,redis,7,2,GET_latencia_media,0.078,ms
+PC_8gb,WSL2,4,redis,7,2,GET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,7,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,7,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,7,4,SET_requisicoes_por_segundo,39308.18,requisicoes/s
+PC_8gb,WSL2,4,redis,7,4,SET_latencia_media,0.079,ms
+PC_8gb,WSL2,4,redis,7,4,SET_p50,0.055,ms
+PC_8gb,WSL2,4,redis,7,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,7,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,7,4,GET_requisicoes_por_segundo,44662.79,requisicoes/s
+PC_8gb,WSL2,4,redis,7,4,GET_latencia_media,0.069,ms
+PC_8gb,WSL2,4,redis,7,4,GET_p50,0.055,ms
+PC_8gb,WSL2,4,redis,7,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,7,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,7,8,SET_requisicoes_por_segundo,48851.98,requisicoes/s
+PC_8gb,WSL2,4,redis,7,8,SET_latencia_media,0.116,ms
+PC_8gb,WSL2,4,redis,7,8,SET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,7,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,7,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,7,8,GET_requisicoes_por_segundo,53937.43,requisicoes/s
+PC_8gb,WSL2,4,redis,7,8,GET_latencia_media,0.103,ms
+PC_8gb,WSL2,4,redis,7,8,GET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,7,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,7,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,8,1,SET_requisicoes_por_segundo,7252.16,requisicoes/s
+PC_8gb,WSL2,4,redis,8,1,SET_latencia_media,0.127,ms
+PC_8gb,WSL2,4,redis,8,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,8,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,8,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,8,1,GET_requisicoes_por_segundo,7838.83,requisicoes/s
+PC_8gb,WSL2,4,redis,8,1,GET_latencia_media,0.118,ms
+PC_8gb,WSL2,4,redis,8,1,GET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,8,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,8,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,8,2,SET_requisicoes_por_segundo,21767.52,requisicoes/s
+PC_8gb,WSL2,4,redis,8,2,SET_latencia_media,0.084,ms
+PC_8gb,WSL2,4,redis,8,2,SET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,8,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,8,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,8,2,GET_requisicoes_por_segundo,21982.85,requisicoes/s
+PC_8gb,WSL2,4,redis,8,2,GET_latencia_media,0.082,ms
+PC_8gb,WSL2,4,redis,8,2,GET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,8,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,8,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,8,4,SET_requisicoes_por_segundo,39888.31,requisicoes/s
+PC_8gb,WSL2,4,redis,8,4,SET_latencia_media,0.078,ms
+PC_8gb,WSL2,4,redis,8,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,8,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,8,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,8,4,GET_requisicoes_por_segundo,45703.84,requisicoes/s
+PC_8gb,WSL2,4,redis,8,4,GET_latencia_media,0.067,ms
+PC_8gb,WSL2,4,redis,8,4,GET_p50,0.047,ms
+PC_8gb,WSL2,4,redis,8,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,8,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,8,8,SET_requisicoes_por_segundo,56465.27,requisicoes/s
+PC_8gb,WSL2,4,redis,8,8,SET_latencia_media,0.099,ms
+PC_8gb,WSL2,4,redis,8,8,SET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,8,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,8,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,8,8,GET_requisicoes_por_segundo,55741.36,requisicoes/s
+PC_8gb,WSL2,4,redis,8,8,GET_latencia_media,0.099,ms
+PC_8gb,WSL2,4,redis,8,8,GET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,8,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,8,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,9,1,SET_requisicoes_por_segundo,7640.0,requisicoes/s
+PC_8gb,WSL2,4,redis,9,1,SET_latencia_media,0.121,ms
+PC_8gb,WSL2,4,redis,9,1,SET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,9,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,9,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,9,1,GET_requisicoes_por_segundo,7863.49,requisicoes/s
+PC_8gb,WSL2,4,redis,9,1,GET_latencia_media,0.118,ms
+PC_8gb,WSL2,4,redis,9,1,GET_p50,0.111,ms
+PC_8gb,WSL2,4,redis,9,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,9,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,9,2,SET_requisicoes_por_segundo,21349.27,requisicoes/s
+PC_8gb,WSL2,4,redis,9,2,SET_latencia_media,0.086,ms
+PC_8gb,WSL2,4,redis,9,2,SET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,9,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,9,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,9,2,GET_requisicoes_por_segundo,22341.38,requisicoes/s
+PC_8gb,WSL2,4,redis,9,2,GET_latencia_media,0.081,ms
+PC_8gb,WSL2,4,redis,9,2,GET_p50,0.079,ms
+PC_8gb,WSL2,4,redis,9,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,9,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,9,4,SET_requisicoes_por_segundo,38153.38,requisicoes/s
+PC_8gb,WSL2,4,redis,9,4,SET_latencia_media,0.081,ms
+PC_8gb,WSL2,4,redis,9,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,9,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,9,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,9,4,GET_requisicoes_por_segundo,40766.41,requisicoes/s
+PC_8gb,WSL2,4,redis,9,4,GET_latencia_media,0.075,ms
+PC_8gb,WSL2,4,redis,9,4,GET_p50,0.055,ms
+PC_8gb,WSL2,4,redis,9,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,9,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,9,8,SET_requisicoes_por_segundo,42571.31,requisicoes/s
+PC_8gb,WSL2,4,redis,9,8,SET_latencia_media,0.135,ms
+PC_8gb,WSL2,4,redis,9,8,SET_p50,0.103,ms
+PC_8gb,WSL2,4,redis,9,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,9,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,9,8,GET_requisicoes_por_segundo,51020.41,requisicoes/s
+PC_8gb,WSL2,4,redis,9,8,GET_latencia_media,0.109,ms
+PC_8gb,WSL2,4,redis,9,8,GET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,9,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,9,8,GET_p99,,ms
+PC_8gb,WSL2,4,redis,10,1,SET_requisicoes_por_segundo,7266.91,requisicoes/s
+PC_8gb,WSL2,4,redis,10,1,SET_latencia_media,0.127,ms
+PC_8gb,WSL2,4,redis,10,1,SET_p50,0.119,ms
+PC_8gb,WSL2,4,redis,10,1,SET_p95,,ms
+PC_8gb,WSL2,4,redis,10,1,SET_p99,,ms
+PC_8gb,WSL2,4,redis,10,1,GET_requisicoes_por_segundo,7284.91,requisicoes/s
+PC_8gb,WSL2,4,redis,10,1,GET_latencia_media,0.127,ms
+PC_8gb,WSL2,4,redis,10,1,GET_p50,0.119,ms
+PC_8gb,WSL2,4,redis,10,1,GET_p95,,ms
+PC_8gb,WSL2,4,redis,10,1,GET_p99,,ms
+PC_8gb,WSL2,4,redis,10,2,SET_requisicoes_por_segundo,19607.84,requisicoes/s
+PC_8gb,WSL2,4,redis,10,2,SET_latencia_media,0.093,ms
+PC_8gb,WSL2,4,redis,10,2,SET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,10,2,SET_p95,,ms
+PC_8gb,WSL2,4,redis,10,2,SET_p99,,ms
+PC_8gb,WSL2,4,redis,10,2,GET_requisicoes_por_segundo,20533.88,requisicoes/s
+PC_8gb,WSL2,4,redis,10,2,GET_latencia_media,0.087,ms
+PC_8gb,WSL2,4,redis,10,2,GET_p50,0.087,ms
+PC_8gb,WSL2,4,redis,10,2,GET_p95,,ms
+PC_8gb,WSL2,4,redis,10,2,GET_p99,,ms
+PC_8gb,WSL2,4,redis,10,4,SET_requisicoes_por_segundo,37009.62,requisicoes/s
+PC_8gb,WSL2,4,redis,10,4,SET_latencia_media,0.084,ms
+PC_8gb,WSL2,4,redis,10,4,SET_p50,0.063,ms
+PC_8gb,WSL2,4,redis,10,4,SET_p95,,ms
+PC_8gb,WSL2,4,redis,10,4,SET_p99,,ms
+PC_8gb,WSL2,4,redis,10,4,GET_requisicoes_por_segundo,42337.0,requisicoes/s
+PC_8gb,WSL2,4,redis,10,4,GET_latencia_media,0.073,ms
+PC_8gb,WSL2,4,redis,10,4,GET_p50,0.055,ms
+PC_8gb,WSL2,4,redis,10,4,GET_p95,,ms
+PC_8gb,WSL2,4,redis,10,4,GET_p99,,ms
+PC_8gb,WSL2,4,redis,10,8,SET_requisicoes_por_segundo,48123.2,requisicoes/s
+PC_8gb,WSL2,4,redis,10,8,SET_latencia_media,0.119,ms
+PC_8gb,WSL2,4,redis,10,8,SET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,10,8,SET_p95,,ms
+PC_8gb,WSL2,4,redis,10,8,SET_p99,,ms
+PC_8gb,WSL2,4,redis,10,8,GET_requisicoes_por_segundo,51733.06,requisicoes/s
+PC_8gb,WSL2,4,redis,10,8,GET_latencia_media,0.107,ms
+PC_8gb,WSL2,4,redis,10,8,GET_p50,0.095,ms
+PC_8gb,WSL2,4,redis,10,8,GET_p95,,ms
+PC_8gb,WSL2,4,redis,10,8,GET_p99,,ms

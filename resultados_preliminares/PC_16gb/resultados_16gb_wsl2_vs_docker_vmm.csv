@@ -559,126 +559,206 @@ PC_16gb,Docker VMM,4,memoria,10,8,escrita_latencia_max,9.07,ms
 PC_16gb,Docker VMM,4,memoria,10,8,escrita_p50,,ms
 PC_16gb,Docker VMM,4,memoria,10,8,escrita_p95,0.07,ms
 PC_16gb,Docker VMM,4,memoria,10,8,escrita_p99,,ms
-PC_16gb,Docker VMM,4,io,1,2,leitura_largura_banda,126.0,MiB/s
-PC_16gb,Docker VMM,4,io,1,2,leitura_iops,32363.08,IOPS
-PC_16gb,Docker VMM,4,io,1,2,leitura_latencia_media,252.23,us
-PC_16gb,Docker VMM,4,io,1,2,leitura_p50,235.0,us
-PC_16gb,Docker VMM,4,io,1,2,leitura_p95,367.0,us
-PC_16gb,Docker VMM,4,io,1,2,leitura_p99,553.0,us
-PC_16gb,Docker VMM,4,io,1,2,escrita_largura_banda,127.0,MiB/s
-PC_16gb,Docker VMM,4,io,1,2,escrita_iops,32423.57,IOPS
-PC_16gb,Docker VMM,4,io,1,2,escrita_latencia_media,241.12,us
-PC_16gb,Docker VMM,4,io,1,2,escrita_p50,225.0,us
-PC_16gb,Docker VMM,4,io,1,2,escrita_p95,355.0,us
-PC_16gb,Docker VMM,4,io,1,2,escrita_p99,545.0,us
-PC_16gb,Docker VMM,4,io,2,2,leitura_largura_banda,126.0,MiB/s
-PC_16gb,Docker VMM,4,io,2,2,leitura_iops,32230.56,IOPS
-PC_16gb,Docker VMM,4,io,2,2,leitura_latencia_media,253.17,us
-PC_16gb,Docker VMM,4,io,2,2,leitura_p50,235.0,us
-PC_16gb,Docker VMM,4,io,2,2,leitura_p95,367.0,us
-PC_16gb,Docker VMM,4,io,2,2,leitura_p99,578.0,us
-PC_16gb,Docker VMM,4,io,2,2,escrita_largura_banda,126.0,MiB/s
-PC_16gb,Docker VMM,4,io,2,2,escrita_iops,32298.26,IOPS
-PC_16gb,Docker VMM,4,io,2,2,escrita_latencia_media,241.7,us
-PC_16gb,Docker VMM,4,io,2,2,escrita_p50,225.0,us
-PC_16gb,Docker VMM,4,io,2,2,escrita_p95,351.0,us
-PC_16gb,Docker VMM,4,io,2,2,escrita_p99,553.0,us
-PC_16gb,Docker VMM,4,io,3,2,leitura_largura_banda,130.0,MiB/s
-PC_16gb,Docker VMM,4,io,3,2,leitura_iops,33187.1,IOPS
-PC_16gb,Docker VMM,4,io,3,2,leitura_latencia_media,245.92,us
-PC_16gb,Docker VMM,4,io,3,2,leitura_p50,233.0,us
-PC_16gb,Docker VMM,4,io,3,2,leitura_p95,347.0,us
-PC_16gb,Docker VMM,4,io,3,2,leitura_p99,490.0,us
-PC_16gb,Docker VMM,4,io,3,2,escrita_largura_banda,130.0,MiB/s
-PC_16gb,Docker VMM,4,io,3,2,escrita_iops,33248.41,IOPS
-PC_16gb,Docker VMM,4,io,3,2,escrita_latencia_media,234.93,us
-PC_16gb,Docker VMM,4,io,3,2,escrita_p50,221.0,us
-PC_16gb,Docker VMM,4,io,3,2,escrita_p95,334.0,us
-PC_16gb,Docker VMM,4,io,3,2,escrita_p99,478.0,us
-PC_16gb,Docker VMM,4,io,4,2,leitura_largura_banda,128.0,MiB/s
-PC_16gb,Docker VMM,4,io,4,2,leitura_iops,32732.54,IOPS
-PC_16gb,Docker VMM,4,io,4,2,leitura_latencia_media,249.68,us
-PC_16gb,Docker VMM,4,io,4,2,leitura_p50,235.0,us
-PC_16gb,Docker VMM,4,io,4,2,leitura_p95,347.0,us
-PC_16gb,Docker VMM,4,io,4,2,leitura_p99,562.0,us
-PC_16gb,Docker VMM,4,io,4,2,escrita_largura_banda,128.0,MiB/s
-PC_16gb,Docker VMM,4,io,4,2,escrita_iops,32790.82,IOPS
-PC_16gb,Docker VMM,4,io,4,2,escrita_latencia_media,238.59,us
-PC_16gb,Docker VMM,4,io,4,2,escrita_p50,225.0,us
-PC_16gb,Docker VMM,4,io,4,2,escrita_p95,334.0,us
-PC_16gb,Docker VMM,4,io,4,2,escrita_p99,537.0,us
-PC_16gb,Docker VMM,4,io,5,2,leitura_largura_banda,117.0,MiB/s
-PC_16gb,Docker VMM,4,io,5,2,leitura_iops,29886.13,IOPS
-PC_16gb,Docker VMM,4,io,5,2,leitura_latencia_media,272.46,us
-PC_16gb,Docker VMM,4,io,5,2,leitura_p50,245.0,us
-PC_16gb,Docker VMM,4,io,5,2,leitura_p95,465.0,us
-PC_16gb,Docker VMM,4,io,5,2,leitura_p99,701.0,us
-PC_16gb,Docker VMM,4,io,5,2,escrita_largura_banda,117.0,MiB/s
-PC_16gb,Docker VMM,4,io,5,2,escrita_iops,29951.18,IOPS
-PC_16gb,Docker VMM,4,io,5,2,escrita_latencia_media,260.29,us
-PC_16gb,Docker VMM,4,io,5,2,escrita_p50,235.0,us
-PC_16gb,Docker VMM,4,io,5,2,escrita_p95,445.0,us
-PC_16gb,Docker VMM,4,io,5,2,escrita_p99,668.0,us
-PC_16gb,Docker VMM,4,io,6,2,leitura_largura_banda,126.0,MiB/s
-PC_16gb,Docker VMM,4,io,6,2,leitura_iops,32303.62,IOPS
-PC_16gb,Docker VMM,4,io,6,2,leitura_latencia_media,252.06,us
-PC_16gb,Docker VMM,4,io,6,2,leitura_p50,237.0,us
-PC_16gb,Docker VMM,4,io,6,2,leitura_p95,355.0,us
-PC_16gb,Docker VMM,4,io,6,2,leitura_p99,515.0,us
-PC_16gb,Docker VMM,4,io,6,2,escrita_largura_banda,127.0,MiB/s
-PC_16gb,Docker VMM,4,io,6,2,escrita_iops,32369.51,IOPS
-PC_16gb,Docker VMM,4,io,6,2,escrita_latencia_media,241.39,us
-PC_16gb,Docker VMM,4,io,6,2,escrita_p50,227.0,us
-PC_16gb,Docker VMM,4,io,6,2,escrita_p95,343.0,us
-PC_16gb,Docker VMM,4,io,6,2,escrita_p99,498.0,us
-PC_16gb,Docker VMM,4,io,7,2,leitura_largura_banda,130.0,MiB/s
-PC_16gb,Docker VMM,4,io,7,2,leitura_iops,33330.15,IOPS
-PC_16gb,Docker VMM,4,io,7,2,leitura_latencia_media,244.82,us
-PC_16gb,Docker VMM,4,io,7,2,leitura_p50,233.0,us
-PC_16gb,Docker VMM,4,io,7,2,leitura_p95,343.0,us
-PC_16gb,Docker VMM,4,io,7,2,leitura_p99,482.0,us
-PC_16gb,Docker VMM,4,io,7,2,escrita_largura_banda,131.0,MiB/s
-PC_16gb,Docker VMM,4,io,7,2,escrita_iops,33387.51,IOPS
-PC_16gb,Docker VMM,4,io,7,2,escrita_latencia_media,233.94,us
-PC_16gb,Docker VMM,4,io,7,2,escrita_p50,223.0,us
-PC_16gb,Docker VMM,4,io,7,2,escrita_p95,330.0,us
-PC_16gb,Docker VMM,4,io,7,2,escrita_p99,469.0,us
-PC_16gb,Docker VMM,4,io,8,2,leitura_largura_banda,129.0,MiB/s
-PC_16gb,Docker VMM,4,io,8,2,leitura_iops,32972.49,IOPS
-PC_16gb,Docker VMM,4,io,8,2,leitura_latencia_media,247.63,us
-PC_16gb,Docker VMM,4,io,8,2,leitura_p50,233.0,us
-PC_16gb,Docker VMM,4,io,8,2,leitura_p95,355.0,us
-PC_16gb,Docker VMM,4,io,8,2,leitura_p99,515.0,us
-PC_16gb,Docker VMM,4,io,8,2,escrita_largura_banda,129.0,MiB/s
-PC_16gb,Docker VMM,4,io,8,2,escrita_iops,33035.49,IOPS
-PC_16gb,Docker VMM,4,io,8,2,escrita_latencia_media,236.78,us
-PC_16gb,Docker VMM,4,io,8,2,escrita_p50,223.0,us
-PC_16gb,Docker VMM,4,io,8,2,escrita_p95,343.0,us
-PC_16gb,Docker VMM,4,io,8,2,escrita_p99,502.0,us
-PC_16gb,Docker VMM,4,io,9,2,leitura_largura_banda,123.0,MiB/s
-PC_16gb,Docker VMM,4,io,9,2,leitura_iops,31506.77,IOPS
-PC_16gb,Docker VMM,4,io,9,2,leitura_latencia_media,258.78,us
-PC_16gb,Docker VMM,4,io,9,2,leitura_p50,237.0,us
-PC_16gb,Docker VMM,4,io,9,2,leitura_p95,388.0,us
-PC_16gb,Docker VMM,4,io,9,2,leitura_p99,635.0,us
-PC_16gb,Docker VMM,4,io,9,2,escrita_largura_banda,123.0,MiB/s
-PC_16gb,Docker VMM,4,io,9,2,escrita_iops,31570.74,IOPS
-PC_16gb,Docker VMM,4,io,9,2,escrita_latencia_media,247.55,us
-PC_16gb,Docker VMM,4,io,9,2,escrita_p50,227.0,us
-PC_16gb,Docker VMM,4,io,9,2,escrita_p95,375.0,us
-PC_16gb,Docker VMM,4,io,9,2,escrita_p99,611.0,us
-PC_16gb,Docker VMM,4,io,10,2,leitura_largura_banda,125.0,MiB/s
-PC_16gb,Docker VMM,4,io,10,2,leitura_iops,32002.69,IOPS
-PC_16gb,Docker VMM,4,io,10,2,leitura_latencia_media,255.15,us
-PC_16gb,Docker VMM,4,io,10,2,leitura_p50,237.0,us
-PC_16gb,Docker VMM,4,io,10,2,leitura_p95,375.0,us
-PC_16gb,Docker VMM,4,io,10,2,leitura_p99,578.0,us
-PC_16gb,Docker VMM,4,io,10,2,escrita_largura_banda,125.0,MiB/s
-PC_16gb,Docker VMM,4,io,10,2,escrita_iops,32069.0,IOPS
-PC_16gb,Docker VMM,4,io,10,2,escrita_latencia_media,243.88,us
-PC_16gb,Docker VMM,4,io,10,2,escrita_p50,227.0,us
-PC_16gb,Docker VMM,4,io,10,2,escrita_p95,363.0,us
-PC_16gb,Docker VMM,4,io,10,2,escrita_p99,562.0,us
+PC_16gb,Docker VMM,4,io,1,2,leitura_largura_banda,253.0,MiB/s
+PC_16gb,Docker VMM,4,io,1,2,leitura_iops,64728.130000000005,IOPS
+PC_16gb,Docker VMM,4,io,1,2,leitura_job1_latencia_media,252.29,us
+PC_16gb,Docker VMM,4,io,1,2,leitura_job1_p50,235.0,us
+PC_16gb,Docker VMM,4,io,1,2,leitura_job1_p95,371.0,us
+PC_16gb,Docker VMM,4,io,1,2,leitura_job1_p99,553.0,us
+PC_16gb,Docker VMM,4,io,1,2,leitura_job2_latencia_media,252.23,us
+PC_16gb,Docker VMM,4,io,1,2,leitura_job2_p50,235.0,us
+PC_16gb,Docker VMM,4,io,1,2,leitura_job2_p95,367.0,us
+PC_16gb,Docker VMM,4,io,1,2,leitura_job2_p99,553.0,us
+PC_16gb,Docker VMM,4,io,1,2,escrita_largura_banda,253.0,MiB/s
+PC_16gb,Docker VMM,4,io,1,2,escrita_iops,64765.619999999995,IOPS
+PC_16gb,Docker VMM,4,io,1,2,escrita_job1_latencia_media,241.09,us
+PC_16gb,Docker VMM,4,io,1,2,escrita_job1_p50,225.0,us
+PC_16gb,Docker VMM,4,io,1,2,escrita_job1_p95,355.0,us
+PC_16gb,Docker VMM,4,io,1,2,escrita_job1_p99,537.0,us
+PC_16gb,Docker VMM,4,io,1,2,escrita_job2_latencia_media,241.12,us
+PC_16gb,Docker VMM,4,io,1,2,escrita_job2_p50,225.0,us
+PC_16gb,Docker VMM,4,io,1,2,escrita_job2_p95,355.0,us
+PC_16gb,Docker VMM,4,io,1,2,escrita_job2_p99,545.0,us
+PC_16gb,Docker VMM,4,io,2,2,leitura_largura_banda,252.0,MiB/s
+PC_16gb,Docker VMM,4,io,2,2,leitura_iops,64497.59,IOPS
+PC_16gb,Docker VMM,4,io,2,2,leitura_job1_latencia_media,253.12,us
+PC_16gb,Docker VMM,4,io,2,2,leitura_job1_p50,235.0,us
+PC_16gb,Docker VMM,4,io,2,2,leitura_job1_p95,367.0,us
+PC_16gb,Docker VMM,4,io,2,2,leitura_job1_p99,578.0,us
+PC_16gb,Docker VMM,4,io,2,2,leitura_job2_latencia_media,253.17,us
+PC_16gb,Docker VMM,4,io,2,2,leitura_job2_p50,235.0,us
+PC_16gb,Docker VMM,4,io,2,2,leitura_job2_p95,367.0,us
+PC_16gb,Docker VMM,4,io,2,2,leitura_job2_p99,578.0,us
+PC_16gb,Docker VMM,4,io,2,2,escrita_largura_banda,252.0,MiB/s
+PC_16gb,Docker VMM,4,io,2,2,escrita_iops,64539.75,IOPS
+PC_16gb,Docker VMM,4,io,2,2,escrita_job1_latencia_media,241.81,us
+PC_16gb,Docker VMM,4,io,2,2,escrita_job1_p50,225.0,us
+PC_16gb,Docker VMM,4,io,2,2,escrita_job1_p95,355.0,us
+PC_16gb,Docker VMM,4,io,2,2,escrita_job1_p99,553.0,us
+PC_16gb,Docker VMM,4,io,2,2,escrita_job2_latencia_media,241.7,us
+PC_16gb,Docker VMM,4,io,2,2,escrita_job2_p50,225.0,us
+PC_16gb,Docker VMM,4,io,2,2,escrita_job2_p95,351.0,us
+PC_16gb,Docker VMM,4,io,2,2,escrita_job2_p99,553.0,us
+PC_16gb,Docker VMM,4,io,3,2,leitura_largura_banda,260.0,MiB/s
+PC_16gb,Docker VMM,4,io,3,2,leitura_iops,66422.36,IOPS
+PC_16gb,Docker VMM,4,io,3,2,leitura_job1_latencia_media,246.03,us
+PC_16gb,Docker VMM,4,io,3,2,leitura_job1_p50,231.0,us
+PC_16gb,Docker VMM,4,io,3,2,leitura_job1_p95,347.0,us
+PC_16gb,Docker VMM,4,io,3,2,leitura_job1_p99,494.0,us
+PC_16gb,Docker VMM,4,io,3,2,leitura_job2_latencia_media,245.92,us
+PC_16gb,Docker VMM,4,io,3,2,leitura_job2_p50,233.0,us
+PC_16gb,Docker VMM,4,io,3,2,leitura_job2_p95,347.0,us
+PC_16gb,Docker VMM,4,io,3,2,leitura_job2_p99,490.0,us
+PC_16gb,Docker VMM,4,io,3,2,escrita_largura_banda,260.0,MiB/s
+PC_16gb,Docker VMM,4,io,3,2,escrita_iops,66460.59,IOPS
+PC_16gb,Docker VMM,4,io,3,2,escrita_job1_latencia_media,234.73,us
+PC_16gb,Docker VMM,4,io,3,2,escrita_job1_p50,221.0,us
+PC_16gb,Docker VMM,4,io,3,2,escrita_job1_p95,334.0,us
+PC_16gb,Docker VMM,4,io,3,2,escrita_job1_p99,478.0,us
+PC_16gb,Docker VMM,4,io,3,2,escrita_job2_latencia_media,234.93,us
+PC_16gb,Docker VMM,4,io,3,2,escrita_job2_p50,221.0,us
+PC_16gb,Docker VMM,4,io,3,2,escrita_job2_p95,334.0,us
+PC_16gb,Docker VMM,4,io,3,2,escrita_job2_p99,478.0,us
+PC_16gb,Docker VMM,4,io,4,2,leitura_largura_banda,256.0,MiB/s
+PC_16gb,Docker VMM,4,io,4,2,leitura_iops,65512.03,IOPS
+PC_16gb,Docker VMM,4,io,4,2,leitura_job1_latencia_media,249.54,us
+PC_16gb,Docker VMM,4,io,4,2,leitura_job1_p50,235.0,us
+PC_16gb,Docker VMM,4,io,4,2,leitura_job1_p95,347.0,us
+PC_16gb,Docker VMM,4,io,4,2,leitura_job1_p99,553.0,us
+PC_16gb,Docker VMM,4,io,4,2,leitura_job2_latencia_media,249.68,us
+PC_16gb,Docker VMM,4,io,4,2,leitura_job2_p50,235.0,us
+PC_16gb,Docker VMM,4,io,4,2,leitura_job2_p95,347.0,us
+PC_16gb,Docker VMM,4,io,4,2,leitura_job2_p99,562.0,us
+PC_16gb,Docker VMM,4,io,4,2,escrita_largura_banda,256.0,MiB/s
+PC_16gb,Docker VMM,4,io,4,2,escrita_iops,65550.31,IOPS
+PC_16gb,Docker VMM,4,io,4,2,escrita_job1_latencia_media,238.62,us
+PC_16gb,Docker VMM,4,io,4,2,escrita_job1_p50,225.0,us
+PC_16gb,Docker VMM,4,io,4,2,escrita_job1_p95,338.0,us
+PC_16gb,Docker VMM,4,io,4,2,escrita_job1_p99,537.0,us
+PC_16gb,Docker VMM,4,io,4,2,escrita_job2_latencia_media,238.59,us
+PC_16gb,Docker VMM,4,io,4,2,escrita_job2_p50,225.0,us
+PC_16gb,Docker VMM,4,io,4,2,escrita_job2_p95,334.0,us
+PC_16gb,Docker VMM,4,io,4,2,escrita_job2_p99,537.0,us
+PC_16gb,Docker VMM,4,io,5,2,leitura_largura_banda,234.0,MiB/s
+PC_16gb,Docker VMM,4,io,5,2,leitura_iops,59812.57,IOPS
+PC_16gb,Docker VMM,4,io,5,2,leitura_job1_latencia_media,272.18,us
+PC_16gb,Docker VMM,4,io,5,2,leitura_job1_p50,245.0,us
+PC_16gb,Docker VMM,4,io,5,2,leitura_job1_p95,465.0,us
+PC_16gb,Docker VMM,4,io,5,2,leitura_job1_p99,693.0,us
+PC_16gb,Docker VMM,4,io,5,2,leitura_job2_latencia_media,272.46,us
+PC_16gb,Docker VMM,4,io,5,2,leitura_job2_p50,245.0,us
+PC_16gb,Docker VMM,4,io,5,2,leitura_job2_p95,465.0,us
+PC_16gb,Docker VMM,4,io,5,2,leitura_job2_p99,701.0,us
+PC_16gb,Docker VMM,4,io,5,2,escrita_largura_banda,234.0,MiB/s
+PC_16gb,Docker VMM,4,io,5,2,escrita_iops,59851.46,IOPS
+PC_16gb,Docker VMM,4,io,5,2,escrita_job1_latencia_media,260.59,us
+PC_16gb,Docker VMM,4,io,5,2,escrita_job1_p50,235.0,us
+PC_16gb,Docker VMM,4,io,5,2,escrita_job1_p95,445.0,us
+PC_16gb,Docker VMM,4,io,5,2,escrita_job1_p99,676.0,us
+PC_16gb,Docker VMM,4,io,5,2,escrita_job2_latencia_media,260.29,us
+PC_16gb,Docker VMM,4,io,5,2,escrita_job2_p50,235.0,us
+PC_16gb,Docker VMM,4,io,5,2,escrita_job2_p95,445.0,us
+PC_16gb,Docker VMM,4,io,5,2,escrita_job2_p99,668.0,us
+PC_16gb,Docker VMM,4,io,6,2,leitura_largura_banda,253.0,MiB/s
+PC_16gb,Docker VMM,4,io,6,2,leitura_iops,64655.59,IOPS
+PC_16gb,Docker VMM,4,io,6,2,leitura_job1_latencia_media,252.13,us
+PC_16gb,Docker VMM,4,io,6,2,leitura_job1_p50,237.0,us
+PC_16gb,Docker VMM,4,io,6,2,leitura_job1_p95,355.0,us
+PC_16gb,Docker VMM,4,io,6,2,leitura_job1_p99,515.0,us
+PC_16gb,Docker VMM,4,io,6,2,leitura_job2_latencia_media,252.06,us
+PC_16gb,Docker VMM,4,io,6,2,leitura_job2_p50,237.0,us
+PC_16gb,Docker VMM,4,io,6,2,leitura_job2_p95,355.0,us
+PC_16gb,Docker VMM,4,io,6,2,leitura_job2_p99,515.0,us
+PC_16gb,Docker VMM,4,io,6,2,escrita_largura_banda,253.0,MiB/s
+PC_16gb,Docker VMM,4,io,6,2,escrita_iops,64698.479999999996,IOPS
+PC_16gb,Docker VMM,4,io,6,2,escrita_job1_latencia_media,241.25,us
+PC_16gb,Docker VMM,4,io,6,2,escrita_job1_p50,227.0,us
+PC_16gb,Docker VMM,4,io,6,2,escrita_job1_p95,343.0,us
+PC_16gb,Docker VMM,4,io,6,2,escrita_job1_p99,498.0,us
+PC_16gb,Docker VMM,4,io,6,2,escrita_job2_latencia_media,241.39,us
+PC_16gb,Docker VMM,4,io,6,2,escrita_job2_p50,227.0,us
+PC_16gb,Docker VMM,4,io,6,2,escrita_job2_p95,343.0,us
+PC_16gb,Docker VMM,4,io,6,2,escrita_job2_p99,498.0,us
+PC_16gb,Docker VMM,4,io,7,2,leitura_largura_banda,261.0,MiB/s
+PC_16gb,Docker VMM,4,io,7,2,leitura_iops,66703.28,IOPS
+PC_16gb,Docker VMM,4,io,7,2,leitura_job1_latencia_media,244.86,us
+PC_16gb,Docker VMM,4,io,7,2,leitura_job1_p50,233.0,us
+PC_16gb,Docker VMM,4,io,7,2,leitura_job1_p95,343.0,us
+PC_16gb,Docker VMM,4,io,7,2,leitura_job1_p99,482.0,us
+PC_16gb,Docker VMM,4,io,7,2,leitura_job2_latencia_media,244.82,us
+PC_16gb,Docker VMM,4,io,7,2,leitura_job2_p50,233.0,us
+PC_16gb,Docker VMM,4,io,7,2,leitura_job2_p95,343.0,us
+PC_16gb,Docker VMM,4,io,7,2,leitura_job2_p99,482.0,us
+PC_16gb,Docker VMM,4,io,7,2,escrita_largura_banda,261.0,MiB/s
+PC_16gb,Docker VMM,4,io,7,2,escrita_iops,66731.36,IOPS
+PC_16gb,Docker VMM,4,io,7,2,escrita_job1_latencia_media,233.92,us
+PC_16gb,Docker VMM,4,io,7,2,escrita_job1_p50,223.0,us
+PC_16gb,Docker VMM,4,io,7,2,escrita_job1_p95,330.0,us
+PC_16gb,Docker VMM,4,io,7,2,escrita_job1_p99,469.0,us
+PC_16gb,Docker VMM,4,io,7,2,escrita_job2_latencia_media,233.94,us
+PC_16gb,Docker VMM,4,io,7,2,escrita_job2_p50,223.0,us
+PC_16gb,Docker VMM,4,io,7,2,escrita_job2_p95,330.0,us
+PC_16gb,Docker VMM,4,io,7,2,escrita_job2_p99,469.0,us
+PC_16gb,Docker VMM,4,io,8,2,leitura_largura_banda,258.0,MiB/s
+PC_16gb,Docker VMM,4,io,8,2,leitura_iops,65986.18,IOPS
+PC_16gb,Docker VMM,4,io,8,2,leitura_job1_latencia_media,247.68,us
+PC_16gb,Docker VMM,4,io,8,2,leitura_job1_p50,233.0,us
+PC_16gb,Docker VMM,4,io,8,2,leitura_job1_p95,355.0,us
+PC_16gb,Docker VMM,4,io,8,2,leitura_job1_p99,515.0,us
+PC_16gb,Docker VMM,4,io,8,2,leitura_job2_latencia_media,247.63,us
+PC_16gb,Docker VMM,4,io,8,2,leitura_job2_p50,233.0,us
+PC_16gb,Docker VMM,4,io,8,2,leitura_job2_p95,355.0,us
+PC_16gb,Docker VMM,4,io,8,2,leitura_job2_p99,515.0,us
+PC_16gb,Docker VMM,4,io,8,2,escrita_largura_banda,258.0,MiB/s
+PC_16gb,Docker VMM,4,io,8,2,escrita_iops,66029.54000000001,IOPS
+PC_16gb,Docker VMM,4,io,8,2,escrita_job1_latencia_media,236.68,us
+PC_16gb,Docker VMM,4,io,8,2,escrita_job1_p50,223.0,us
+PC_16gb,Docker VMM,4,io,8,2,escrita_job1_p95,343.0,us
+PC_16gb,Docker VMM,4,io,8,2,escrita_job1_p99,498.0,us
+PC_16gb,Docker VMM,4,io,8,2,escrita_job2_latencia_media,236.78,us
+PC_16gb,Docker VMM,4,io,8,2,escrita_job2_p50,223.0,us
+PC_16gb,Docker VMM,4,io,8,2,escrita_job2_p95,343.0,us
+PC_16gb,Docker VMM,4,io,8,2,escrita_job2_p99,502.0,us
+PC_16gb,Docker VMM,4,io,9,2,leitura_largura_banda,247.0,MiB/s
+PC_16gb,Docker VMM,4,io,9,2,leitura_iops,63062.770000000004,IOPS
+PC_16gb,Docker VMM,4,io,9,2,leitura_job1_latencia_media,258.98,us
+PC_16gb,Docker VMM,4,io,9,2,leitura_job1_p50,237.0,us
+PC_16gb,Docker VMM,4,io,9,2,leitura_job1_p95,392.0,us
+PC_16gb,Docker VMM,4,io,9,2,leitura_job1_p99,635.0,us
+PC_16gb,Docker VMM,4,io,9,2,leitura_job2_latencia_media,258.78,us
+PC_16gb,Docker VMM,4,io,9,2,leitura_job2_p50,237.0,us
+PC_16gb,Docker VMM,4,io,9,2,leitura_job2_p95,388.0,us
+PC_16gb,Docker VMM,4,io,9,2,leitura_job2_p99,635.0,us
+PC_16gb,Docker VMM,4,io,9,2,escrita_largura_banda,247.0,MiB/s
+PC_16gb,Docker VMM,4,io,9,2,escrita_iops,63094.25,IOPS
+PC_16gb,Docker VMM,4,io,9,2,escrita_job1_latencia_media,247.29,us
+PC_16gb,Docker VMM,4,io,9,2,escrita_job1_p50,227.0,us
+PC_16gb,Docker VMM,4,io,9,2,escrita_job1_p95,375.0,us
+PC_16gb,Docker VMM,4,io,9,2,escrita_job1_p99,611.0,us
+PC_16gb,Docker VMM,4,io,9,2,escrita_job2_latencia_media,247.55,us
+PC_16gb,Docker VMM,4,io,9,2,escrita_job2_p50,227.0,us
+PC_16gb,Docker VMM,4,io,9,2,escrita_job2_p95,375.0,us
+PC_16gb,Docker VMM,4,io,9,2,escrita_job2_p99,611.0,us
+PC_16gb,Docker VMM,4,io,10,2,leitura_largura_banda,250.0,MiB/s
+PC_16gb,Docker VMM,4,io,10,2,leitura_iops,64056.41,IOPS
+PC_16gb,Docker VMM,4,io,10,2,leitura_job1_latencia_media,255.11,us
+PC_16gb,Docker VMM,4,io,10,2,leitura_job1_p50,237.0,us
+PC_16gb,Docker VMM,4,io,10,2,leitura_job1_p95,375.0,us
+PC_16gb,Docker VMM,4,io,10,2,leitura_job1_p99,578.0,us
+PC_16gb,Docker VMM,4,io,10,2,leitura_job2_latencia_media,255.15,us
+PC_16gb,Docker VMM,4,io,10,2,leitura_job2_p50,237.0,us
+PC_16gb,Docker VMM,4,io,10,2,leitura_job2_p95,375.0,us
+PC_16gb,Docker VMM,4,io,10,2,leitura_job2_p99,578.0,us
+PC_16gb,Docker VMM,4,io,10,2,escrita_largura_banda,250.0,MiB/s
+PC_16gb,Docker VMM,4,io,10,2,escrita_iops,64090.64,IOPS
+PC_16gb,Docker VMM,4,io,10,2,escrita_job1_latencia_media,243.9,us
+PC_16gb,Docker VMM,4,io,10,2,escrita_job1_p50,227.0,us
+PC_16gb,Docker VMM,4,io,10,2,escrita_job1_p95,363.0,us
+PC_16gb,Docker VMM,4,io,10,2,escrita_job1_p99,562.0,us
+PC_16gb,Docker VMM,4,io,10,2,escrita_job2_latencia_media,243.88,us
+PC_16gb,Docker VMM,4,io,10,2,escrita_job2_p50,227.0,us
+PC_16gb,Docker VMM,4,io,10,2,escrita_job2_p95,363.0,us
+PC_16gb,Docker VMM,4,io,10,2,escrita_job2_p99,562.0,us
 PC_16gb,Docker VMM,4,redis,1,1,SET_requisicoes_por_segundo,22104.33,requisicoes/s
 PC_16gb,Docker VMM,4,redis,1,1,SET_latencia_media,0.043,ms
 PC_16gb,Docker VMM,4,redis,1,1,SET_p50,0.039,ms
@@ -1639,126 +1719,206 @@ PC_16gb,WSL2,4,memoria,10,8,escrita_latencia_max,16.07,ms
 PC_16gb,WSL2,4,memoria,10,8,escrita_p50,,ms
 PC_16gb,WSL2,4,memoria,10,8,escrita_p95,0.08,ms
 PC_16gb,WSL2,4,memoria,10,8,escrita_p99,,ms
-PC_16gb,WSL2,4,io,1,2,leitura_largura_banda,10.7,MiB/s
-PC_16gb,WSL2,4,io,1,2,leitura_iops,2726.57,IOPS
-PC_16gb,WSL2,4,io,1,2,leitura_latencia_media,2863.55,us
-PC_16gb,WSL2,4,io,1,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,1,2,leitura_p95,6783.0,us
-PC_16gb,WSL2,4,io,1,2,leitura_p99,12256.0,us
-PC_16gb,WSL2,4,io,1,2,escrita_largura_banda,10.7,MiB/s
-PC_16gb,WSL2,4,io,1,2,escrita_iops,2740.42,IOPS
-PC_16gb,WSL2,4,io,1,2,escrita_latencia_media,2984.49,us
-PC_16gb,WSL2,4,io,1,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,1,2,escrita_p95,6980.0,us
-PC_16gb,WSL2,4,io,1,2,escrita_p99,12911.0,us
-PC_16gb,WSL2,4,io,2,2,leitura_largura_banda,10.0,MiB/s
-PC_16gb,WSL2,4,io,2,2,leitura_iops,2560.33,IOPS
-PC_16gb,WSL2,4,io,2,2,leitura_latencia_media,3016.12,us
-PC_16gb,WSL2,4,io,2,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,2,2,leitura_p95,8094.0,us
-PC_16gb,WSL2,4,io,2,2,leitura_p99,11994.0,us
-PC_16gb,WSL2,4,io,2,2,escrita_largura_banda,10.1,MiB/s
-PC_16gb,WSL2,4,io,2,2,escrita_iops,2576.79,IOPS
-PC_16gb,WSL2,4,io,2,2,escrita_latencia_media,3176.61,us
-PC_16gb,WSL2,4,io,2,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,2,2,escrita_p95,8586.0,us
-PC_16gb,WSL2,4,io,2,2,escrita_p99,12649.0,us
-PC_16gb,WSL2,4,io,3,2,leitura_largura_banda,8.0546875,MiB/s
-PC_16gb,WSL2,4,io,3,2,leitura_iops,2061.9,IOPS
-PC_16gb,WSL2,4,io,3,2,leitura_latencia_media,3766.0,us
-PC_16gb,WSL2,4,io,3,2,leitura_p50,2278.0,us
-PC_16gb,WSL2,4,io,3,2,leitura_p95,10421.0,us
-PC_16gb,WSL2,4,io,3,2,leitura_p99,13042.0,us
-PC_16gb,WSL2,4,io,3,2,escrita_largura_banda,8.1083984375,MiB/s
-PC_16gb,WSL2,4,io,3,2,escrita_iops,2075.2,IOPS
-PC_16gb,WSL2,4,io,3,2,escrita_latencia_media,3960.73,us
-PC_16gb,WSL2,4,io,3,2,escrita_p50,2343.0,us
-PC_16gb,WSL2,4,io,3,2,escrita_p95,10945.0,us
-PC_16gb,WSL2,4,io,3,2,escrita_p99,13698.0,us
-PC_16gb,WSL2,4,io,4,2,leitura_largura_banda,9.86,MiB/s
-PC_16gb,WSL2,4,io,4,2,leitura_iops,2517.9,IOPS
-PC_16gb,WSL2,4,io,4,2,leitura_latencia_media,3093.94,us
-PC_16gb,WSL2,4,io,4,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,4,2,leitura_p95,8455.0,us
-PC_16gb,WSL2,4,io,4,2,leitura_p99,13304.0,us
-PC_16gb,WSL2,4,io,4,2,escrita_largura_banda,9.93,MiB/s
-PC_16gb,WSL2,4,io,4,2,escrita_iops,2534.28,IOPS
-PC_16gb,WSL2,4,io,4,2,escrita_latencia_media,3214.6,us
-PC_16gb,WSL2,4,io,4,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,4,2,escrita_p95,8848.0,us
-PC_16gb,WSL2,4,io,4,2,escrita_p99,13960.0,us
-PC_16gb,WSL2,4,io,5,2,leitura_largura_banda,10.6,MiB/s
-PC_16gb,WSL2,4,io,5,2,leitura_iops,2720.23,IOPS
-PC_16gb,WSL2,4,io,5,2,leitura_latencia_media,2862.97,us
-PC_16gb,WSL2,4,io,5,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,5,2,leitura_p95,7504.0,us
-PC_16gb,WSL2,4,io,5,2,leitura_p99,11600.0,us
-PC_16gb,WSL2,4,io,5,2,escrita_largura_banda,10.7,MiB/s
-PC_16gb,WSL2,4,io,5,2,escrita_iops,2734.88,IOPS
-PC_16gb,WSL2,4,io,5,2,escrita_latencia_media,2995.76,us
-PC_16gb,WSL2,4,io,5,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,5,2,escrita_p95,7832.0,us
-PC_16gb,WSL2,4,io,5,2,escrita_p99,12256.0,us
-PC_16gb,WSL2,4,io,6,2,leitura_largura_banda,11.2,MiB/s
-PC_16gb,WSL2,4,io,6,2,leitura_iops,2862.49,IOPS
-PC_16gb,WSL2,4,io,6,2,leitura_latencia_media,2713.76,us
-PC_16gb,WSL2,4,io,6,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,6,2,leitura_p95,3195.0,us
-PC_16gb,WSL2,4,io,6,2,leitura_p99,11863.0,us
-PC_16gb,WSL2,4,io,6,2,escrita_largura_banda,11.3,MiB/s
-PC_16gb,WSL2,4,io,6,2,escrita_iops,2877.69,IOPS
-PC_16gb,WSL2,4,io,6,2,escrita_latencia_media,2831.64,us
-PC_16gb,WSL2,4,io,6,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,6,2,escrita_p95,3195.0,us
-PC_16gb,WSL2,4,io,6,2,escrita_p99,12518.0,us
-PC_16gb,WSL2,4,io,7,2,leitura_largura_banda,10.9,MiB/s
-PC_16gb,WSL2,4,io,7,2,leitura_iops,2792.82,IOPS
-PC_16gb,WSL2,4,io,7,2,leitura_latencia_media,2795.51,us
-PC_16gb,WSL2,4,io,7,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,7,2,leitura_p95,4621.0,us
-PC_16gb,WSL2,4,io,7,2,leitura_p99,12256.0,us
-PC_16gb,WSL2,4,io,7,2,escrita_largura_banda,10.0,MiB/s
-PC_16gb,WSL2,4,io,7,2,escrita_iops,2808.77,IOPS
-PC_16gb,WSL2,4,io,7,2,escrita_latencia_media,2909.85,us
-PC_16gb,WSL2,4,io,7,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,7,2,escrita_p95,5145.0,us
-PC_16gb,WSL2,4,io,7,2,escrita_p99,12780.0,us
-PC_16gb,WSL2,4,io,8,2,leitura_largura_banda,11.5,MiB/s
-PC_16gb,WSL2,4,io,8,2,leitura_iops,2943.38,IOPS
-PC_16gb,WSL2,4,io,8,2,leitura_latencia_media,2641.94,us
-PC_16gb,WSL2,4,io,8,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,8,2,leitura_p95,2868.0,us
-PC_16gb,WSL2,4,io,8,2,leitura_p99,11076.0,us
-PC_16gb,WSL2,4,io,8,2,escrita_largura_banda,11.6,MiB/s
-PC_16gb,WSL2,4,io,8,2,escrita_iops,2960.0,IOPS
-PC_16gb,WSL2,4,io,8,2,escrita_latencia_media,2761.51,us
-PC_16gb,WSL2,4,io,8,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,8,2,escrita_p95,2933.0,us
-PC_16gb,WSL2,4,io,8,2,escrita_p99,11731.0,us
-PC_16gb,WSL2,4,io,9,2,leitura_largura_banda,11.2,MiB/s
-PC_16gb,WSL2,4,io,9,2,leitura_iops,2896.79,IOPS
-PC_16gb,WSL2,4,io,9,2,leitura_latencia_media,2713.94,us
-PC_16gb,WSL2,4,io,9,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,9,2,leitura_p95,3097.0,us
-PC_16gb,WSL2,4,io,9,2,leitura_p99,11731.0,us
-PC_16gb,WSL2,4,io,9,2,escrita_largura_banda,11.3,MiB/s
-PC_16gb,WSL2,4,io,9,2,escrita_iops,2913.67,IOPS
-PC_16gb,WSL2,4,io,9,2,escrita_latencia_media,2820.61,us
-PC_16gb,WSL2,4,io,9,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,9,2,escrita_p95,3228.0,us
-PC_16gb,WSL2,4,io,9,2,escrita_p99,12125.0,us
-PC_16gb,WSL2,4,io,10,2,leitura_largura_banda,11.0,MiB/s
-PC_16gb,WSL2,4,io,10,2,leitura_iops,2827.57,IOPS
-PC_16gb,WSL2,4,io,10,2,leitura_latencia_media,2746.79,us
-PC_16gb,WSL2,4,io,10,2,leitura_p50,2212.0,us
-PC_16gb,WSL2,4,io,10,2,leitura_p95,3261.0,us
-PC_16gb,WSL2,4,io,10,2,leitura_p99,11994.0,us
-PC_16gb,WSL2,4,io,10,2,escrita_largura_banda,11.1,MiB/s
-PC_16gb,WSL2,4,io,10,2,escrita_iops,2843.62,IOPS
-PC_16gb,WSL2,4,io,10,2,escrita_latencia_media,2888.89,us
-PC_16gb,WSL2,4,io,10,2,escrita_p50,2278.0,us
-PC_16gb,WSL2,4,io,10,2,escrita_p95,4178.0,us
-PC_16gb,WSL2,4,io,10,2,escrita_p99,12649.0,us
+PC_16gb,WSL2,4,io,1,2,leitura_largura_banda,21.3,MiB/s
+PC_16gb,WSL2,4,io,1,2,leitura_iops,5462.6,IOPS
+PC_16gb,WSL2,4,io,1,2,leitura_job1_latencia_media,2860.98,us
+PC_16gb,WSL2,4,io,1,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,1,2,leitura_job1_p95,6718.0,us
+PC_16gb,WSL2,4,io,1,2,leitura_job1_p99,12125.0,us
+PC_16gb,WSL2,4,io,1,2,leitura_job2_latencia_media,2863.55,us
+PC_16gb,WSL2,4,io,1,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,1,2,leitura_job2_p95,6783.0,us
+PC_16gb,WSL2,4,io,1,2,leitura_job2_p99,12256.0,us
+PC_16gb,WSL2,4,io,1,2,escrita_largura_banda,21.3,MiB/s
+PC_16gb,WSL2,4,io,1,2,escrita_iops,5464.3,IOPS
+PC_16gb,WSL2,4,io,1,2,escrita_job1_latencia_media,2994.91,us
+PC_16gb,WSL2,4,io,1,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,1,2,escrita_job1_p95,7177.0,us
+PC_16gb,WSL2,4,io,1,2,escrita_job1_p99,12911.0,us
+PC_16gb,WSL2,4,io,1,2,escrita_job2_latencia_media,2984.49,us
+PC_16gb,WSL2,4,io,1,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,1,2,escrita_job2_p95,6980.0,us
+PC_16gb,WSL2,4,io,1,2,escrita_job2_p99,12911.0,us
+PC_16gb,WSL2,4,io,2,2,leitura_largura_banda,20.1,MiB/s
+PC_16gb,WSL2,4,io,2,2,leitura_iops,5134.41,IOPS
+PC_16gb,WSL2,4,io,2,2,leitura_job1_latencia_media,3018.64,us
+PC_16gb,WSL2,4,io,2,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,2,2,leitura_job1_p95,8160.0,us
+PC_16gb,WSL2,4,io,2,2,leitura_job1_p99,12125.0,us
+PC_16gb,WSL2,4,io,2,2,leitura_job2_latencia_media,3016.12,us
+PC_16gb,WSL2,4,io,2,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,2,2,leitura_job2_p95,8094.0,us
+PC_16gb,WSL2,4,io,2,2,leitura_job2_p99,11994.0,us
+PC_16gb,WSL2,4,io,2,2,escrita_largura_banda,20.2,MiB/s
+PC_16gb,WSL2,4,io,2,2,escrita_iops,5135.53,IOPS
+PC_16gb,WSL2,4,io,2,2,escrita_job1_latencia_media,3181.27,us
+PC_16gb,WSL2,4,io,2,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,2,2,escrita_job1_p95,8586.0,us
+PC_16gb,WSL2,4,io,2,2,escrita_job1_p99,12780.0,us
+PC_16gb,WSL2,4,io,2,2,escrita_job2_latencia_media,3176.61,us
+PC_16gb,WSL2,4,io,2,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,2,2,escrita_job2_p95,8586.0,us
+PC_16gb,WSL2,4,io,2,2,escrita_job2_p99,12649.0,us
+PC_16gb,WSL2,4,io,3,2,leitura_largura_banda,16.2,MiB/s
+PC_16gb,WSL2,4,io,3,2,leitura_iops,4129.110000000001,IOPS
+PC_16gb,WSL2,4,io,3,2,leitura_job1_latencia_media,3771.08,us
+PC_16gb,WSL2,4,io,3,2,leitura_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,3,2,leitura_job1_p95,10552.0,us
+PC_16gb,WSL2,4,io,3,2,leitura_job1_p99,13173.0,us
+PC_16gb,WSL2,4,io,3,2,leitura_job2_latencia_media,3766.0,us
+PC_16gb,WSL2,4,io,3,2,leitura_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,3,2,leitura_job2_p95,10421.0,us
+PC_16gb,WSL2,4,io,3,2,leitura_job2_p99,13042.0,us
+PC_16gb,WSL2,4,io,3,2,escrita_largura_banda,16.2,MiB/s
+PC_16gb,WSL2,4,io,3,2,escrita_iops,4137.23,IOPS
+PC_16gb,WSL2,4,io,3,2,escrita_job1_latencia_media,3931.33,us
+PC_16gb,WSL2,4,io,3,2,escrita_job1_p50,2343.0,us
+PC_16gb,WSL2,4,io,3,2,escrita_job1_p95,10945.0,us
+PC_16gb,WSL2,4,io,3,2,escrita_job1_p99,13829.0,us
+PC_16gb,WSL2,4,io,3,2,escrita_job2_latencia_media,3960.73,us
+PC_16gb,WSL2,4,io,3,2,escrita_job2_p50,2343.0,us
+PC_16gb,WSL2,4,io,3,2,escrita_job2_p95,10945.0,us
+PC_16gb,WSL2,4,io,3,2,escrita_job2_p99,13698.0,us
+PC_16gb,WSL2,4,io,4,2,leitura_largura_banda,19.8,MiB/s
+PC_16gb,WSL2,4,io,4,2,leitura_iops,5058.8,IOPS
+PC_16gb,WSL2,4,io,4,2,leitura_job1_latencia_media,3078.39,us
+PC_16gb,WSL2,4,io,4,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,4,2,leitura_job1_p95,8455.0,us
+PC_16gb,WSL2,4,io,4,2,leitura_job1_p99,13304.0,us
+PC_16gb,WSL2,4,io,4,2,leitura_job2_latencia_media,3093.94,us
+PC_16gb,WSL2,4,io,4,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,4,2,leitura_job2_p95,8455.0,us
+PC_16gb,WSL2,4,io,4,2,leitura_job2_p99,13304.0,us
+PC_16gb,WSL2,4,io,4,2,escrita_largura_banda,19.8,MiB/s
+PC_16gb,WSL2,4,io,4,2,escrita_iops,5058.66,IOPS
+PC_16gb,WSL2,4,io,4,2,escrita_job1_latencia_media,3216.08,us
+PC_16gb,WSL2,4,io,4,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,4,2,escrita_job1_p95,8848.0,us
+PC_16gb,WSL2,4,io,4,2,escrita_job1_p99,13960.0,us
+PC_16gb,WSL2,4,io,4,2,escrita_job2_latencia_media,3214.6,us
+PC_16gb,WSL2,4,io,4,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,4,2,escrita_job2_p95,8848.0,us
+PC_16gb,WSL2,4,io,4,2,escrita_job2_p99,13960.0,us
+PC_16gb,WSL2,4,io,5,2,leitura_largura_banda,21.3,MiB/s
+PC_16gb,WSL2,4,io,5,2,leitura_iops,5434.67,IOPS
+PC_16gb,WSL2,4,io,5,2,leitura_job1_latencia_media,2867.14,us
+PC_16gb,WSL2,4,io,5,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,5,2,leitura_job1_p95,7504.0,us
+PC_16gb,WSL2,4,io,5,2,leitura_job1_p99,11469.0,us
+PC_16gb,WSL2,4,io,5,2,leitura_job2_latencia_media,2862.97,us
+PC_16gb,WSL2,4,io,5,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,5,2,leitura_job2_p95,7504.0,us
+PC_16gb,WSL2,4,io,5,2,leitura_job2_p99,11600.0,us
+PC_16gb,WSL2,4,io,5,2,escrita_largura_banda,21.3,MiB/s
+PC_16gb,WSL2,4,io,5,2,escrita_iops,5439.47,IOPS
+PC_16gb,WSL2,4,io,5,2,escrita_job1_latencia_media,2997.09,us
+PC_16gb,WSL2,4,io,5,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,5,2,escrita_job1_p95,7832.0,us
+PC_16gb,WSL2,4,io,5,2,escrita_job1_p99,12125.0,us
+PC_16gb,WSL2,4,io,5,2,escrita_job2_latencia_media,2995.76,us
+PC_16gb,WSL2,4,io,5,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,5,2,escrita_job2_p95,7832.0,us
+PC_16gb,WSL2,4,io,5,2,escrita_job2_p99,12256.0,us
+PC_16gb,WSL2,4,io,6,2,leitura_largura_banda,22.5,MiB/s
+PC_16gb,WSL2,4,io,6,2,leitura_iops,5742.23,IOPS
+PC_16gb,WSL2,4,io,6,2,leitura_job1_latencia_media,2710.05,us
+PC_16gb,WSL2,4,io,6,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,6,2,leitura_job1_p95,3064.0,us
+PC_16gb,WSL2,4,io,6,2,leitura_job1_p99,11863.0,us
+PC_16gb,WSL2,4,io,6,2,leitura_job2_latencia_media,2713.76,us
+PC_16gb,WSL2,4,io,6,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,6,2,leitura_job2_p95,3195.0,us
+PC_16gb,WSL2,4,io,6,2,leitura_job2_p99,11863.0,us
+PC_16gb,WSL2,4,io,6,2,escrita_largura_banda,22.5,MiB/s
+PC_16gb,WSL2,4,io,6,2,escrita_iops,5742.38,IOPS
+PC_16gb,WSL2,4,io,6,2,escrita_job1_latencia_media,2833.95,us
+PC_16gb,WSL2,4,io,6,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,6,2,escrita_job1_p95,3261.0,us
+PC_16gb,WSL2,4,io,6,2,escrita_job1_p99,12387.0,us
+PC_16gb,WSL2,4,io,6,2,escrita_job2_latencia_media,2831.64,us
+PC_16gb,WSL2,4,io,6,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,6,2,escrita_job2_p95,3195.0,us
+PC_16gb,WSL2,4,io,6,2,escrita_job2_p99,12518.0,us
+PC_16gb,WSL2,4,io,7,2,leitura_largura_banda,21.9,MiB/s
+PC_16gb,WSL2,4,io,7,2,leitura_iops,5600.07,IOPS
+PC_16gb,WSL2,4,io,7,2,leitura_job1_latencia_media,2795.6,us
+PC_16gb,WSL2,4,io,7,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,7,2,leitura_job1_p95,4621.0,us
+PC_16gb,WSL2,4,io,7,2,leitura_job1_p99,12256.0,us
+PC_16gb,WSL2,4,io,7,2,leitura_job2_latencia_media,2795.51,us
+PC_16gb,WSL2,4,io,7,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,7,2,leitura_job2_p95,4621.0,us
+PC_16gb,WSL2,4,io,7,2,leitura_job2_p99,12256.0,us
+PC_16gb,WSL2,4,io,7,2,escrita_largura_banda,21.9,MiB/s
+PC_16gb,WSL2,4,io,7,2,escrita_iops,5601.37,IOPS
+PC_16gb,WSL2,4,io,7,2,escrita_job1_latencia_media,2910.72,us
+PC_16gb,WSL2,4,io,7,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,7,2,escrita_job1_p95,5014.0,us
+PC_16gb,WSL2,4,io,7,2,escrita_job1_p99,12780.0,us
+PC_16gb,WSL2,4,io,7,2,escrita_job2_latencia_media,2909.85,us
+PC_16gb,WSL2,4,io,7,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,7,2,escrita_job2_p95,5145.0,us
+PC_16gb,WSL2,4,io,7,2,escrita_job2_p99,12780.0,us
+PC_16gb,WSL2,4,io,8,2,leitura_largura_banda,23.1,MiB/s
+PC_16gb,WSL2,4,io,8,2,leitura_iops,5907.38,IOPS
+PC_16gb,WSL2,4,io,8,2,leitura_job1_latencia_media,2638.02,us
+PC_16gb,WSL2,4,io,8,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,8,2,leitura_job1_p95,2835.0,us
+PC_16gb,WSL2,4,io,8,2,leitura_job1_p99,10945.0,us
+PC_16gb,WSL2,4,io,8,2,leitura_job2_latencia_media,2641.94,us
+PC_16gb,WSL2,4,io,8,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,8,2,leitura_job2_p95,2868.0,us
+PC_16gb,WSL2,4,io,8,2,leitura_job2_p99,11076.0,us
+PC_16gb,WSL2,4,io,8,2,escrita_largura_banda,23.2,MiB/s
+PC_16gb,WSL2,4,io,8,2,escrita_iops,5912.82,IOPS
+PC_16gb,WSL2,4,io,8,2,escrita_job1_latencia_media,2755.73,us
+PC_16gb,WSL2,4,io,8,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,8,2,escrita_job1_p95,2966.0,us
+PC_16gb,WSL2,4,io,8,2,escrita_job1_p99,11600.0,us
+PC_16gb,WSL2,4,io,8,2,escrita_job2_latencia_media,2761.51,us
+PC_16gb,WSL2,4,io,8,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,8,2,escrita_job2_p95,2933.0,us
+PC_16gb,WSL2,4,io,8,2,escrita_job2_p99,11731.0,us
+PC_16gb,WSL2,4,io,9,2,leitura_largura_banda,22.6,MiB/s
+PC_16gb,WSL2,4,io,9,2,leitura_iops,5814.1,IOPS
+PC_16gb,WSL2,4,io,9,2,leitura_job1_latencia_media,2704.56,us
+PC_16gb,WSL2,4,io,9,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,9,2,leitura_job1_p95,3097.0,us
+PC_16gb,WSL2,4,io,9,2,leitura_job1_p99,11600.0,us
+PC_16gb,WSL2,4,io,9,2,leitura_job2_latencia_media,2713.94,us
+PC_16gb,WSL2,4,io,9,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,9,2,leitura_job2_p95,3097.0,us
+PC_16gb,WSL2,4,io,9,2,leitura_job2_p99,11731.0,us
+PC_16gb,WSL2,4,io,9,2,escrita_largura_banda,22.6,MiB/s
+PC_16gb,WSL2,4,io,9,2,escrita_iops,5819.8,IOPS
+PC_16gb,WSL2,4,io,9,2,escrita_job1_latencia_media,2818.53,us
+PC_16gb,WSL2,4,io,9,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,9,2,escrita_job1_p95,3294.0,us
+PC_16gb,WSL2,4,io,9,2,escrita_job1_p99,11994.0,us
+PC_16gb,WSL2,4,io,9,2,escrita_job2_latencia_media,2820.61,us
+PC_16gb,WSL2,4,io,9,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,9,2,escrita_job2_p95,3228.0,us
+PC_16gb,WSL2,4,io,9,2,escrita_job2_p99,12125.0,us
+PC_16gb,WSL2,4,io,10,2,leitura_largura_banda,22.2,MiB/s
+PC_16gb,WSL2,4,io,10,2,leitura_iops,5671.84,IOPS
+PC_16gb,WSL2,4,io,10,2,leitura_job1_latencia_media,2752.57,us
+PC_16gb,WSL2,4,io,10,2,leitura_job1_p50,2212.0,us
+PC_16gb,WSL2,4,io,10,2,leitura_job1_p95,3458.0,us
+PC_16gb,WSL2,4,io,10,2,leitura_job1_p99,12125.0,us
+PC_16gb,WSL2,4,io,10,2,leitura_job2_latencia_media,2746.79,us
+PC_16gb,WSL2,4,io,10,2,leitura_job2_p50,2212.0,us
+PC_16gb,WSL2,4,io,10,2,leitura_job2_p95,3261.0,us
+PC_16gb,WSL2,4,io,10,2,leitura_job2_p99,11994.0,us
+PC_16gb,WSL2,4,io,10,2,escrita_largura_banda,22.2,MiB/s
+PC_16gb,WSL2,4,io,10,2,escrita_iops,5676.35,IOPS
+PC_16gb,WSL2,4,io,10,2,escrita_job1_latencia_media,2879.04,us
+PC_16gb,WSL2,4,io,10,2,escrita_job1_p50,2278.0,us
+PC_16gb,WSL2,4,io,10,2,escrita_job1_p95,3785.0,us
+PC_16gb,WSL2,4,io,10,2,escrita_job1_p99,12649.0,us
+PC_16gb,WSL2,4,io,10,2,escrita_job2_latencia_media,2888.89,us
+PC_16gb,WSL2,4,io,10,2,escrita_job2_p50,2278.0,us
+PC_16gb,WSL2,4,io,10,2,escrita_job2_p95,4178.0,us
+PC_16gb,WSL2,4,io,10,2,escrita_job2_p99,12649.0,us
 PC_16gb,WSL2,4,redis,1,1,SET_requisicoes_por_segundo,26253.61,requisicoes/s
 PC_16gb,WSL2,4,redis,1,1,SET_latencia_media,0.038,ms
 PC_16gb,WSL2,4,redis,1,1,SET_p50,0.039,ms

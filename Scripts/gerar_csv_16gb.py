@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 if __name__ == "__main__":
     argparse.ArgumentParser(
-        description="Gera o CSV dos benchmarks de 4 GB do PC_16gb."
+        description="Gera o CSV comparativo dos benchmarks do PC_16gb."
     ).parse_args()
 
     resultados_dir = ROOT / "resultados_preliminares" / MAQUINA

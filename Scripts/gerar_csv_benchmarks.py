@@ -19,8 +19,8 @@ CSV_FIELDS = (
 
 SCENARIOS_BY_MACHINE = {
     "PC_16gb": (
-        ("Docker VMM", "docker_vmm_4gb", "4"),
-        ("WSL2", "wsl2", "4"),
+        ("Docker VMM", "resultados_docker_vmm_4gb", "4"),
+        ("WSL2", "resultados_wsl2", None),
     ),
     "PC_8gb": (
         ("Docker VMM", "resultados_docker_vmm_4gb", "4"),
@@ -459,17 +459,45 @@ def collect_rows(machine):
         backend, directory_prefix, _ = scenario
         for workload in WORKLOADS:
             platform_dir = "Docker VMM" if backend == "Docker VMM" else "WSL2"
-            folder = results_dir / platform_dir / f"{directory_prefix}_{workload}"
-            files = sorted(folder.glob("*.txt"), key=numeric_sort_key)
-            expected = 10 if workload == "io" else 40
-            if len(files) != expected:
-                raise ValueError(
-                    f"Esperados {expected} logs em {folder}; encontrados {len(files)}"
+            platform_path = results_dir / platform_dir
+            if machine == "PC_16gb" and backend == "WSL2":
+                folder_pattern = re.compile(
+                    rf"{re.escape(directory_prefix)}_(\d+)gb_{re.escape(workload)}"
                 )
-            for path in files:
-                text = read_log(path)
-                PARSERS[workload](path, text, scenario, machine, rows)
-                processed += 1
+                folders = []
+                for folder in platform_path.glob(
+                    f"{directory_prefix}_*gb_{workload}"
+                ):
+                    match = folder_pattern.fullmatch(folder.name)
+                    if folder.is_dir() and match:
+                        folders.append((folder, match.group(1)))
+                folders.sort(key=lambda item: (item[1] != "4", int(item[1])))
+                if not folders:
+                    raise FileNotFoundError(
+                        f"Nenhuma pasta {directory_prefix}_*gb_{workload} "
+                        f"encontrada em {platform_path}"
+                    )
+            else:
+                folders = [
+                    (
+                        platform_path / f"{directory_prefix}_{workload}",
+                        scenario[2],
+                    )
+                ]
+
+            expected = 10 if workload == "io" else 40
+            for folder, memory_gb in folders:
+                files = sorted(folder.glob("*.txt"), key=numeric_sort_key)
+                if len(files) != expected:
+                    raise ValueError(
+                        f"Esperados {expected} logs em {folder}; "
+                        f"encontrados {len(files)}"
+                    )
+                folder_scenario = (backend, directory_prefix, memory_gb)
+                for path in files:
+                    text = read_log(path)
+                    PARSERS[workload](path, text, folder_scenario, machine, rows)
+                    processed += 1
     return rows, processed
 
 

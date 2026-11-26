@@ -21,7 +21,8 @@ PLATFORM_CONFIGS = {
     },
     "PC_16gb": {
         "Docker VMM": ("Docker VMM", "4"),
-        "WSL2": ("WSL2", "4"),
+        "WSL2 2GB": ("WSL2", "2"),
+        "WSL2 4GB": ("WSL2", "4"),
     },
 }
 COLORS = {
@@ -71,6 +72,27 @@ def load_csv_rows(csv_path, pc):
     return rows
 
 
+def available_platforms(rows, pc):
+    configs = PLATFORM_CONFIGS[pc]
+    if pc != "PC_16gb":
+        return tuple(configs)
+
+    available = {(row["backend"], row["memoria_gb"]) for row in rows}
+    platforms = tuple(
+        platform
+        for platform, config in configs.items()
+        if config in available
+    )
+    required = ("Docker VMM", "WSL2 4GB")
+    missing = [platform for platform in required if platform not in platforms]
+    if missing:
+        raise ValueError(
+            f"Séries obrigatórias ausentes nos dados de {pc}: "
+            f"{', '.join(missing)}"
+        )
+    return platforms
+
+
 def capture_metric(rows, pc, platform, workload, metric, unit, concurrency=None):
     backend, memory_gb = PLATFORM_CONFIGS[pc][platform]
     matches = [
@@ -104,8 +126,7 @@ def capture_metric(rows, pc, platform, workload, metric, unit, concurrency=None)
     return [values_by_repetition[repetition] for repetition in REPETITIONS]
 
 
-def collect_data(rows, pc):
-    platforms = tuple(PLATFORM_CONFIGS[pc])
+def collect_data(rows, pc, platforms):
     data = {"cpu": {}, "memory": {}, "io": {}, "redis": {}}
     for platform in platforms:
         data["cpu"][platform] = {
@@ -474,9 +495,9 @@ if __name__ == "__main__":
     results = ROOT / "resultados_preliminares" / args.pc
     output = results / f"grafico_{args.pc.lower()}.svg"
     csv_path = results / CSV_NAMES[args.pc]
-    platforms = tuple(PLATFORM_CONFIGS[args.pc])
     csv_rows = load_csv_rows(csv_path, args.pc)
-    benchmark_data = collect_data(csv_rows, args.pc)
+    platforms = available_platforms(csv_rows, args.pc)
+    benchmark_data = collect_data(csv_rows, args.pc, platforms)
     output.write_text(render(benchmark_data, platforms, args.pc), encoding="utf-8")
     print(f"Gráfico salvo em: {output}")
     print(f"CSV utilizado: {csv_path}")

@@ -44,7 +44,7 @@ py -3 Scripts\gerar_csv_benchmarks.py PC_8gb
 py -3 Scripts\gerar_csv_benchmarks.py PC_16gb
 ```
 
-`Scripts\gerar_csv_16gb.py` é o ponto de entrada legado e encaminha para o gerador genérico; sem argumento, processa o PC de 16 GB.
+`Scripts\gerar_csv_16gb.py` processa exclusivamente os logs de 4 GB do PC de 16 GB, comparando WSL2 e Docker VMM nas 10 repetições. O script não aceita a seleção de outra máquina.
 
 Os CSVs contêm máquina, backend, memória configurada, workload, repetição, concorrência/threads, métrica, valor e unidade. Métricas ausentes nos logs ficam vazias, não são convertidas em zero. No I/O, largura de banda e IOPS são agregadas entre os dois jobs do fio; latências e percentis são identificados por job.
 

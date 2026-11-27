@@ -1,6 +1,6 @@
 # Avaliação experimental: Docker VMM e WSL2
 
-Este repositório reúne scripts e resultados para comparar workloads de CPU, memória, I/O e Redis executados pelo Docker Desktop em diferentes configurações. Os dados estão separados por máquina (`PC_8gb` e `PC_16gb`) e, no PC de 8 GB, por configuração de memória do WSL2.
+Este repositório reúne scripts e resultados para comparar workloads de CPU, memória, I/O e Redis executados pelo Docker Desktop. Os dois conjuntos (`PC_8gb` e `PC_16gb`) incluem Docker VMM (4 GB), WSL2 (2 GB) e WSL2 (4 GB). A comparação principal entre backends é padronizada em 4 GB de RAM e 4 vCPUs: WSL2 (4 GB) versus Docker VMM (4 GB); WSL2 (2 GB) é uma configuração adicional.
 
 ## Requisitos
 
@@ -8,7 +8,7 @@ Este repositório reúne scripts e resultados para comparar workloads de CPU, me
 - Python 3 para gerar CSVs e gráficos. Os scripts de análise usam apenas a biblioteca padrão.
 - PowerShell para executar os benchmarks no Windows.
 
-Antes de cada rodada, selecione no Docker Desktop o backend e os recursos que deseja testar. Os scripts PowerShell **não selecionam nem verificam** o backend; `-Cenario` apenas identifica o nome das pastas de saída.
+Antes das rodadas comparativas, configure o ambiente para 4 vCPUs e 4 GB de RAM no Docker Desktop/`.wslconfig`; a configuração WSL2 de 2 GB é executada separadamente com esse limite de memória. Os scripts PowerShell **não selecionam nem verificam** o backend ou os recursos. Os comandos dos contêineres não passam `--cpus` nem `--memory`; os limites dependem da configuração externa. O parâmetro `-Cenario` apenas identifica o nome das pastas de saída.
 
 ## Scripts de benchmark
 
@@ -33,7 +33,7 @@ Exemplo de execução para WSL2 com 2 GB, partindo da pasta `resultados_prelimin
 & ..\..\Scripts\Unificado\executar_redis_cloud_native.ps1 -Cenario wsl2_2gb
 ```
 
-Para outra configuração, altere primeiro o backend/recursos no Docker Desktop e use outro valor em `-Cenario`, como `wsl2_4gb` ou `docker_vmm_4gb`.
+Para outra configuração, altere primeiro o backend/recursos no Docker Desktop ou `.wslconfig` e use outro valor em `-Cenario`, como `wsl2_4gb` ou `docker_vmm_4gb`.
 
 ## Gerar CSVs e gráficos
 
@@ -44,9 +44,9 @@ py -3 Scripts\gerar_csv_benchmarks.py PC_8gb
 py -3 Scripts\gerar_csv_benchmarks.py PC_16gb
 ```
 
-`Scripts\gerar_csv_16gb.py` processa exclusivamente os logs de 4 GB do PC de 16 GB, comparando WSL2 e Docker VMM nas 10 repetições. O script não aceita a seleção de outra máquina.
+`Scripts\gerar_csv_16gb.py` processa os logs do PC_16gb: Docker VMM (4 GB), WSL2 (2 GB) e WSL2 (4 GB). `Scripts\gerar_csv_benchmarks.py` processa os mesmos cenários do PC_8gb. Cada conjunto atual tem 390 logs (130 por configuração) e gera 3.480 linhas de dados no CSV.
 
-Os CSVs contêm máquina, backend, memória configurada, workload, repetição, concorrência/threads, métrica, valor e unidade. Métricas ausentes nos logs ficam vazias, não são convertidas em zero. No I/O, largura de banda e IOPS são agregadas entre os dois jobs do fio; latências e percentis são identificados por job.
+Os CSVs contêm máquina, backend, memória configurada, workload, repetição, concorrência/threads, métrica, valor e unidade. Os CSVs e gráficos do PC_16gb contêm as três séries acima; a análise comparativa principal usa somente o par WSL2 (4 GB) e Docker VMM (4 GB). Métricas ausentes nos logs ficam vazias, não são convertidas em zero. No I/O, largura de banda e IOPS são agregadas entre os dois jobs do fio; latências e percentis são identificados por job.
 
 Gere os gráficos SVG a partir dos CSVs:
 
@@ -55,7 +55,14 @@ py -3 Scripts\gerar_grafico_pc.py PC_8gb
 py -3 Scripts\gerar_grafico_pc.py PC_16gb
 ```
 
-O gerador calcula a média e o desvio-padrão das dez repetições. Marcadores distintos e um pequeno deslocamento horizontal ajudam a identificar séries sobrepostas. No painel de I/O, Docker VMM e WSL2 usam escalas independentes; o zoom do WSL2 está indicado no gráfico. Se os logs forem atualizados, gere novamente o CSV antes do SVG.
+O gerador calcula a média e o desvio-padrão amostral das dez repetições. Marcadores distintos e um pequeno deslocamento horizontal ajudam a identificar as três séries. No painel de I/O, Docker VMM e WSL2 usam escalas independentes; o zoom do WSL2 está indicado no gráfico. Se os logs forem atualizados, gere novamente o CSV antes do SVG.
+
+## Metodologia e limitações
+
+- A configuração de comparação principal (4 vCPUs e 4 GB de RAM) é definida no ambiente Docker Desktop/`.wslconfig` antes das execuções, não por flags nos comandos dos contêineres. O CSV registra o cenário usado, mas não captura uma telemetria independente dos limites efetivos.
+- O fio grava com I/O direto em `/data/test_file.dat`, dentro do diretório de resultados do host montado no contêiner por bind mount ([script de I/O](Scripts/Unificado/executar_io_bound.ps1)). Assim, os resultados incluem o comportamento desse caminho de armazenamento e do backend; a diferença acentuada observada é compatível com essa integração e não representa uma medição isolada do disco virtual. No PC_16gb, a média do cenário principal é aproximadamente 239,5 MiB/s no Docker VMM e 9,1 MiB/s no WSL2; no PC_8gb, aproximadamente 137,5 e 8,5 MiB/s.
+- O script Redis utiliza a tag `redis:alpine` sem fixar o digest ou registrar a versão da imagem nos logs, o que limita a reprodução exata entre rodadas.
+- As tabelas do relatório apresentam média (desvio-padrão amostral) para dez repetições. Variações na memória/I/O do WSL2 e outliers pontuais — por exemplo, a repetição 9 do CPU Docker VMM com quatro threads no PC_8gb — são compatíveis com interferência do host. Os logs não isolam a causa; diferenças pequenas devem ser interpretadas considerando a dispersão.
 
 Arquivos gerados:
 
@@ -94,6 +101,7 @@ Arquivos gerados:
 |---|---|
 | `average` | Calcula média e desvio-padrão amostral dos valores de uma série. |
 | `load_csv_rows` | Lê o CSV, verifica as colunas obrigatórias e a máquina selecionada. |
+| `available_platforms` | Seleciona as séries presentes no CSV e exige as séries principais do PC_16gb. |
 | `capture_metric` | Seleciona uma métrica/configuração e valida que existem dez repetições sem duplicatas. |
 | `collect_data` | Organiza os dados do CSV por workload, plataforma, concorrência e operação. |
 | `number` | Formata números para rótulos e eixos do gráfico. |
